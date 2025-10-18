@@ -6,7 +6,7 @@ Defines model IDs, parameters, and naming conventions for supported models.
 
 MODEL_CONFIG = {
     'claude-sonnet-4': {
-        'id': 'anthropic.claude-sonnet-4-20250514-v1:0',
+        'id': 'us.anthropic.claude-sonnet-4-20250514-v1:0',
         'provider': 'anthropic',
         'max_tokens': 8192,
         'temperature': 0.0,
@@ -15,7 +15,7 @@ MODEL_CONFIG = {
         'display_name': 'Claude Sonnet 4'
     },
     'claude-opus-4.1': {
-        'id': 'anthropic.claude-opus-4-1-20250805-v1:0',
+        'id': 'us.anthropic.claude-opus-4-1-20250805-v1:0',
         'provider': 'anthropic',
         'max_tokens': 8192,
         'temperature': 0.0,
@@ -24,7 +24,7 @@ MODEL_CONFIG = {
         'display_name': 'Claude Opus 4.1'
     },
     'claude-sonnet-4.5': {
-        'id': 'anthropic.claude-sonnet-4-5-20250929-v1:0',
+        'id': 'us.anthropic.claude-sonnet-4-5-20250929-v1:0',
         'provider': 'anthropic',
         'max_tokens': 8192,
         'temperature': 0.0,
@@ -33,11 +33,11 @@ MODEL_CONFIG = {
         'display_name': 'Claude Sonnet 4.5'
     },
     'llama-3.3-70b': {
-        'id': 'meta.llama3-3-70b-instruct-v1:0',
+        'id': 'us.meta.llama3-3-70b-instruct-v1:0',
         'provider': 'meta',
         'max_tokens': 8192,
         'temperature': 0.0,
-        'supports_tools': True,  # Verify this during testing
+        'supports_tools': True,  # Llama 3.1+ supports tool use
         'score_field': 'llama_3_3_70b_score',
         'display_name': 'Llama 3.3 70B Instruct'
     }
