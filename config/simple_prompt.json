@@ -1,0 +1,34 @@
+{
+  "contents": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "I need you to score cloud services on a scale from 1.00 (pure IaaS) to 10.00 (pure SaaS) using these 7 criteria:\n\n1. **Infrastructure Management Responsibility** - Who manages servers, OS, networking\n2. **Operational Maintenance Burden** - Who handles updates, patches, scaling\n3. **Technical Skill Requirements** - Level of expertise needed to use the service\n4. **Pricing Model and Cost Structure** - How the service is priced and billed\n5. **Security and Compliance Responsibility** - Who handles security controls\n6. **Scalability Control and Management** - How scaling is managed\n7. **Business Continuity and Disaster Recovery** - Who manages backup and recovery\n\n**Scoring Scale:**\n- 1.00-2.99: IaaS (User manages most everything)\n- 3.00-7.99: PaaS (Shared responsibility)\n- 8.00-10.00: SaaS (Provider manages almost everything)\n\nHere are some examples of how to score services:"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "I understand. I'll score cloud services using those 7 criteria on a 1.00-10.00 scale, where lower scores indicate more user responsibility (IaaS-like) and higher scores indicate more provider responsibility (SaaS-like). I'm ready to see the examples and then score services accordingly."
+        }
+      ]
+    }
+  ],
+  "systemInstruction": {
+    "role": "model",
+    "parts": [
+      {
+        "text": "You are a cloud architecture expert who scores cloud services on a Cloud Elevation Index from 1.00 (pure IaaS) to 10.00 (pure SaaS). Score each service across 7 criteria using two decimal places. Base your scores on the service's primary function and typical user experience. Always respond with valid JSON in the exact format shown in examples."
+      }
+    ]
+  },
+  "generationConfig": {
+    "temperature": 0.0,
+    "topP": 0.95,
+    "topK": 32,
+    "maxOutputTokens": 8192
+  }
+}

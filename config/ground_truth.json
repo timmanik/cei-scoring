@@ -1,0 +1,19 @@
+{
+    "ground_truth": {
+        "AmazonEC2": {"expected_range": [1.0, 2.5], "category": "IaaS", "provider": "AWS"},
+        "Compute Engine": {"expected_range": [1.0, 2.5], "category": "IaaS", "provider": "GCP"},
+        "Virtual Machines": {"expected_range": [1.0, 2.5], "category": "IaaS", "provider": "Azure"},
+        
+        "AmazonRDS": {"expected_range": [4.0, 7.0], "category": "PaaS", "provider": "AWS"},
+        "Cloud SQL": {"expected_range": [4.0, 7.0], "category": "PaaS", "provider": "GCP"},
+        "SQL Database": {"expected_range": [4.0, 7.0], "category": "PaaS", "provider": "Azure"},
+        "AWSLambda": {"expected_range": [7.5, 9.5], "category": "High-PaaS/SaaS", "provider": "AWS"},
+        "Cloud Functions": {"expected_range": [7.5, 9.5], "category": "High-PaaS/SaaS", "provider": "GCP"},
+        "Functions": {"expected_range": [7.5, 9.5], "category": "High-PaaS/SaaS", "provider": "Azure"},
+        
+        "AmazonWorkMail": {"expected_range": [8.0, 10.0], "category": "SaaS", "provider": "AWS"},
+        "comprehend": {"expected_range": [8.0, 10.0], "category": "SaaS", "provider": "AWS"},
+        "Cognitive Services": {"expected_range": [8.0, 10.0], "category": "SaaS", "provider": "Azure"},
+        "Cloud Natural Language": {"expected_range": [8.0, 10.0], "category": "SaaS", "provider": "GCP"}
+    }
+}

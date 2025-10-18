@@ -1,0 +1,2211 @@
+================================================================================
+CLOUD SERVICE SCORING COMPARISON ANALYSIS REPORT
+================================================================================
+Generated on: 2025-09-16 15:39:43
+
+=== ANALYSIS SUMMARY ===
+Total services compared: 623
+Score columns analyzed: claude_3_5_score, gemini_1_5_pro_score, gemini_2_0_flash_score
+Services with high disagreement: 41
+Services with high similarity: 389
+
+=== HIGH DISAGREEMENT SERVICES (deviation > 2.0) ===
+Total: 41 services
+
+1. Enterprise Agreement (GCP)
+   Median Score: 9.18
+   Max Deviation: 8.18
+   Scores: claude_3_5_score=9.18, gemini_1_5_pro_score=1.00, gemini_2_0_flash_score=10.00
+   Deviations: claude_3_5_score=0.00, gemini_1_5_pro_score=8.18, gemini_2_0_flash_score=0.82
+
+2. SnowballExtraDays (AWS)
+   Median Score: 8.86
+   Max Deviation: 7.43
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=1.43, gemini_2_0_flash_score=8.86
+   Deviations: claude_3_5_score=0.14, gemini_1_5_pro_score=7.43, gemini_2_0_flash_score=0.00
+
+3. Cloud Vision OCR On-Prem (GCP)
+   Median Score: 3.93
+   Max Deviation: 4.43
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=3.93, gemini_2_0_flash_score=3.43
+   Deviations: claude_3_5_score=4.43, gemini_1_5_pro_score=0.00, gemini_2_0_flash_score=0.50
+
+4. AmazonChimeCallMeAMCS (AWS)
+   Median Score: 8.71
+   Max Deviation: 3.78
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=4.93, gemini_2_0_flash_score=8.71
+   Deviations: claude_3_5_score=0.29, gemini_1_5_pro_score=3.78, gemini_2_0_flash_score=0.00
+
+5. Unassigned (Azure)
+   Median Score: 3.68
+   Max Deviation: 3.68
+   Scores: claude_3_5_score=0.00, gemini_2_0_flash_score=7.36
+   Deviations: claude_3_5_score=3.68, gemini_2_0_flash_score=3.68
+
+6. Google Distributed Cloud Edge (GCP)
+   Median Score: 5.79
+   Max Deviation: 3.58
+   Scores: claude_3_5_score=2.21, gemini_1_5_pro_score=6.43, gemini_2_0_flash_score=5.79
+   Deviations: claude_3_5_score=3.58, gemini_1_5_pro_score=0.64, gemini_2_0_flash_score=0.00
+
+7. IngestionService (AWS)
+   Median Score: 4.14
+   Max Deviation: 3.57
+   Scores: claude_3_5_score=7.71, gemini_1_5_pro_score=1.71, gemini_2_0_flash_score=4.14
+   Deviations: claude_3_5_score=3.57, gemini_1_5_pro_score=2.43, gemini_2_0_flash_score=0.00
+
+8. AWSMDC (AWS)
+   Median Score: 3.43
+   Max Deviation: 3.57
+   Scores: claude_3_5_score=7.00, gemini_1_5_pro_score=1.57, gemini_2_0_flash_score=3.43
+   Deviations: claude_3_5_score=3.57, gemini_1_5_pro_score=1.86, gemini_2_0_flash_score=0.00
+
+9. AWSM2 (AWS)
+   Median Score: 5.36
+   Max Deviation: 3.50
+   Scores: claude_3_5_score=1.86, gemini_1_5_pro_score=6.36, gemini_2_0_flash_score=5.36
+   Deviations: claude_3_5_score=3.50, gemini_1_5_pro_score=1.00, gemini_2_0_flash_score=0.00
+
+10. IngestionServiceSnowball (AWS)
+   Median Score: 5.00
+   Max Deviation: 3.21
+   Scores: claude_3_5_score=7.79, gemini_1_5_pro_score=1.79, gemini_2_0_flash_score=5.00
+   Deviations: claude_3_5_score=2.79, gemini_1_5_pro_score=3.21, gemini_2_0_flash_score=0.00
+
+11. Azure Stack Edge (Azure)
+   Median Score: 5.43
+   Max Deviation: 3.11
+   Scores: claude_3_5_score=2.32, gemini_1_5_pro_score=5.43, gemini_2_0_flash_score=5.79
+   Deviations: claude_3_5_score=3.11, gemini_1_5_pro_score=0.00, gemini_2_0_flash_score=0.36
+
+12. Cloud TPU (GCP)
+   Median Score: 6.50
+   Max Deviation: 3.07
+   Scores: claude_3_5_score=6.71, gemini_1_5_pro_score=6.50, gemini_2_0_flash_score=3.43
+   Deviations: claude_3_5_score=0.21, gemini_1_5_pro_score=0.00, gemini_2_0_flash_score=3.07
+
+13. Windows 10 IoT Core Services (Azure)
+   Median Score: 5.21
+   Max Deviation: 2.93
+   Scores: claude_3_5_score=8.14, gemini_1_5_pro_score=3.07, gemini_2_0_flash_score=5.21
+   Deviations: claude_3_5_score=2.93, gemini_1_5_pro_score=2.14, gemini_2_0_flash_score=0.00
+
+14. Azure Operator Nexus (Azure)
+   Median Score: 6.36
+   Max Deviation: 2.86
+   Scores: claude_3_5_score=6.43, gemini_1_5_pro_score=3.50, gemini_2_0_flash_score=6.36
+   Deviations: claude_3_5_score=0.07, gemini_1_5_pro_score=2.86, gemini_2_0_flash_score=0.00
+
+15. Data Box (Azure)
+   Median Score: 5.36
+   Max Deviation: 2.85
+   Scores: claude_3_5_score=8.21, gemini_1_5_pro_score=5.21, gemini_2_0_flash_score=5.36
+   Deviations: claude_3_5_score=2.85, gemini_1_5_pro_score=0.15, gemini_2_0_flash_score=0.00
+
+16. GitHub AE (Azure)
+   Median Score: 8.07
+   Max Deviation: 2.71
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=5.36, gemini_2_0_flash_score=8.07
+   Deviations: claude_3_5_score=0.93, gemini_1_5_pro_score=2.71, gemini_2_0_flash_score=0.00
+
+17. Azure Arc (Azure)
+   Median Score: 3.43
+   Max Deviation: 2.64
+   Scores: claude_3_5_score=2.71, gemini_1_5_pro_score=6.07, gemini_2_0_flash_score=3.43
+   Deviations: claude_3_5_score=0.72, gemini_1_5_pro_score=2.64, gemini_2_0_flash_score=0.00
+
+18. Azure Update Manager (Azure)
+   Median Score: 6.93
+   Max Deviation: 2.64
+   Scores: claude_3_5_score=8.25, gemini_1_5_pro_score=4.29, gemini_2_0_flash_score=6.93
+   Deviations: claude_3_5_score=1.32, gemini_1_5_pro_score=2.64, gemini_2_0_flash_score=0.00
+
+19. Bandwidth (Azure)
+   Median Score: 5.86
+   Max Deviation: 2.57
+   Scores: claude_3_5_score=8.43, gemini_1_5_pro_score=3.29, gemini_2_0_flash_score=5.86
+   Deviations: claude_3_5_score=2.57, gemini_1_5_pro_score=2.57, gemini_2_0_flash_score=0.00
+
+20. AWSEnterpriseOnRamp (AWS)
+   Median Score: 8.32
+   Max Deviation: 2.46
+   Scores: claude_3_5_score=8.32, gemini_1_5_pro_score=5.86, gemini_2_0_flash_score=8.93
+   Deviations: claude_3_5_score=0.00, gemini_1_5_pro_score=2.46, gemini_2_0_flash_score=0.61
+
+21. Azure Resource Mover (Azure)
+   Median Score: 6.57
+   Max Deviation: 2.43
+   Scores: claude_3_5_score=7.50, gemini_1_5_pro_score=4.14, gemini_2_0_flash_score=6.57
+   Deviations: claude_3_5_score=0.93, gemini_1_5_pro_score=2.43, gemini_2_0_flash_score=0.00
+
+22. Voice Core (Azure)
+   Median Score: 8.07
+   Max Deviation: 2.43
+   Scores: claude_3_5_score=8.32, gemini_1_5_pro_score=5.64, gemini_2_0_flash_score=8.07
+   Deviations: claude_3_5_score=0.25, gemini_1_5_pro_score=2.43, gemini_2_0_flash_score=0.00
+
+23. Financial Services (GCP)
+   Median Score: 6.57
+   Max Deviation: 2.43
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=6.57, gemini_2_0_flash_score=6.21
+   Deviations: claude_3_5_score=2.43, gemini_1_5_pro_score=0.00, gemini_2_0_flash_score=0.36
+
+24. SQL Server Stretch Database (Azure)
+   Median Score: 5.29
+   Max Deviation: 2.42
+   Scores: claude_3_5_score=7.71, gemini_1_5_pro_score=5.29, gemini_2_0_flash_score=4.07
+   Deviations: claude_3_5_score=2.42, gemini_1_5_pro_score=0.00, gemini_2_0_flash_score=1.22
+
+25. Azure IoT Security (Azure)
+   Median Score: 7.86
+   Max Deviation: 2.36
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=5.50, gemini_2_0_flash_score=7.86
+   Deviations: claude_3_5_score=0.43, gemini_1_5_pro_score=2.36, gemini_2_0_flash_score=0.00
+
+26. Azure Policy (Azure)
+   Median Score: 7.57
+   Max Deviation: 2.36
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=5.21, gemini_2_0_flash_score=7.57
+   Deviations: claude_3_5_score=1.43, gemini_1_5_pro_score=2.36, gemini_2_0_flash_score=0.00
+
+27. AWSDataTransfer (AWS)
+   Median Score: 5.79
+   Max Deviation: 2.35
+   Scores: claude_3_5_score=8.14, gemini_1_5_pro_score=5.79, gemini_2_0_flash_score=4.00
+   Deviations: claude_3_5_score=2.35, gemini_1_5_pro_score=0.00, gemini_2_0_flash_score=1.79
+
+28. Container Registry (Azure)
+   Median Score: 6.71
+   Max Deviation: 2.35
+   Scores: claude_3_5_score=6.71, gemini_1_5_pro_score=4.36, gemini_2_0_flash_score=7.43
+   Deviations: claude_3_5_score=0.00, gemini_1_5_pro_score=2.35, gemini_2_0_flash_score=0.72
+
+29. Hybrid Data Services (Azure)
+   Median Score: 6.36
+   Max Deviation: 2.29
+   Scores: claude_3_5_score=6.79, gemini_1_5_pro_score=4.07, gemini_2_0_flash_score=6.36
+   Deviations: claude_3_5_score=0.43, gemini_1_5_pro_score=2.29, gemini_2_0_flash_score=0.00
+
+30. AWSSecurityHub (AWS)
+   Median Score: 8.36
+   Max Deviation: 2.29
+   Scores: claude_3_5_score=8.64, gemini_1_5_pro_score=6.07, gemini_2_0_flash_score=8.36
+   Deviations: claude_3_5_score=0.28, gemini_1_5_pro_score=2.29, gemini_2_0_flash_score=0.00
+
+31. AmazonBraket (AWS)
+   Median Score: 6.07
+   Max Deviation: 2.29
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=6.07, gemini_2_0_flash_score=5.71
+   Deviations: claude_3_5_score=2.29, gemini_1_5_pro_score=0.00, gemini_2_0_flash_score=0.36
+
+32. Azure Bastion (Azure)
+   Median Score: 7.36
+   Max Deviation: 2.22
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=5.14, gemini_2_0_flash_score=7.36
+   Deviations: claude_3_5_score=0.93, gemini_1_5_pro_score=2.22, gemini_2_0_flash_score=0.00
+
+33. ExpressRoute (Azure)
+   Median Score: 3.14
+   Max Deviation: 2.22
+   Scores: claude_3_5_score=2.57, gemini_1_5_pro_score=3.14, gemini_2_0_flash_score=5.36
+   Deviations: claude_3_5_score=0.57, gemini_1_5_pro_score=0.00, gemini_2_0_flash_score=2.22
+
+34. Azure Route Server (Azure)
+   Median Score: 5.36
+   Max Deviation: 2.15
+   Scores: claude_3_5_score=6.83, gemini_1_5_pro_score=3.21, gemini_2_0_flash_score=5.36
+   Deviations: claude_3_5_score=1.47, gemini_1_5_pro_score=2.15, gemini_2_0_flash_score=0.00
+
+35. Virtual Network (Azure)
+   Median Score: 4.21
+   Max Deviation: 2.14
+   Scores: claude_3_5_score=2.07, gemini_1_5_pro_score=4.36, gemini_2_0_flash_score=4.21
+   Deviations: claude_3_5_score=2.14, gemini_1_5_pro_score=0.15, gemini_2_0_flash_score=0.00
+
+36. AWSStorageGatewayDeepArchive (AWS)
+   Median Score: 6.71
+   Max Deviation: 2.14
+   Scores: claude_3_5_score=7.30, gemini_1_5_pro_score=6.71, gemini_2_0_flash_score=4.57
+   Deviations: claude_3_5_score=0.59, gemini_1_5_pro_score=0.00, gemini_2_0_flash_score=2.14
+
+37. Mixed Reality (Azure)
+   Median Score: 7.50
+   Max Deviation: 2.14
+   Scores: claude_3_5_score=8.25, gemini_1_5_pro_score=5.36, gemini_2_0_flash_score=7.50
+   Deviations: claude_3_5_score=0.75, gemini_1_5_pro_score=2.14, gemini_2_0_flash_score=0.00
+
+38. Anthos Service Mesh (GCP)
+   Median Score: 6.29
+   Max Deviation: 2.08
+   Scores: claude_3_5_score=6.29, gemini_1_5_pro_score=4.21, gemini_2_0_flash_score=6.93
+   Deviations: claude_3_5_score=0.00, gemini_1_5_pro_score=2.08, gemini_2_0_flash_score=0.64
+
+39. AmazonSumerian (AWS)
+   Median Score: 7.21
+   Max Deviation: 2.07
+   Scores: claude_3_5_score=8.64, gemini_1_5_pro_score=5.14, gemini_2_0_flash_score=7.21
+   Deviations: claude_3_5_score=1.43, gemini_1_5_pro_score=2.07, gemini_2_0_flash_score=0.00
+
+40. Integration Connectors (GCP)
+   Median Score: 7.86
+   Max Deviation: 2.07
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=5.79, gemini_2_0_flash_score=7.86
+   Deviations: claude_3_5_score=0.50, gemini_1_5_pro_score=2.07, gemini_2_0_flash_score=0.00
+
+41. NAT Gateway (Azure)
+   Median Score: 6.43
+   Max Deviation: 2.07
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=4.36, gemini_2_0_flash_score=6.43
+   Deviations: claude_3_5_score=1.86, gemini_1_5_pro_score=2.07, gemini_2_0_flash_score=0.00
+
+=== HIGH SIMILARITY SERVICES (deviation <= 1) ===
+Total: 389 services
+
+1. Managed Service for Apache Kafka (GCP)
+   Median Score: 6.79
+   Max Deviation: 0.00
+   Scores: claude_3_5_score=6.79, gemini_2_0_flash_score=6.79
+
+2. Cloud Memorystore (GCP)
+   Median Score: 7.11
+   Max Deviation: 0.04
+   Scores: claude_3_5_score=7.07, gemini_2_0_flash_score=7.14
+
+3. AWSLakeFormation (AWS)
+   Median Score: 6.86
+   Max Deviation: 0.07
+   Scores: claude_3_5_score=6.93, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=6.86
+
+4. AWSDatabaseMigrationSvc (AWS)
+   Median Score: 6.64
+   Max Deviation: 0.07
+   Scores: claude_3_5_score=6.64, gemini_1_5_pro_score=6.71, gemini_2_0_flash_score=6.64
+
+5. AWSDeveloperSupport (AWS)
+   Median Score: 8.86
+   Max Deviation: 0.07
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=8.79, gemini_2_0_flash_score=8.86
+
+6. AmazonES (AWS)
+   Median Score: 6.29
+   Max Deviation: 0.07
+   Scores: claude_3_5_score=6.36, gemini_1_5_pro_score=6.29, gemini_2_0_flash_score=6.29
+
+7. Cloud Storage (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.07
+   Scores: claude_3_5_score=7.36, gemini_1_5_pro_score=7.36, gemini_2_0_flash_score=7.29
+
+8. Functions (Azure)
+   Median Score: 8.50
+   Max Deviation: 0.07
+   Scores: claude_3_5_score=8.50, gemini_1_5_pro_score=8.43, gemini_2_0_flash_score=8.57
+
+9. Microsoft Dragon Copilot (Azure)
+   Median Score: 8.86
+   Max Deviation: 0.07
+   Scores: claude_3_5_score=8.93, gemini_2_0_flash_score=8.79
+
+10. Microsoft Security Copilot (Azure)
+   Median Score: 9.04
+   Max Deviation: 0.11
+   Scores: claude_3_5_score=9.14, gemini_2_0_flash_score=8.93
+
+11. Business Applications Embedded (Azure)
+   Median Score: 8.32
+   Max Deviation: 0.11
+   Scores: claude_3_5_score=8.43, gemini_2_0_flash_score=8.21
+
+12. Timeseries Insights API (GCP)
+   Median Score: 8.18
+   Max Deviation: 0.11
+   Scores: claude_3_5_score=8.18, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.29
+
+13. Places UI Kit (GCP)
+   Median Score: 8.91
+   Max Deviation: 0.12
+   Scores: claude_3_5_score=9.04, gemini_2_0_flash_score=8.79
+
+14. AmazonDAX (AWS)
+   Median Score: 7.27
+   Max Deviation: 0.13
+   Scores: claude_3_5_score=7.27, gemini_1_5_pro_score=7.36, gemini_2_0_flash_score=7.14
+
+15. Azure SQL Edge (Azure)
+   Median Score: 4.93
+   Max Deviation: 0.14
+   Scores: claude_3_5_score=4.93, gemini_1_5_pro_score=4.79, gemini_2_0_flash_score=4.93
+
+16. Cloud Composer (GCP)
+   Median Score: 6.50
+   Max Deviation: 0.14
+   Scores: claude_3_5_score=6.57, gemini_1_5_pro_score=6.50, gemini_2_0_flash_score=6.36
+
+17. Firebase Realtime Database (GCP)
+   Median Score: 8.00
+   Max Deviation: 0.14
+   Scores: claude_3_5_score=8.07, gemini_1_5_pro_score=8.00, gemini_2_0_flash_score=7.86
+
+18. Windows Virtual Desktop (Azure)
+   Median Score: 6.50
+   Max Deviation: 0.14
+   Scores: claude_3_5_score=6.36, gemini_1_5_pro_score=6.57, gemini_2_0_flash_score=6.50
+
+19. AmazonMWAA (AWS)
+   Median Score: 6.79
+   Max Deviation: 0.15
+   Scores: claude_3_5_score=6.79, gemini_1_5_pro_score=6.64, gemini_2_0_flash_score=6.86
+
+20. Cloud Firestore (GCP)
+   Median Score: 8.02
+   Max Deviation: 0.16
+   Scores: claude_3_5_score=8.18, gemini_2_0_flash_score=7.86
+
+21. Blockchain Accelerator (GCP)
+   Median Score: 6.54
+   Max Deviation: 0.17
+   Scores: claude_3_5_score=6.71, gemini_2_0_flash_score=6.36
+
+22. Places Aggregate API (GCP)
+   Median Score: 8.96
+   Max Deviation: 0.18
+   Scores: claude_3_5_score=9.14, gemini_2_0_flash_score=8.79
+
+23. Durable Task Scheduler (Azure)
+   Median Score: 8.18
+   Max Deviation: 0.18
+   Scores: claude_3_5_score=8.36, gemini_2_0_flash_score=8.00
+
+24. Microsoft Entra (Azure)
+   Median Score: 8.68
+   Max Deviation: 0.18
+   Scores: claude_3_5_score=8.86, gemini_2_0_flash_score=8.50
+
+25. Azure Machine Learning (Azure)
+   Median Score: 7.00
+   Max Deviation: 0.21
+   Scores: claude_3_5_score=7.19, gemini_1_5_pro_score=6.79, gemini_2_0_flash_score=7.00
+
+26. Network Security (GCP)
+   Median Score: 7.50
+   Max Deviation: 0.21
+   Scores: claude_3_5_score=7.71, gemini_2_0_flash_score=7.29
+
+27. Virtual Machines (Azure)
+   Median Score: 1.71
+   Max Deviation: 0.21
+   Scores: claude_3_5_score=1.86, gemini_1_5_pro_score=1.71, gemini_2_0_flash_score=1.50
+
+28. Premonition (Azure)
+   Median Score: 8.14
+   Max Deviation: 0.21
+   Scores: claude_3_5_score=8.36, gemini_2_0_flash_score=7.93
+
+29. Artifact Registry (GCP)
+   Median Score: 7.14
+   Max Deviation: 0.22
+   Scores: claude_3_5_score=7.14, gemini_1_5_pro_score=7.07, gemini_2_0_flash_score=7.36
+
+30. App Center (Azure)
+   Median Score: 7.93
+   Max Deviation: 0.25
+   Scores: claude_3_5_score=8.18, gemini_1_5_pro_score=7.93, gemini_2_0_flash_score=7.79
+
+31. Microsoft Copilot Studio (Azure)
+   Median Score: 8.68
+   Max Deviation: 0.25
+   Scores: claude_3_5_score=8.93, gemini_2_0_flash_score=8.43
+
+32. HDInsight (Azure)
+   Median Score: 5.64
+   Max Deviation: 0.28
+   Scores: claude_3_5_score=5.64, gemini_1_5_pro_score=5.86, gemini_2_0_flash_score=5.36
+
+33. Remote Build Execution (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.28
+   Scores: claude_3_5_score=7.64, gemini_1_5_pro_score=7.21, gemini_2_0_flash_score=7.36
+
+34. AmazonMQ (AWS)
+   Median Score: 6.29
+   Max Deviation: 0.28
+   Scores: claude_3_5_score=6.57, gemini_1_5_pro_score=6.21, gemini_2_0_flash_score=6.29
+
+35. Azure Database for PostgreSQL (Azure)
+   Median Score: 5.93
+   Max Deviation: 0.28
+   Scores: claude_3_5_score=6.21, gemini_1_5_pro_score=5.71, gemini_2_0_flash_score=5.93
+
+36. AWSSupportBusiness (AWS)
+   Median Score: 8.71
+   Max Deviation: 0.28
+   Scores: claude_3_5_score=8.71, gemini_1_5_pro_score=8.79, gemini_2_0_flash_score=8.43
+
+37. Cloud Run Functions (GCP)
+   Median Score: 8.64
+   Max Deviation: 0.29
+   Scores: claude_3_5_score=8.36, gemini_2_0_flash_score=8.93
+
+38. Speech-to-Text On-Prem (GCP)
+   Median Score: 3.71
+   Max Deviation: 0.29
+   Scores: claude_3_5_score=4.00, gemini_2_0_flash_score=3.43
+
+39. product Studio APIs (GCP)
+   Median Score: 8.64
+   Max Deviation: 0.29
+   Scores: claude_3_5_score=8.93, gemini_2_0_flash_score=8.36
+
+40. AmazonDetective (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.29
+   Scores: claude_3_5_score=8.64, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.36
+
+41. Looker Data Platform SaaS (GCP)
+   Median Score: 8.71
+   Max Deviation: 0.29
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.71, gemini_2_0_flash_score=8.64
+
+42. Anthos Policy Controller (GCP)
+   Median Score: 6.50
+   Max Deviation: 0.29
+   Scores: claude_3_5_score=6.79, gemini_1_5_pro_score=6.50, gemini_2_0_flash_score=6.36
+
+43. Azure Container Apps (Azure)
+   Median Score: 7.00
+   Max Deviation: 0.29
+   Scores: claude_3_5_score=7.00, gemini_1_5_pro_score=6.93, gemini_2_0_flash_score=7.29
+
+44. Cloud Key Management Service (KMS) (GCP)
+   Median Score: 7.93
+   Max Deviation: 0.29
+   Scores: claude_3_5_score=8.21, gemini_1_5_pro_score=7.64, gemini_2_0_flash_score=7.93
+
+45. Media Services (Azure)
+   Median Score: 7.00
+   Max Deviation: 0.29
+   Scores: claude_3_5_score=7.29, gemini_1_5_pro_score=6.79, gemini_2_0_flash_score=7.00
+
+46. Managed Lustre (GCP)
+   Median Score: 6.52
+   Max Deviation: 0.31
+   Scores: claude_3_5_score=6.83, gemini_2_0_flash_score=6.21
+
+47. Azure Local (Azure)
+   Median Score: 7.82
+   Max Deviation: 0.32
+   Scores: claude_3_5_score=8.14, gemini_2_0_flash_score=7.50
+
+48. Backup for GKE (GCP)
+   Median Score: 7.64
+   Max Deviation: 0.35
+   Scores: claude_3_5_score=7.71, gemini_1_5_pro_score=7.29, gemini_2_0_flash_score=7.64
+
+49. AWSAppRunner (AWS)
+   Median Score: 8.14
+   Max Deviation: 0.35
+   Scores: claude_3_5_score=8.14, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=7.79
+
+50. comprehend (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.35
+   Scores: claude_3_5_score=8.71, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.36
+
+51. translate (AWS)
+   Median Score: 8.79
+   Max Deviation: 0.35
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.79, gemini_2_0_flash_score=8.71
+
+52. Microsoft Planetary Computer Pro (Azure)
+   Median Score: 8.36
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=8.71, gemini_2_0_flash_score=8.00
+
+53. AWSLambda (AWS)
+   Median Score: 8.21
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=8.57, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.21
+
+54. Azure Active Directory B2C (Azure)
+   Median Score: 8.50
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=8.86, gemini_1_5_pro_score=8.14, gemini_2_0_flash_score=8.50
+
+55. Azure Arc-enabled AKS (Azure)
+   Median Score: 4.43
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=4.43, gemini_1_5_pro_score=4.57, gemini_2_0_flash_score=4.07
+
+56. Azure Managed Instance for Apache Cassandra (Azure)
+   Median Score: 6.57
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=6.57, gemini_1_5_pro_score=6.93, gemini_2_0_flash_score=6.57
+
+57. Microsoft Graph Services (Azure)
+   Median Score: 8.57
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=8.86, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.57
+
+58. Multi-Factor Authentication (Azure)
+   Median Score: 8.64
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.64
+
+59. transcribe (AWS)
+   Median Score: 8.79
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.79, gemini_2_0_flash_score=8.43
+
+60. AmazonEC2 (AWS)
+   Median Score: 1.50
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=1.86, gemini_1_5_pro_score=1.50, gemini_2_0_flash_score=1.50
+
+61. AI Ops (Azure)
+   Median Score: 7.43
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=7.31, gemini_1_5_pro_score=7.79, gemini_2_0_flash_score=7.43
+
+62. AWSBackup (AWS)
+   Median Score: 7.50
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=7.86, gemini_1_5_pro_score=7.36, gemini_2_0_flash_score=7.50
+
+63. AmazonRedshift (AWS)
+   Median Score: 6.29
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=6.36, gemini_1_5_pro_score=5.93, gemini_2_0_flash_score=6.29
+
+64. Azure Chaos Studio (Azure)
+   Median Score: 7.14
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=7.14, gemini_1_5_pro_score=7.00, gemini_2_0_flash_score=7.50
+
+65. Azure Spring Cloud (Azure)
+   Median Score: 7.14
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=7.14, gemini_1_5_pro_score=7.14, gemini_2_0_flash_score=7.50
+
+66. Secret Manager (GCP)
+   Median Score: 7.86
+   Max Deviation: 0.36
+   Scores: claude_3_5_score=8.21, gemini_1_5_pro_score=7.86, gemini_2_0_flash_score=7.50
+
+67. Apache Flink for BigQuery (GCP)
+   Median Score: 7.32
+   Max Deviation: 0.39
+   Scores: claude_3_5_score=7.71, gemini_2_0_flash_score=6.93
+
+68. Data Lake Analytics (Azure)
+   Median Score: 7.18
+   Max Deviation: 0.39
+   Scores: claude_3_5_score=7.57, gemini_1_5_pro_score=6.79
+
+69. Parameter Manager (GCP)
+   Median Score: 7.89
+   Max Deviation: 0.39
+   Scores: claude_3_5_score=8.29, gemini_2_0_flash_score=7.50
+
+70. Power Platform Request (Azure)
+   Median Score: 8.39
+   Max Deviation: 0.39
+   Scores: claude_3_5_score=8.79, gemini_2_0_flash_score=8.00
+
+71. AmazonMSK (AWS)
+   Median Score: 6.29
+   Max Deviation: 0.42
+   Scores: claude_3_5_score=6.29, gemini_1_5_pro_score=6.71, gemini_2_0_flash_score=6.29
+
+72. Firebase (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.42
+   Scores: claude_3_5_score=8.71, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.29
+
+73. BigQuery Engine for Apache Flink (GCP)
+   Median Score: 7.29
+   Max Deviation: 0.42
+   Scores: claude_3_5_score=7.71, gemini_2_0_flash_score=6.86
+
+74. Cloud AutoML (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=8.57, gemini_1_5_pro_score=7.86, gemini_2_0_flash_score=8.29
+
+75. Cloud Document API (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=8.64, gemini_1_5_pro_score=7.86, gemini_2_0_flash_score=8.29
+
+76. Live Stream API (GCP)
+   Median Score: 7.86
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=7.86, gemini_2_0_flash_score=7.71
+
+77. Address Validation API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.21, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+78. Aerial View API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+79. AmazonECR (AWS)
+   Median Score: 7.07
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=6.71, gemini_1_5_pro_score=7.07, gemini_2_0_flash_score=7.50
+
+80. AmazonQuickSight (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.36
+
+81. Cloud Natural Language (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+82. Community Training (Azure)
+   Median Score: 8.57
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.00, gemini_2_0_flash_score=8.14
+
+83. Dataproc (GCP)
+   Median Score: 5.71
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=6.14, gemini_1_5_pro_score=5.71, gemini_2_0_flash_score=5.50
+
+84. Directions API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.21, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+85. ElasticMapReduce (AWS)
+   Median Score: 5.36
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=5.79, gemini_1_5_pro_score=5.00, gemini_2_0_flash_score=5.36
+
+86. Geocoding API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.21, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+87. Geolocation API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.21, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+88. Google Maps Platform Air Quality Service (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+89. Google Maps Platform Pollen Service (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+90. Google Maps Tile API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+91. IoT Central (Azure)
+   Median Score: 8.57
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=8.86, gemini_1_5_pro_score=8.14, gemini_2_0_flash_score=8.57
+
+92. Maps Elevation API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.21, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+93. Maps Embed API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.21, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+94. Maps Static API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+95. Places API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+96. Places API (New) (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+97. PlayFab (Azure)
+   Median Score: 8.50
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.50
+
+98. Power Pages (Azure)
+   Median Score: 8.43
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=8.86, gemini_1_5_pro_score=8.43, gemini_2_0_flash_score=8.29
+
+99. Roads API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=9.21, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+100. AmazonGameLift (AWS)
+   Median Score: 6.43
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=6.86, gemini_1_5_pro_score=6.43, gemini_2_0_flash_score=6.29
+
+101. AmazonSES (AWS)
+   Median Score: 8.07
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=7.64
+
+102. Azure Firewall (Azure)
+   Median Score: 7.14
+   Max Deviation: 0.43
+   Scores: claude_3_5_score=7.57, gemini_1_5_pro_score=7.07, gemini_2_0_flash_score=7.14
+
+103. Azure Device Registry (Azure)
+   Median Score: 7.88
+   Max Deviation: 0.45
+   Scores: claude_3_5_score=8.32, gemini_2_0_flash_score=7.43
+
+104. Cloud Memorystore for Redis (GCP)
+   Median Score: 6.69
+   Max Deviation: 0.45
+   Scores: claude_3_5_score=6.69, gemini_1_5_pro_score=6.57, gemini_2_0_flash_score=7.14
+
+105. Firebase Data Connect (GCP)
+   Median Score: 8.32
+   Max Deviation: 0.46
+   Scores: claude_3_5_score=8.79, gemini_2_0_flash_score=7.86
+
+106. Secure Source Manager (GCP)
+   Median Score: 7.84
+   Max Deviation: 0.48
+   Scores: claude_3_5_score=8.32, gemini_2_0_flash_score=7.36
+
+107. AWSCloudTrail (AWS)
+   Median Score: 7.86
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=7.71, gemini_2_0_flash_score=7.86
+
+108. AmazonAthena (AWS)
+   Median Score: 7.79
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=7.43, gemini_2_0_flash_score=7.79
+
+109. Cloud Run (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=7.79, gemini_1_5_pro_score=8.29, gemini_2_0_flash_score=8.29
+
+110. API Management (Azure)
+   Median Score: 7.00
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=7.00, gemini_1_5_pro_score=6.93, gemini_2_0_flash_score=7.50
+
+111. AWSB2Bi (AWS)
+   Median Score: 7.79
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=7.29, gemini_2_0_flash_score=7.79
+
+112. AWSRoboMaker (AWS)
+   Median Score: 6.43
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=6.43, gemini_1_5_pro_score=6.43, gemini_2_0_flash_score=6.93
+
+113. AWSShield (AWS)
+   Median Score: 8.71
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=8.71, gemini_2_0_flash_score=8.21
+
+114. AWSWisdom (AWS)
+   Median Score: 8.29
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.29
+
+115. AmazonChimeDialInAMCS (AWS)
+   Median Score: 8.50
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.29, gemini_2_0_flash_score=8.50
+
+116. AmazonWorkDocs (AWS)
+   Median Score: 8.43
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=8.43, gemini_2_0_flash_score=8.21
+
+117. AmazonWorkMail (AWS)
+   Median Score: 8.50
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.50, gemini_2_0_flash_score=8.36
+
+118. AmazonWorkSpacesWeb (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=8.86, gemini_1_5_pro_score=8.29, gemini_2_0_flash_score=8.36
+
+119. Azure Database Migration Service (Azure)
+   Median Score: 6.50
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=7.00, gemini_1_5_pro_score=6.21, gemini_2_0_flash_score=6.50
+
+120. Azure Database for MySQL (Azure)
+   Median Score: 6.21
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=6.21, gemini_1_5_pro_score=5.71, gemini_2_0_flash_score=6.43
+
+121. Azure Maps (Azure)
+   Median Score: 8.43
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=8.43, gemini_2_0_flash_score=8.43
+
+122. Cloud Dialogflow API (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.29
+
+123. Cloud Media Translation API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.29, gemini_2_0_flash_score=8.79
+
+124. Cloud Memorystore for Memcached (GCP)
+   Median Score: 6.64
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=6.43, gemini_1_5_pro_score=6.64, gemini_2_0_flash_score=7.14
+
+125. Cognitive Services (Azure)
+   Median Score: 8.50
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.50
+
+126. Distance Matrix API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=9.29, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.79
+
+127. Firebase Test Lab (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=7.86, gemini_2_0_flash_score=8.29
+
+128. Power BI (Azure)
+   Median Score: 8.50
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.50
+
+129. Prediction (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=8.00, gemini_2_0_flash_score=8.29
+
+130. SQL Data Warehouse (Azure)
+   Median Score: 6.71
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=6.71, gemini_1_5_pro_score=6.21, gemini_2_0_flash_score=6.86
+
+131. Street View Static API (GCP)
+   Median Score: 8.71
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=9.21, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.71
+
+132. Translate (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.29, gemini_2_0_flash_score=8.79
+
+133. Azure Remote Rendering (Azure)
+   Median Score: 7.71
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=8.21, gemini_1_5_pro_score=7.71, gemini_2_0_flash_score=7.21
+
+134. Key Vault (Azure)
+   Median Score: 7.64
+   Max Deviation: 0.50
+   Scores: claude_3_5_score=8.14, gemini_1_5_pro_score=7.29, gemini_2_0_flash_score=7.64
+
+135. AmazonMCS (AWS)
+   Median Score: 6.43
+   Max Deviation: 0.54
+   Scores: claude_3_5_score=6.97, gemini_1_5_pro_score=6.43, gemini_2_0_flash_score=6.14
+
+136. AmazonNeptune (AWS)
+   Median Score: 6.29
+   Max Deviation: 0.54
+   Scores: claude_3_5_score=6.83, gemini_1_5_pro_score=6.21, gemini_2_0_flash_score=6.29
+
+137. AWSCostExplorer (AWS)
+   Median Score: 8.71
+   Max Deviation: 0.55
+   Scores: claude_3_5_score=9.26, gemini_1_5_pro_score=8.71, gemini_2_0_flash_score=8.21
+
+138. Telecom Network Automation (GCP)
+   Median Score: 7.26
+   Max Deviation: 0.55
+   Scores: claude_3_5_score=7.26, gemini_1_5_pro_score=6.71, gemini_2_0_flash_score=7.64
+
+139. AWSIoT1Click (AWS)
+   Median Score: 8.14
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=8.43, gemini_1_5_pro_score=7.57, gemini_2_0_flash_score=8.14
+
+140. AWSServiceCatalog (AWS)
+   Median Score: 7.00
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=7.00, gemini_1_5_pro_score=6.43, gemini_2_0_flash_score=7.50
+
+141. AmazonCloudFront (AWS)
+   Median Score: 7.50
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=8.07, gemini_1_5_pro_score=7.00, gemini_2_0_flash_score=7.50
+
+142. AmazonConnectCases (AWS)
+   Median Score: 8.43
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.00, gemini_2_0_flash_score=8.43
+
+143. AmazonRekognition (AWS)
+   Median Score: 8.43
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.43
+
+144. Azure Applied AI Services (Azure)
+   Median Score: 8.43
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.43
+
+145. Cloud Data Fusion (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=7.64, gemini_1_5_pro_score=6.79, gemini_2_0_flash_score=7.36
+
+146. Cloud Functions (GCP)
+   Median Score: 8.57
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=8.57, gemini_1_5_pro_score=8.00, gemini_2_0_flash_score=8.93
+
+147. Cloud Machine Learning Engine (GCP)
+   Median Score: 6.79
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=6.79, gemini_1_5_pro_score=6.43, gemini_2_0_flash_score=7.36
+
+148. Cloud Optimization (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=8.86, gemini_1_5_pro_score=8.00, gemini_2_0_flash_score=8.29
+
+149. Cloud Talent Solution (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=8.86, gemini_1_5_pro_score=8.00, gemini_2_0_flash_score=8.29
+
+150. CodeGuru (AWS)
+   Median Score: 8.14
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=8.71, gemini_1_5_pro_score=7.79, gemini_2_0_flash_score=8.14
+
+151. Deep Learning VM (GCP)
+   Median Score: 2.86
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=2.36, gemini_1_5_pro_score=2.86, gemini_2_0_flash_score=3.43
+
+152. Looker (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=8.86, gemini_1_5_pro_score=7.93, gemini_2_0_flash_score=8.29
+
+153. MS Bing Services (Azure)
+   Median Score: 8.43
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.43
+
+154. Navigation API (GCP)
+   Median Score: 8.64
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=9.21, gemini_2_0_flash_score=8.07
+
+155. Packet Core (Azure)
+   Median Score: 5.93
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=6.50, gemini_1_5_pro_score=5.50, gemini_2_0_flash_score=5.93
+
+156. Power Apps (Azure)
+   Median Score: 8.36
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=8.93, gemini_2_0_flash_score=7.79
+
+157. SQL Managed Instance (Azure)
+   Median Score: 5.93
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=6.50, gemini_1_5_pro_score=5.86, gemini_2_0_flash_score=5.93
+
+158. mobileanalytics (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.57
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.36
+
+159. AWSConfig (AWS)
+   Median Score: 7.71
+   Max Deviation: 0.58
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=7.36, gemini_2_0_flash_score=7.71
+
+160. Cloud IDS (GCP)
+   Median Score: 7.71
+   Max Deviation: 0.58
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=7.64, gemini_2_0_flash_score=7.71
+
+161. AmazonManagedBlockchain (AWS)
+   Median Score: 6.21
+   Max Deviation: 0.58
+   Scores: claude_3_5_score=6.79, gemini_1_5_pro_score=6.21, gemini_2_0_flash_score=6.14
+
+162. BigQuery Storage API (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.60
+   Scores: claude_3_5_score=7.96, gemini_1_5_pro_score=7.36, gemini_2_0_flash_score=7.36
+
+163. Azure API Center (Azure)
+   Median Score: 7.57
+   Max Deviation: 0.61
+   Scores: claude_3_5_score=8.18, gemini_1_5_pro_score=7.21, gemini_2_0_flash_score=7.57
+
+164. Compute Engine (GCP)
+   Median Score: 1.82
+   Max Deviation: 0.61
+   Scores: claude_3_5_score=1.82, gemini_1_5_pro_score=2.43, gemini_2_0_flash_score=1.50
+
+165. AmazonSimpleDB (AWS)
+   Median Score: 7.11
+   Max Deviation: 0.61
+   Scores: claude_3_5_score=7.11, gemini_1_5_pro_score=7.36, gemini_2_0_flash_score=6.50
+
+166. speech-onprem-private INTERNAL Speech-to-Text On-Prem DevTest (GCP)
+   Median Score: 2.82
+   Max Deviation: 0.61
+   Scores: claude_3_5_score=2.21, gemini_2_0_flash_score=3.43
+
+167. AWSELB (AWS)
+   Median Score: 6.57
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=7.21, gemini_1_5_pro_score=6.29, gemini_2_0_flash_score=6.57
+
+168. Advanced Container Networking Services (Azure)
+   Median Score: 4.43
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=4.43, gemini_1_5_pro_score=3.79, gemini_2_0_flash_score=4.79
+
+169. Azure Data Factory (Azure)
+   Median Score: 7.21
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=7.64, gemini_1_5_pro_score=7.21, gemini_2_0_flash_score=6.57
+
+170. Cloud Build (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=8.00, gemini_1_5_pro_score=7.14, gemini_2_0_flash_score=7.36
+
+171. Cloud Workstations (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=8.00, gemini_1_5_pro_score=7.14, gemini_2_0_flash_score=7.36
+
+172. Data Lake Store (Azure)
+   Median Score: 6.71
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=6.71, gemini_1_5_pro_score=7.07, gemini_2_0_flash_score=6.07
+
+173. Notebooks (GCP)
+   Median Score: 7.14
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=6.50, gemini_1_5_pro_score=7.14, gemini_2_0_flash_score=7.29
+
+174. AWSDeviceFarm (AWS)
+   Median Score: 8.14
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=8.14, gemini_2_0_flash_score=7.50
+
+175. AmazonAppStream (AWS)
+   Median Score: 7.43
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=8.07, gemini_1_5_pro_score=7.36, gemini_2_0_flash_score=7.43
+
+176. AmazonChimeBusinessCalling (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.29, gemini_2_0_flash_score=8.36
+
+177. AmazonConnect (AWS)
+   Median Score: 8.29
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.29
+
+178. AmazonECRPublic (AWS)
+   Median Score: 7.57
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=7.71, gemini_1_5_pro_score=6.93, gemini_2_0_flash_score=7.57
+
+179. App Configuration (Azure)
+   Median Score: 7.50
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=8.14, gemini_1_5_pro_score=7.07, gemini_2_0_flash_score=7.50
+
+180. Azure Cosmos DB (Azure)
+   Median Score: 7.07
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=7.07, gemini_1_5_pro_score=6.43, gemini_2_0_flash_score=7.07
+
+181. Azure Data Explorer (Azure)
+   Median Score: 6.93
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=7.57, gemini_1_5_pro_score=6.36, gemini_2_0_flash_score=6.93
+
+182. Cloud Document AI API (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=8.29, gemini_2_0_flash_score=8.07
+
+183. Cloud Scheduler (GCP)
+   Median Score: 8.07
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=8.71, gemini_1_5_pro_score=7.86, gemini_2_0_flash_score=8.07
+
+184. Contact Center AI Insights (GCP)
+   Median Score: 8.36
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=7.93, gemini_2_0_flash_score=8.36
+
+185. Firebase Auth (GCP)
+   Median Score: 8.50
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.50, gemini_2_0_flash_score=8.29
+
+186. Google Maps Platform Solar Service (GCP)
+   Median Score: 8.50
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.50
+
+187. Load Balancer (Azure)
+   Median Score: 6.43
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=7.07, gemini_1_5_pro_score=6.14, gemini_2_0_flash_score=6.43
+
+188. Retail API (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.29
+
+189. SMS (Azure)
+   Median Score: 8.36
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.14, gemini_2_0_flash_score=8.36
+
+190. repostspace (AWS)
+   Median Score: 9.00
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=9.40, gemini_1_5_pro_score=9.00, gemini_2_0_flash_score=8.36
+
+191. Microsoft Purview (Azure)
+   Median Score: 8.14
+   Max Deviation: 0.64
+   Scores: claude_3_5_score=8.79, gemini_2_0_flash_score=7.50
+
+192. AWSElementalMediaPackage (AWS)
+   Median Score: 7.71
+   Max Deviation: 0.65
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=7.21, gemini_2_0_flash_score=7.71
+
+193. AmazonGuardDuty (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.65
+   Scores: claude_3_5_score=8.86, gemini_1_5_pro_score=7.71, gemini_2_0_flash_score=8.36
+
+194. Energy Data Manager (Azure)
+   Median Score: 7.64
+   Max Deviation: 0.65
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=7.64, gemini_2_0_flash_score=7.36
+
+195. AmazonSageMaker (AWS)
+   Median Score: 6.79
+   Max Deviation: 0.65
+   Scores: claude_3_5_score=6.79, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=6.14
+
+196. Cloud Filestore (GCP)
+   Median Score: 6.64
+   Max Deviation: 0.65
+   Scores: claude_3_5_score=6.21, gemini_1_5_pro_score=7.29, gemini_2_0_flash_score=6.64
+
+197. Elastifile Cloud File System (GCP)
+   Median Score: 6.21
+   Max Deviation: 0.65
+   Scores: claude_3_5_score=6.86, gemini_1_5_pro_score=5.71, gemini_2_0_flash_score=6.21
+
+198. IoT Hub (Azure)
+   Median Score: 7.29
+   Max Deviation: 0.65
+   Scores: claude_3_5_score=7.57, gemini_1_5_pro_score=6.64, gemini_2_0_flash_score=7.29
+
+199. Azure IoT Operations (Azure)
+   Median Score: 6.67
+   Max Deviation: 0.67
+   Scores: claude_3_5_score=7.33, gemini_2_0_flash_score=6.00
+
+200. Azure Blockchain (Azure)
+   Median Score: 6.43
+   Max Deviation: 0.67
+   Scores: claude_3_5_score=7.10, gemini_1_5_pro_score=6.14, gemini_2_0_flash_score=6.43
+
+201. Data Catalog (Azure)
+   Median Score: 8.04
+   Max Deviation: 0.68
+   Scores: claude_3_5_score=8.71, gemini_2_0_flash_score=7.36
+
+202. AWSGlueElasticViews (AWS)
+   Median Score: 7.50
+   Max Deviation: 0.68
+   Scores: claude_3_5_score=8.18, gemini_1_5_pro_score=6.93, gemini_2_0_flash_score=7.50
+
+203. AmazonGrafana (AWS)
+   Median Score: 7.50
+   Max Deviation: 0.68
+   Scores: claude_3_5_score=8.18, gemini_1_5_pro_score=7.29, gemini_2_0_flash_score=7.50
+
+204. VMware Engine (GCP)
+   Median Score: 3.32
+   Max Deviation: 0.68
+   Scores: claude_3_5_score=3.32, gemini_1_5_pro_score=2.79, gemini_2_0_flash_score=4.00
+
+205. AWSSecretsManager (AWS)
+   Median Score: 8.32
+   Max Deviation: 0.68
+   Scores: claude_3_5_score=8.32, gemini_1_5_pro_score=7.64, gemini_2_0_flash_score=8.43
+
+206. AWSQueueService (AWS)
+   Median Score: 7.64
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=6.93, gemini_2_0_flash_score=7.64
+
+207. AmazonDataZone (AWS)
+   Median Score: 7.64
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=8.18, gemini_1_5_pro_score=6.93, gemini_2_0_flash_score=7.64
+
+208. AmazonElastiCache (AWS)
+   Median Score: 6.21
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=6.29, gemini_1_5_pro_score=6.21, gemini_2_0_flash_score=5.50
+
+209. AmazonFSx (AWS)
+   Median Score: 6.00
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=6.71, gemini_1_5_pro_score=6.00, gemini_2_0_flash_score=6.00
+
+210. AmazonWorkSpaces (AWS)
+   Median Score: 7.36
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=8.07, gemini_1_5_pro_score=7.36, gemini_2_0_flash_score=6.79
+
+211. Azure App Service (Azure)
+   Median Score: 6.79
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=7.50, gemini_1_5_pro_score=6.36, gemini_2_0_flash_score=6.79
+
+212. Azure Orbital Edge (Azure)
+   Median Score: 6.57
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=6.57, gemini_1_5_pro_score=6.71, gemini_2_0_flash_score=5.86
+
+213. BigQuery BI Engine (GCP)
+   Median Score: 8.07
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=8.64, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=7.36
+
+214. HPC Cache (Azure)
+   Median Score: 6.50
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=6.64, gemini_1_5_pro_score=5.79, gemini_2_0_flash_score=6.50
+
+215. OpsWorks (AWS)
+   Median Score: 5.14
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=4.43, gemini_1_5_pro_score=5.36, gemini_2_0_flash_score=5.14
+
+216. Redis Cache (Azure)
+   Median Score: 6.57
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=6.57, gemini_1_5_pro_score=5.86, gemini_2_0_flash_score=6.93
+
+217. AWSDataExchange (AWS)
+   Median Score: 8.14
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=7.43, gemini_2_0_flash_score=8.14
+
+218. AmazonChimeDialin (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.29
+
+219. AmazonChimeFeatures (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.36
+
+220. AmazonCognitoSync (AWS)
+   Median Score: 7.93
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=8.64, gemini_1_5_pro_score=7.93, gemini_2_0_flash_score=7.71
+
+221. AmazonTextract (AWS)
+   Median Score: 8.29
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.14, gemini_2_0_flash_score=8.29
+
+222. Cloud Domains (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.29
+
+223. Cloud Video Intelligence API (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.29, gemini_2_0_flash_score=8.07
+
+224. Google Maps Platform - Routes (GCP)
+   Median Score: 8.36
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.07
+
+225. Maps API (GCP)
+   Median Score: 8.36
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=7.79
+
+226. Recommendations AI (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=7.86, gemini_2_0_flash_score=8.29
+
+227. Security Command Center (GCP)
+   Median Score: 8.21
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=8.71, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=7.50
+
+228. Video Stitcher API (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.00, gemini_2_0_flash_score=8.29
+
+229. Visual Studio Codespaces (Azure)
+   Median Score: 8.21
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=7.50
+
+230. Audit Manager (GCP)
+   Median Score: 8.07
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=8.79, gemini_2_0_flash_score=7.36
+
+231. Trusted Signing (Azure)
+   Median Score: 8.21
+   Max Deviation: 0.71
+   Scores: claude_3_5_score=8.93, gemini_2_0_flash_score=7.50
+
+232. AWSComputeOptimizer (AWS)
+   Median Score: 8.21
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=7.79, gemini_2_0_flash_score=8.21
+
+233. On-Demand Scanning (GCP)
+   Median Score: 8.07
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=7.50, gemini_2_0_flash_score=8.07
+
+234. Payment Gateway (GCP)
+   Median Score: 8.93
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.93
+
+235. Storage Insights (GCP)
+   Median Score: 8.07
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=7.36
+
+236. Web Risk (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.79
+
+237. reCAPTCHA Enterprise (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.79
+
+238. AWSCertificateManager (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=7.64, gemini_2_0_flash_score=8.36
+
+239. AWSIoTSiteWise (AWS)
+   Median Score: 7.29
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=8.00, gemini_1_5_pro_score=6.57, gemini_2_0_flash_score=7.29
+
+240. AmazonMemoryDB (AWS)
+   Median Score: 6.43
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=6.94, gemini_1_5_pro_score=6.43, gemini_2_0_flash_score=5.71
+
+241. AmazonS3GlacierDeepArchive (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=8.50, gemini_2_0_flash_score=7.64
+
+242. Azure Database for MariaDB (Azure)
+   Median Score: 6.43
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=6.50, gemini_1_5_pro_score=5.71, gemini_2_0_flash_score=6.43
+
+243. Azure Fluid Relay (Azure)
+   Median Score: 7.64
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=6.93, gemini_2_0_flash_score=7.64
+
+244. Azure Synapse Analytics (Azure)
+   Median Score: 6.93
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=7.19, gemini_1_5_pro_score=6.21, gemini_2_0_flash_score=6.93
+
+245. BigQuery (GCP)
+   Median Score: 7.93
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=7.21, gemini_2_0_flash_score=7.93
+
+246. Fraud Protection (Azure)
+   Median Score: 8.43
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=7.71, gemini_2_0_flash_score=8.43
+
+247. Logic Apps (Azure)
+   Median Score: 7.93
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=8.64, gemini_1_5_pro_score=7.21, gemini_2_0_flash_score=7.93
+
+248. Cloud Dataflow (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.72
+   Scores: claude_3_5_score=7.86, gemini_1_5_pro_score=6.64, gemini_2_0_flash_score=7.36
+
+249. Dataproc Metastore (GCP)
+   Median Score: 6.83
+   Max Deviation: 0.74
+   Scores: claude_3_5_score=6.83, gemini_1_5_pro_score=6.64, gemini_2_0_flash_score=7.57
+
+250. Apache Kafka for BigQuery (GCP)
+   Median Score: 7.54
+   Max Deviation: 0.75
+   Scores: claude_3_5_score=8.29, gemini_2_0_flash_score=6.79
+
+251. Log Analytics (Azure)
+   Median Score: 7.57
+   Max Deviation: 0.75
+   Scores: claude_3_5_score=8.32, gemini_1_5_pro_score=7.57, gemini_2_0_flash_score=7.50
+
+252. AmazonCodeWhisperer (AWS)
+   Median Score: 8.43
+   Max Deviation: 0.76
+   Scores: claude_3_5_score=9.19, gemini_1_5_pro_score=8.43, gemini_2_0_flash_score=8.29
+
+253. Dynamics 365 for Customer Insights (Azure)
+   Median Score: 8.57
+   Max Deviation: 0.76
+   Scores: claude_3_5_score=9.33, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.57
+
+254. AWSElasticDisasterRecovery (AWS)
+   Median Score: 6.36
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=7.14, gemini_1_5_pro_score=6.07, gemini_2_0_flash_score=6.36
+
+255. AWSIoTAnalytics (AWS)
+   Median Score: 7.64
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=8.18, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=7.64
+
+256. AWSIoTEvents (AWS)
+   Median Score: 7.64
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=8.18, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=7.64
+
+257. AmazonKinesisVideo (AWS)
+   Median Score: 7.64
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=7.71, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=7.64
+
+258. Azure Cloud HSM (Azure)
+   Median Score: 4.14
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=3.36, gemini_1_5_pro_score=4.14, gemini_2_0_flash_score=4.50
+
+259. AmazonCognito (AWS)
+   Median Score: 7.57
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=8.21, gemini_1_5_pro_score=6.79, gemini_2_0_flash_score=7.57
+
+260. AmazonLookoutEquipment (AWS)
+   Median Score: 7.79
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=8.57, gemini_1_5_pro_score=7.57, gemini_2_0_flash_score=7.79
+
+261. Apigee (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=8.14, gemini_1_5_pro_score=7.07, gemini_2_0_flash_score=7.36
+
+262. Azure Databricks (Azure)
+   Median Score: 6.71
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=6.71, gemini_1_5_pro_score=5.93, gemini_2_0_flash_score=6.79
+
+263. CodeCatalyst (AWS)
+   Median Score: 7.71
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=6.93, gemini_2_0_flash_score=7.71
+
+264. Data Catalog (GCP)
+   Median Score: 8.07
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=8.43, gemini_1_5_pro_score=7.29, gemini_2_0_flash_score=8.07
+
+265. Event Hubs (Azure)
+   Median Score: 6.79
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=7.57, gemini_1_5_pro_score=6.71, gemini_2_0_flash_score=6.79
+
+266. PaymentCryptography (AWS)
+   Median Score: 8.07
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=8.50, gemini_1_5_pro_score=7.29, gemini_2_0_flash_score=8.07
+
+267. AmazonConnectVoiceID (AWS)
+   Median Score: 8.29
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.29
+
+268. AmazonPolly (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.14, gemini_2_0_flash_score=8.36
+
+269. CodeBuild (AWS)
+   Median Score: 7.43
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=8.21, gemini_1_5_pro_score=7.43, gemini_2_0_flash_score=6.79
+
+270. ContactLensAmazonConnect (AWS)
+   Median Score: 8.29
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=9.07, gemini_1_5_pro_score=7.93, gemini_2_0_flash_score=8.29
+
+271. Gemini API (GCP)
+   Median Score: 8.43
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=9.21, gemini_1_5_pro_score=8.43, gemini_2_0_flash_score=8.36
+
+272. Route Optimization API (GCP)
+   Median Score: 8.36
+   Max Deviation: 0.78
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.07
+
+273. AWSSupportEnterprise (AWS)
+   Median Score: 8.93
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.93, gemini_2_0_flash_score=8.14
+
+274. AmazonChime (AWS)
+   Median Score: 8.50
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=9.29, gemini_1_5_pro_score=8.50, gemini_2_0_flash_score=8.29
+
+275. AmazonML (AWS)
+   Median Score: 7.50
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=7.07, gemini_2_0_flash_score=7.50
+
+276. AmazonStates (AWS)
+   Median Score: 7.50
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=7.00, gemini_2_0_flash_score=7.50
+
+277. Cloud Speech API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.00, gemini_2_0_flash_score=8.79
+
+278. Cloud Text-to-Speech API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=8.00, gemini_2_0_flash_score=8.79
+
+279. Cloud Vision API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.00, gemini_2_0_flash_score=8.79
+
+280. Quantum Computing (Azure)
+   Median Score: 7.50
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=7.50, gemini_2_0_flash_score=7.21
+
+281. Speaker ID (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.00, gemini_2_0_flash_score=8.79
+
+282. Syntex (Azure)
+   Median Score: 8.00
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=7.50, gemini_2_0_flash_score=8.00
+
+283. Vertex AI Search (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=8.71, gemini_1_5_pro_score=7.50, gemini_2_0_flash_score=8.29
+
+284. AmazonS3 (AWS)
+   Median Score: 7.00
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=7.36, gemini_1_5_pro_score=6.21, gemini_2_0_flash_score=7.00
+
+285. AmazonWAM (AWS)
+   Median Score: 7.21
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=8.00, gemini_1_5_pro_score=7.21, gemini_2_0_flash_score=7.07
+
+286. Azure Cognitive Search (Azure)
+   Median Score: 7.50
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=8.18, gemini_1_5_pro_score=6.71, gemini_2_0_flash_score=7.50
+
+287. Azure confidential ledger (Azure)
+   Median Score: 7.64
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=8.43, gemini_1_5_pro_score=7.43, gemini_2_0_flash_score=7.64
+
+288. Cloud Pub/Sub (GCP)
+   Median Score: 7.86
+   Max Deviation: 0.79
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=7.07, gemini_2_0_flash_score=7.86
+
+289. AWSIoTFleetWise (AWS)
+   Median Score: 7.36
+   Max Deviation: 0.82
+   Scores: claude_3_5_score=8.18, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=7.36
+
+290. AmazonCloudWatch (AWS)
+   Median Score: 7.50
+   Max Deviation: 0.82
+   Scores: claude_3_5_score=8.32, gemini_1_5_pro_score=7.14, gemini_2_0_flash_score=7.50
+
+291. Microsoft Copilot for Security (Azure)
+   Median Score: 8.32
+   Max Deviation: 0.82
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=7.50
+
+292. AWSXRay (AWS)
+   Median Score: 7.64
+   Max Deviation: 0.82
+   Scores: claude_3_5_score=8.46, gemini_1_5_pro_score=7.43, gemini_2_0_flash_score=7.64
+
+293. Duet AI (GCP)
+   Median Score: 8.36
+   Max Deviation: 0.83
+   Scores: claude_3_5_score=9.19, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.36
+
+294. Time Zone API (GCP)
+   Median Score: 8.43
+   Max Deviation: 0.83
+   Scores: claude_3_5_score=9.26, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.43
+
+295. AWSIoT (AWS)
+   Median Score: 6.86
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=7.71, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=6.79
+
+296. AWSNetworkFirewall (AWS)
+   Median Score: 6.86
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=7.71, gemini_1_5_pro_score=6.36, gemini_2_0_flash_score=6.86
+
+297. AmazonApiGateway (AWS)
+   Median Score: 7.64
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=8.21, gemini_1_5_pro_score=6.79, gemini_2_0_flash_score=7.64
+
+298. AmazonSWF (AWS)
+   Median Score: 6.86
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=7.71, gemini_1_5_pro_score=6.36, gemini_2_0_flash_score=6.86
+
+299. AmazonSecurityLake (AWS)
+   Median Score: 7.71
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=8.00, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=7.71
+
+300. AmazonTimestream (AWS)
+   Median Score: 6.86
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=7.71, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=6.50
+
+301. Dataplex (GCP)
+   Median Score: 7.21
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=7.57, gemini_1_5_pro_score=7.21, gemini_2_0_flash_score=6.36
+
+302. Transcode API (GCP)
+   Median Score: 7.64
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=8.43, gemini_1_5_pro_score=6.79, gemini_2_0_flash_score=7.64
+
+303. AmazonForecast (AWS)
+   Median Score: 7.79
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=8.64, gemini_1_5_pro_score=7.29, gemini_2_0_flash_score=7.79
+
+304. AmazonLex (AWS)
+   Median Score: 7.79
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=8.64, gemini_1_5_pro_score=7.29, gemini_2_0_flash_score=7.79
+
+305. AmazonMacie (AWS)
+   Median Score: 7.86
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=8.71, gemini_1_5_pro_score=7.71, gemini_2_0_flash_score=7.86
+
+306. Cloud Deploy (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=8.21, gemini_1_5_pro_score=7.14, gemini_2_0_flash_score=7.36
+
+307. Document Warehouse (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=8.21, gemini_1_5_pro_score=7.21, gemini_2_0_flash_score=7.36
+
+308. AlexaWebInfoService (AWS)
+   Median Score: 8.29
+   Max Deviation: 0.85
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.29
+
+309. AmazonChimeVoiceConnector (AWS)
+   Median Score: 7.43
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=7.43, gemini_2_0_flash_score=6.86
+
+310. AmazonIVS (AWS)
+   Median Score: 7.50
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=7.29, gemini_2_0_flash_score=7.50
+
+311. AmazonInspectorV2 (AWS)
+   Median Score: 7.57
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=8.43, gemini_1_5_pro_score=7.43, gemini_2_0_flash_score=7.57
+
+312. AmazonKinesisFirehose (AWS)
+   Median Score: 7.43
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=7.43
+
+313. AmazonPinpoint (AWS)
+   Median Score: 8.29
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=7.43, gemini_2_0_flash_score=8.29
+
+314. Cloud Bigtable (GCP)
+   Median Score: 6.57
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=6.14, gemini_1_5_pro_score=6.57, gemini_2_0_flash_score=7.43
+
+315. Kusto (Azure)
+   Median Score: 6.93
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=7.71, gemini_1_5_pro_score=6.07, gemini_2_0_flash_score=6.93
+
+316. Power BI Embedded (Azure)
+   Median Score: 7.93
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=8.18, gemini_1_5_pro_score=7.07, gemini_2_0_flash_score=7.93
+
+317. SQL Database (Azure)
+   Median Score: 6.57
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=6.57, gemini_1_5_pro_score=6.21, gemini_2_0_flash_score=7.43
+
+318. Azure Arc Enabled Databases (Azure)
+   Median Score: 4.79
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=4.79, gemini_1_5_pro_score=5.07, gemini_2_0_flash_score=3.93
+
+319. AWSApplicationMigrationSvc (AWS)
+   Median Score: 6.57
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=7.14, gemini_1_5_pro_score=6.57, gemini_2_0_flash_score=5.71
+
+320. AWSEvents (AWS)
+   Median Score: 7.50
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=6.64, gemini_2_0_flash_score=7.50
+
+321. AmazonDocDB (AWS)
+   Median Score: 6.21
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=6.21, gemini_1_5_pro_score=5.36, gemini_2_0_flash_score=7.07
+
+322. AmazonDynamoDB (AWS)
+   Median Score: 7.29
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=7.79, gemini_1_5_pro_score=6.43, gemini_2_0_flash_score=7.29
+
+323. AmazonWorkLink (AWS)
+   Median Score: 8.50
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=7.64, gemini_2_0_flash_score=8.50
+
+324. App Engine (GCP)
+   Median Score: 7.79
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=7.79, gemini_1_5_pro_score=6.93, gemini_2_0_flash_score=7.86
+
+325. Automation (Azure)
+   Median Score: 7.00
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=7.86, gemini_1_5_pro_score=6.79, gemini_2_0_flash_score=7.00
+
+326. BizTalk Services (Azure)
+   Median Score: 6.71
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=7.57, gemini_1_5_pro_score=6.14, gemini_2_0_flash_score=6.71
+
+327. Container Instances (Azure)
+   Median Score: 6.86
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=6.86, gemini_1_5_pro_score=6.00, gemini_2_0_flash_score=7.07
+
+328. Power Automate (Azure)
+   Median Score: 8.50
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=8.71, gemini_1_5_pro_score=8.50, gemini_2_0_flash_score=7.64
+
+329. Time Series Insights (Azure)
+   Median Score: 7.57
+   Max Deviation: 0.86
+   Scores: claude_3_5_score=8.18, gemini_1_5_pro_score=6.71, gemini_2_0_flash_score=7.57
+
+330. AWSIoTThingsGraph (AWS)
+   Median Score: 7.29
+   Max Deviation: 0.89
+   Scores: claude_3_5_score=8.18, gemini_1_5_pro_score=7.29, gemini_2_0_flash_score=7.14
+
+331. Vertex AI (GCP)
+   Median Score: 7.07
+   Max Deviation: 0.89
+   Scores: claude_3_5_score=7.96, gemini_1_5_pro_score=6.36, gemini_2_0_flash_score=7.07
+
+332. Zync (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.89
+   Scores: claude_3_5_score=8.25, gemini_1_5_pro_score=6.50, gemini_2_0_flash_score=7.36
+
+333. IoTDeviceDefender (AWS)
+   Median Score: 7.50
+   Max Deviation: 0.89
+   Scores: claude_3_5_score=8.39, gemini_1_5_pro_score=7.00, gemini_2_0_flash_score=7.50
+
+334. Microsoft Graph data connect (Azure)
+   Median Score: 7.57
+   Max Deviation: 0.89
+   Scores: claude_3_5_score=8.46, gemini_1_5_pro_score=7.00, gemini_2_0_flash_score=7.57
+
+335. Chrome Enterprise Premium (GCP)
+   Median Score: 8.21
+   Max Deviation: 0.90
+   Scores: claude_3_5_score=9.11, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.21
+
+336. GitHub (Azure)
+   Median Score: 8.21
+   Max Deviation: 0.90
+   Scores: claude_3_5_score=9.11, gemini_1_5_pro_score=8.21, gemini_2_0_flash_score=8.21
+
+337. AWSCloudFormation (AWS)
+   Median Score: 6.21
+   Max Deviation: 0.92
+   Scores: claude_3_5_score=6.21, gemini_1_5_pro_score=6.57, gemini_2_0_flash_score=5.29
+
+338. AWSGlue (AWS)
+   Median Score: 6.79
+   Max Deviation: 0.92
+   Scores: claude_3_5_score=7.71, gemini_1_5_pro_score=6.71, gemini_2_0_flash_score=6.79
+
+339. Azure Data Factory v2 (Azure)
+   Median Score: 6.79
+   Max Deviation: 0.92
+   Scores: claude_3_5_score=7.71, gemini_1_5_pro_score=6.43, gemini_2_0_flash_score=6.79
+
+340. AmazonOmics (AWS)
+   Median Score: 7.36
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=7.36
+
+341. Application Integration (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=7.36
+
+342. BeyondCorp Enterprise (GCP)
+   Median Score: 7.86
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=7.64, gemini_2_0_flash_score=7.86
+
+343. Transcoder API (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.57, gemini_1_5_pro_score=8.29, gemini_2_0_flash_score=7.36
+
+344. Vertex AI Vision (GCP)
+   Median Score: 7.86
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=7.86, gemini_2_0_flash_score=7.71
+
+345. A4B (AWS)
+   Median Score: 8.07
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=7.50
+
+346. AWSBudgets (AWS)
+   Median Score: 8.21
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=7.43, gemini_2_0_flash_score=8.21
+
+347. AWSElementalMediaConvert (AWS)
+   Median Score: 7.50
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.43, gemini_1_5_pro_score=7.50, gemini_2_0_flash_score=7.43
+
+348. AWSElementalMediaStore (AWS)
+   Median Score: 7.64
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.04, gemini_1_5_pro_score=6.71, gemini_2_0_flash_score=7.64
+
+349. AWSGreengrass (AWS)
+   Median Score: 6.14
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=6.14, gemini_1_5_pro_score=5.21, gemini_2_0_flash_score=6.14
+
+350. AWSWickr (AWS)
+   Median Score: 8.43
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=7.50, gemini_1_5_pro_score=8.43, gemini_2_0_flash_score=8.43
+
+351. AmazonBedrock (AWS)
+   Median Score: 8.07
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=8.00, gemini_2_0_flash_score=8.07
+
+352. AmazonEKS (AWS)
+   Median Score: 5.29
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=4.36, gemini_1_5_pro_score=5.86, gemini_2_0_flash_score=5.29
+
+353. AmazonPrometheus (AWS)
+   Median Score: 7.64
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=7.79, gemini_1_5_pro_score=6.71, gemini_2_0_flash_score=7.64
+
+354. AmazonSNS (AWS)
+   Median Score: 7.43
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=6.93, gemini_2_0_flash_score=7.43
+
+355. Azure Analysis Services (Azure)
+   Median Score: 7.14
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=7.57, gemini_1_5_pro_score=6.21, gemini_2_0_flash_score=7.14
+
+356. Azure Data Share (Azure)
+   Median Score: 7.43
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=7.36, gemini_2_0_flash_score=7.43
+
+357. Azure Site Recovery (Azure)
+   Median Score: 7.00
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=7.71, gemini_1_5_pro_score=7.00, gemini_2_0_flash_score=6.07
+
+358. Backup (Azure)
+   Median Score: 7.43
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=6.57, gemini_2_0_flash_score=7.43
+
+359. Event Grid (Azure)
+   Median Score: 7.43
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=7.07, gemini_2_0_flash_score=7.43
+
+360. Phone Numbers (Azure)
+   Median Score: 8.00
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.86, gemini_1_5_pro_score=7.07, gemini_2_0_flash_score=8.00
+
+361. Bare Metal Solution (GCP)
+   Median Score: 2.21
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=1.39, gemini_1_5_pro_score=2.21, gemini_2_0_flash_score=3.14
+
+362. AWSAppFabric (AWS)
+   Median Score: 8.07
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=7.14
+
+363. Cloud Trace (GCP)
+   Median Score: 7.71
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=8.64, gemini_1_5_pro_score=7.71, gemini_2_0_flash_score=7.36
+
+364. Service Bus (Azure)
+   Median Score: 7.57
+   Max Deviation: 0.93
+   Scores: claude_3_5_score=7.86, gemini_1_5_pro_score=6.64, gemini_2_0_flash_score=7.57
+
+365. Service Fabric Mesh (Azure)
+   Median Score: 7.19
+   Max Deviation: 0.95
+   Scores: claude_3_5_score=7.19, gemini_1_5_pro_score=8.14, gemini_2_0_flash_score=6.50
+
+366. AlexaTopSites (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.95
+   Scores: claude_3_5_score=9.31, gemini_1_5_pro_score=8.36, gemini_2_0_flash_score=8.29
+
+367. Certificate Authority Service (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.96
+   Scores: claude_3_5_score=8.32, gemini_1_5_pro_score=7.21, gemini_2_0_flash_score=7.36
+
+368. Azure Modeling and Simulation Workbench (Azure)
+   Median Score: 7.32
+   Max Deviation: 0.96
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=6.36
+
+369. AmazonHoneycode (AWS)
+   Median Score: 8.29
+   Max Deviation: 0.97
+   Scores: claude_3_5_score=9.26, gemini_1_5_pro_score=8.00, gemini_2_0_flash_score=8.29
+
+370. AWSResilienceHub (AWS)
+   Median Score: 7.36
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=7.36, gemini_2_0_flash_score=7.14
+
+371. AmazonA2I (AWS)
+   Median Score: 7.79
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=7.79
+
+372. AmazonLookoutMetrics (AWS)
+   Median Score: 7.79
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=7.57, gemini_2_0_flash_score=7.79
+
+373. Earth Engine (GCP)
+   Median Score: 7.86
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.86, gemini_1_5_pro_score=7.86, gemini_2_0_flash_score=7.43
+
+374. Google Maps Mobile SDK (GCP)
+   Median Score: 7.79
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=7.79, gemini_2_0_flash_score=7.79
+
+375. Microsoft Fabric (Azure)
+   Median Score: 7.79
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=7.14, gemini_2_0_flash_score=7.79
+
+376. Voice (Azure)
+   Median Score: 7.79
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=7.79, gemini_2_0_flash_score=7.50
+
+377. AmazonChimeCallMe (AWS)
+   Median Score: 8.43
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=9.00, gemini_1_5_pro_score=7.43, gemini_2_0_flash_score=8.43
+
+378. AmazonIVSChat (AWS)
+   Median Score: 8.43
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.79, gemini_1_5_pro_score=7.43, gemini_2_0_flash_score=8.43
+
+379. AmazonKinesisAnalytics (AWS)
+   Median Score: 6.86
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=7.86, gemini_1_5_pro_score=6.86, gemini_2_0_flash_score=6.86
+
+380. Azure DevOps (Azure)
+   Median Score: 7.93
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.93, gemini_1_5_pro_score=7.64, gemini_2_0_flash_score=7.93
+
+381. Binary Authorization (GCP)
+   Median Score: 7.57
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.36, gemini_1_5_pro_score=6.57, gemini_2_0_flash_score=7.57
+
+382. Cloud Healthcare (GCP)
+   Median Score: 7.93
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=6.93, gemini_2_0_flash_score=7.93
+
+383. Datashare (GCP)
+   Median Score: 7.36
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=6.36, gemini_2_0_flash_score=7.36
+
+384. Machine Learning Studio (Azure)
+   Median Score: 7.64
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=7.64, gemini_1_5_pro_score=6.64, gemini_2_0_flash_score=7.71
+
+385. Microsoft Dev Box (Azure)
+   Median Score: 7.07
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.00, gemini_1_5_pro_score=6.07, gemini_2_0_flash_score=7.07
+
+386. SimSpaceWeaver (AWS)
+   Median Score: 6.71
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=6.71, gemini_1_5_pro_score=5.71, gemini_2_0_flash_score=7.00
+
+387. Traffic Manager (Azure)
+   Median Score: 7.50
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=8.29, gemini_1_5_pro_score=6.50, gemini_2_0_flash_score=7.50
+
+388. VPN Gateway (Azure)
+   Median Score: 6.50
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=6.57, gemini_1_5_pro_score=5.50, gemini_2_0_flash_score=6.50
+
+389. comprehendmedical (AWS)
+   Median Score: 8.14
+   Max Deviation: 1.00
+   Scores: claude_3_5_score=9.14, gemini_1_5_pro_score=8.07, gemini_2_0_flash_score=8.14
+
+================================================================================
+END OF REPORT
+================================================================================
