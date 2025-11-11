@@ -1,0 +1,11 @@
+Service,Provider,Range: Lower Bound,Range: Upper Bound,Reason (optional)
+Amazon Elastic Compute Cloud,AWS,,,
+Virtual Machines,Azure,,,
+Compute Engine,GCP,,,
+Amazon Relational Database Service,AWS,,,
+Azure Database for PostgreSQL,Azure,,,
+Azure Database for MySQL,Azure,,,
+Cloud SQL,GCP,,,
+Amazon QuickSight,AWS,,,
+Power BI,Azure,,,
+Looker,GCP,,,

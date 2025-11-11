@@ -20,8 +20,11 @@ import json
 import time
 import argparse
 import logging
+import random
 from datetime import datetime
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Tuple
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
 
 # Import custom utilities
 from utils.model_config import get_model_config, get_all_model_names, get_file_safe_name
@@ -147,11 +150,11 @@ def build_initial_user_message(prompt_file, ground_truth_file):
 
 
 def setup_logging(log_file):
-    """Setup logging for raw LLM responses."""
+    """Setup logging for raw LLM responses with thread safety."""
     logging.basicConfig(
         filename=log_file,
         level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s',
+        format='%(asctime)s - [%(threadName)s] - %(levelname)s - %(message)s',
         filemode='a'
     )
     return logging.getLogger(__name__)
@@ -187,8 +190,6 @@ def score_service_with_tools(
     Returns:
         float: Score (1.00-10.00) or None if all attempts fail
     """
-    print(f"Scoring {service_name} ({provider})...")
-
     for attempt in range(max_retries):
         try:
             # Build request message
@@ -266,17 +267,248 @@ def score_service_with_tools(
             raise Exception(f"Maximum tool use iterations ({max_tool_iterations}) reached")
 
         except Exception as e:
-            print(f"  → Attempt {attempt + 1} failed: {type(e).__name__}: {str(e)}")
+            error_str = str(e)
+            print(f"  → Attempt {attempt + 1} failed: {type(e).__name__}: {error_str}")
 
             if attempt == max_retries - 1:  # Last attempt
                 print(f"  → All {max_retries} attempts failed for {service_name}")
                 return None
             else:
-                wait_time = 2 ** attempt  # Exponential backoff
-                print(f"  → Retrying in {wait_time} seconds...")
+                # Check if this is a throttling exception - use longer backoff
+                is_throttling = "ThrottlingException" in error_str or "Too many tokens" in error_str
+
+                if is_throttling:
+                    # Longer backoff for throttling: 5s, 10s, 20s
+                    base_wait = 5 * (2 ** attempt)
+                    # Add jitter to avoid thundering herd
+                    jitter = random.uniform(0.5, 1.5)
+                    wait_time = base_wait * jitter
+                    print(f"  → Throttling detected. Retrying in {wait_time:.1f} seconds...")
+                else:
+                    # Normal backoff: 1s, 2s, 4s with jitter
+                    base_wait = 2 ** attempt
+                    jitter = random.uniform(0.5, 1.5)
+                    wait_time = base_wait * jitter
+                    print(f"  → Retrying in {wait_time:.1f} seconds...")
+
                 time.sleep(wait_time)
 
     return None
+
+
+def score_service_wrapper(
+    service: Dict[str, Any],
+    index: int,
+    total: int,
+    model_id: str,
+    model_config: Dict[str, Any],
+    region_name: str,
+    base_conversation: List[Dict[str, Any]],
+    logger: logging.Logger,
+    use_tools: bool,
+    max_tool_iterations: int
+) -> Dict[str, Any]:
+    """
+    Wrapper function for parallel scoring.
+
+    Creates a separate BedrockClient instance per thread to avoid
+    thread-safety issues with boto3 clients.
+
+    Args:
+        service: Service dict with provider, service_name, service_alias
+        index: Service index (1-based)
+        total: Total number of services
+        model_id: Bedrock model ID
+        model_config: Model configuration dict
+        region_name: AWS region name for creating thread-local client
+        base_conversation: Base conversation history
+        logger: Thread-safe logger instance
+        use_tools: Whether to enable tool use
+        max_tool_iterations: Maximum tool use iterations
+
+    Returns:
+        Dict with service info and score
+    """
+    # Create a thread-local BedrockClient instance
+    # boto3 clients are NOT thread-safe, so each thread needs its own
+    bedrock_client = BedrockClient(region_name=region_name)
+
+    print(f"[{index}/{total}] Scoring {service['service_name']} ({service['provider']})...")
+
+    score = score_service_with_tools(
+        service_name=service['service_name'],
+        provider=service['provider'],
+        model_id=model_id,
+        model_config=model_config,
+        bedrock_client=bedrock_client,
+        base_conversation=base_conversation,
+        logger=logger,
+        use_tools=use_tools,
+        max_tool_iterations=max_tool_iterations
+    )
+
+    # Create result
+    score_field = model_config['score_field']
+    result = {
+        "provider": service['provider'],
+        "service_name": service['service_name'],
+        score_field: score
+    }
+    if service.get('service_alias'):
+        result["service_alias"] = service['service_alias']
+
+    return result
+
+
+def save_results_thread_safe(
+    results: List[Dict[str, Any]],
+    output_file: str,
+    score_field: str,
+    lock: Lock
+):
+    """
+    Thread-safe file writing for results.
+
+    Args:
+        results: List of result dicts
+        output_file: Path to output file
+        score_field: Name of the score field in results
+        lock: Threading lock for file writing
+    """
+    with lock:
+        with open(output_file, 'w') as f:
+            for r in results:
+                if r[score_field] is not None:
+                    f.write(json.dumps(r) + '\n')
+
+
+def load_existing_scores(file_path: str, score_field: str) -> Dict[str, Any]:
+    """
+    Load already-scored services for deduplication.
+
+    Args:
+        file_path: Path to existing output file
+        score_field: Name of the score field to check
+
+    Returns:
+        Dict mapping service_name to full result dict
+    """
+    scored = {}
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as f:
+            for line in f:
+                if line.strip():
+                    data = json.loads(line)
+                    if data.get(score_field) is not None:
+                        scored[data['service_name']] = data
+    return scored
+
+
+def save_failed_services(
+    failed_results: List[Dict[str, Any]],
+    output_file: str
+) -> str:
+    """
+    Save failed services to .failed.ndjson file.
+
+    Args:
+        failed_results: List of result dicts with None scores
+        output_file: Path to output file (will add .failed.ndjson suffix)
+
+    Returns:
+        Path to failed services file
+    """
+    failed_file = output_file.replace('.ndjson', '.failed.ndjson')
+    with open(failed_file, 'w') as f:
+        for result in failed_results:
+            service_entry = {
+                "provider": result["provider"],
+                "service_name": result["service_name"]
+            }
+            if result.get("service_alias"):
+                service_entry["service_alias"] = result["service_alias"]
+            f.write(json.dumps(service_entry) + '\n')
+    return failed_file
+
+
+def print_scoring_summary(
+    model_name: str,
+    total: int,
+    successful: int,
+    failed_results: List[Dict[str, Any]],
+    failed_file: str,
+    output_file: str,
+    logger: logging.Logger,
+    append_mode: bool = False
+):
+    """
+    Print summary of scoring results to console and log.
+
+    Args:
+        model_name: Name of the model used
+        total: Total number of services attempted
+        successful: Number successfully scored
+        failed_results: List of failed result dicts
+        failed_file: Path to failed services file
+        output_file: Path to main output file
+        logger: Logger instance
+        append_mode: Whether we're in append mode
+    """
+    failed_count = len(failed_results)
+    success_rate = (successful / total * 100) if total > 0 else 0
+
+    # Build summary text
+    separator = "=" * 60
+    summary = f"\n{separator}\n"
+    summary += "SCORING SUMMARY\n"
+    summary += f"{separator}\n"
+    summary += f"Model: {model_name}\n"
+    summary += f"Total services: {total}\n"
+    summary += f"Successfully scored: {successful} ({success_rate:.1f}%)\n"
+    summary += f"Failed services: {failed_count} ({100-success_rate:.1f}%)\n"
+
+    if failed_count > 0:
+        # Group by provider
+        by_provider = {}
+        for result in failed_results:
+            provider = result['provider']
+            if provider not in by_provider:
+                by_provider[provider] = []
+            by_provider[provider].append(result['service_name'])
+
+        summary += f"\nFailed services (by provider):\n"
+        for provider, services in sorted(by_provider.items()):
+            summary += f"  {provider} ({len(services)} services):\n"
+            for service_name in sorted(services)[:5]:  # Show first 5
+                summary += f"    - {service_name}\n"
+            if len(services) > 5:
+                summary += f"    ... and {len(services) - 5} more\n"
+
+        summary += f"\nFailed services saved to:\n"
+        summary += f"  {failed_file}\n"
+        summary += f"\nTo retry failed services:\n"
+        if append_mode:
+            summary += f"  python score_services.py \\\n"
+            summary += f"    --input {failed_file} \\\n"
+            summary += f"    --append-to {output_file} \\\n"
+            summary += f"    --models {model_name} \\\n"
+            summary += f"    --max-workers 3\n"
+        else:
+            summary += f"  cd scoring-scripts && python score_services.py \\\n"
+            summary += f"    --input {failed_file} \\\n"
+            summary += f"    --append-to {output_file} \\\n"
+            summary += f"    --models {model_name} \\\n"
+            summary += f"    --max-workers 3\n"
+    else:
+        summary += f"\nAll services scored successfully!\n"
+
+    summary += f"{separator}\n"
+
+    # Print to console
+    print(summary)
+
+    # Log to file
+    logger.info(summary)
 
 
 def main():
@@ -326,6 +558,23 @@ def main():
         '--region',
         default='us-east-1',
         help='AWS region (default: us-east-1)'
+    )
+    parser.add_argument(
+        '--max-workers',
+        type=int,
+        default=5,
+        help='Maximum number of parallel workers for concurrent scoring (default: 5)'
+    )
+    parser.add_argument(
+        '--append-to',
+        default=None,
+        help='Append results to existing output file (for retrying failed services)'
+    )
+    parser.add_argument(
+        '--max-tool-iterations',
+        type=int,
+        default=3,
+        help='Maximum number of tool use iterations per service (default: 3)'
     )
 
     args = parser.parse_args()
@@ -384,7 +633,9 @@ def main():
 
     print(f"\nFound {len(services)} services to score")
     print(f"Selected models: {', '.join(selected_models)}")
-    print(f"Tool use: {'Enabled' if args.use_tools else 'Disabled'}\n")
+    print(f"Tool use: {'Enabled' if args.use_tools else 'Disabled'}")
+    print(f"Max tool iterations: {args.max_tool_iterations}")
+    print(f"Max workers: {args.max_workers} (parallel execution)\n")
 
     # Score with each model
     for model_name in selected_models:
@@ -397,11 +648,20 @@ def main():
         model_id = model_config['id']
         score_field = model_config['score_field']
 
-        # Generate timestamped output filename
-        timestamp = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
-        file_safe_model_name = get_file_safe_name(model_name)
-        output_file = f'{args.output_dir}/{timestamp}-{file_safe_model_name}.ndjson'
-        log_file = f'{logs_dir}/{timestamp}-{file_safe_model_name}-responses.log'
+        # Determine output file and append mode
+        append_mode = args.append_to is not None
+        if append_mode:
+            output_file = args.append_to
+            # Use timestamp for log file only
+            timestamp = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+            file_safe_model_name = get_file_safe_name(model_name)
+            log_file = f'{logs_dir}/{timestamp}-{file_safe_model_name}-retry-responses.log'
+        else:
+            # Generate timestamped output filename
+            timestamp = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+            file_safe_model_name = get_file_safe_name(model_name)
+            output_file = f'{args.output_dir}/{timestamp}-{file_safe_model_name}.ndjson'
+            log_file = f'{logs_dir}/{timestamp}-{file_safe_model_name}-responses.log'
 
         # Setup logging
         logger = setup_logging(log_file)
@@ -410,61 +670,174 @@ def main():
         logger.info(f"Input file: {args.input}")
         logger.info(f"Output file: {output_file}")
         logger.info(f"Tool use: {args.use_tools}")
+        logger.info(f"Max tool iterations: {args.max_tool_iterations}")
 
         print(f"Output: {output_file}")
         print(f"Log: {log_file}\n")
 
-        # Score each service
+        # Load existing scores if in append mode (for deduplication)
+        existing_scores = {}
+        if append_mode:
+            existing_scores = load_existing_scores(output_file, score_field)
+            print(f"Append mode: Found {len(existing_scores)} existing scores")
+            logger.info(f"Append mode: Loaded {len(existing_scores)} existing scores for deduplication")
+
+            # Filter out already-scored services
+            services_to_score = [s for s in services if s['service_name'] not in existing_scores]
+            if len(services_to_score) < len(services):
+                skipped = len(services) - len(services_to_score)
+                print(f"Skipping {skipped} already-scored services")
+                logger.info(f"Skipping {skipped} services that are already scored")
+                services = services_to_score
+
+            if len(services) == 0:
+                print("All services already scored. Nothing to do.")
+                continue
+
+        # Initialize thread-safe utilities
         results = []
-        for i, service in enumerate(services, 1):
-            print(f"Progress: {i}/{len(services)}")
+        file_lock = Lock()
+        results_lock = Lock()  # Protect results list
 
-            score = score_service_with_tools(
-                service_name=service['service_name'],
-                provider=service['provider'],
-                model_id=model_id,
-                model_config=model_config,
-                bedrock_client=bedrock_client,
-                base_conversation=base_conversation,
-                logger=logger,
-                use_tools=args.use_tools
-            )
-
-            # Create result
-            result = {
-                "provider": service['provider'],
-                "service_name": service['service_name'],
-                score_field: score
+        # Score services in parallel using ThreadPoolExecutor
+        completed_count = 0
+        with ThreadPoolExecutor(max_workers=args.max_workers) as executor:
+            # Submit all tasks
+            # Note: Each thread will create its own BedrockClient for thread safety
+            future_to_service = {
+                executor.submit(
+                    score_service_wrapper,
+                    service,
+                    i,
+                    len(services),
+                    model_id,
+                    model_config,
+                    args.region,
+                    base_conversation,
+                    logger,
+                    args.use_tools,
+                    args.max_tool_iterations
+                ): (i, service) for i, service in enumerate(services, 1)
             }
-            if service.get('service_alias'):
-                result["service_alias"] = service['service_alias']
 
-            results.append(result)
+            # Process completed tasks as they finish
+            for future in as_completed(future_to_service):
+                i, service = future_to_service[future]
+                try:
+                    result = future.result()
 
-            # Save progress every 10 services
-            if i % 10 == 0:
-                with open(output_file, 'w') as f:
-                    for r in results:
-                        if r[score_field] is not None:
-                            f.write(json.dumps(r) + '\n')
-                successful = sum(1 for r in results if r[score_field] is not None)
-                print(f"Progress saved: {successful} scores")
+                    # Thread-safe result storage
+                    with results_lock:
+                        results.append(result)
+                        completed_count += 1
 
-            # Rate limiting
-            time.sleep(1)
+                    # Save progress every 10 services
+                    if completed_count % 10 == 0:
+                        save_results_thread_safe(results, output_file, score_field, file_lock)
+                        successful = sum(1 for r in results if r[score_field] is not None)
+                        print(f"\n[Progress] Completed: {completed_count}/{len(services)} | Successful: {successful}")
 
-        # Final save
-        with open(output_file, 'w') as f:
-            for r in results:
-                if r[score_field] is not None:
+                except Exception as exc:
+                    print(f"\n[Error] {service['service_name']} generated an exception: {exc}")
+                    # Add failed result
+                    with results_lock:
+                        results.append({
+                            "provider": service['provider'],
+                            "service_name": service['service_name'],
+                            score_field: None,
+                            "error": str(exc)
+                        })
+                        completed_count += 1
+
+        # Identify failed services from parallel pass
+        failed_services = [
+            {"provider": r["provider"], "service_name": r["service_name"],
+             "service_alias": r.get("service_alias")}
+            for r in results if r[score_field] is None
+        ]
+
+        # Second pass: Retry failed services sequentially
+        if failed_services:
+            print(f"\n{'='*60}")
+            print(f"SECOND PASS: Retrying {len(failed_services)} failed services sequentially")
+            print(f"{'='*60}\n")
+            logger.info(f"Starting second pass for {len(failed_services)} failed services")
+
+            for idx, service in enumerate(failed_services, 1):
+                print(f"[Retry {idx}/{len(failed_services)}] {service['service_name']} ({service['provider']})")
+
+                # Create a new BedrockClient for this retry
+                retry_client = BedrockClient(region_name=args.region)
+
+                score = score_service_with_tools(
+                    service_name=service['service_name'],
+                    provider=service['provider'],
+                    model_id=model_id,
+                    model_config=model_config,
+                    bedrock_client=retry_client,
+                    base_conversation=base_conversation,
+                    logger=logger,
+                    use_tools=args.use_tools,
+                    max_tool_iterations=args.max_tool_iterations
+                )
+
+                # Update the result in results list
+                for r in results:
+                    if r['service_name'] == service['service_name'] and r[score_field] is None:
+                        r[score_field] = score
+                        if score is not None:
+                            # Remove error field if it exists
+                            r.pop('error', None)
+                        break
+
+                # Wait between retries to avoid rate limits
+                if idx < len(failed_services):
+                    time.sleep(2)
+
+        # Final save with append logic
+        if append_mode:
+            # Combine existing scores with new results
+            all_results = list(existing_scores.values())
+            all_results.extend([r for r in results if r[score_field] is not None])
+
+            # Write all results to file
+            with open(output_file, 'w') as f:
+                for r in all_results:
                     f.write(json.dumps(r) + '\n')
 
+            successful = sum(1 for r in results if r[score_field] is not None)
+            total_in_file = len(all_results)
+            print(f"\n{model_name}: {successful}/{len(results)} new services scored")
+            print(f"Total in output file: {total_in_file} services")
+        else:
+            # Normal save (no append)
+            save_results_thread_safe(results, output_file, score_field, file_lock)
+            successful = sum(1 for r in results if r[score_field] is not None)
+            print(f"\n{model_name}: {successful}/{len(services)} services scored successfully")
+
+        # Save failed services to separate file
+        final_failed = [r for r in results if r[score_field] is None]
+        failed_file = ""
+        if final_failed:
+            failed_file = save_failed_services(final_failed, output_file)
+            logger.info(f"Saved {len(final_failed)} failed services to {failed_file}")
+
+        # Print summary
         successful = sum(1 for r in results if r[score_field] is not None)
-        print(f"\n{model_name}: {successful}/{len(services)} services scored successfully")
+        print_scoring_summary(
+            model_name=model_name,
+            total=len(results),
+            successful=successful,
+            failed_results=final_failed,
+            failed_file=failed_file if final_failed else "",
+            output_file=output_file,
+            logger=logger,
+            append_mode=append_mode
+        )
 
         # Log session end
         logger.info(f"=== SCORING SESSION COMPLETED: {datetime.now()} ===")
-        logger.info(f"Successfully scored: {successful}/{len(services)} services")
+        logger.info(f"Successfully scored: {successful}/{len(results)} services")
 
     print(f"\n{'='*60}")
     print("All models completed!")

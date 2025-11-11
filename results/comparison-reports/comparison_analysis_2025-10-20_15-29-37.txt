@@ -1,0 +1,2714 @@
+================================================================================
+CLOUD SERVICE SCORING COMPARISON ANALYSIS REPORT
+================================================================================
+Generated on: 2025-10-20 15:29:37
+
+=== ANALYSIS SUMMARY ===
+Total services compared: 623
+Score columns analyzed: claude_opus_4_1_score, claude_sonnet_4_5_score
+Services with high disagreement: 4
+Services with high similarity: 534
+
+=== HIGH DISAGREEMENT SERVICES (deviation > 2.0) ===
+Total: 4 services
+
+1. Assured Workloads (GCP)
+   Median Score: 5.96
+   Max Deviation: 2.96
+   Scores: claude_opus_4_1_score=3.00, claude_sonnet_4_5_score=8.93
+   Deviations: claude_opus_4_1_score=2.96, claude_sonnet_4_5_score=2.96
+
+2. Blockchain Accelerator (GCP)
+   Median Score: 5.41
+   Max Deviation: 2.48
+   Scores: claude_opus_4_1_score=2.93, claude_sonnet_4_5_score=7.89
+   Deviations: claude_opus_4_1_score=2.48, claude_sonnet_4_5_score=2.48
+
+3. SnowballExtraDays (AWS)
+   Median Score: 4.61
+   Max Deviation: 2.18
+   Scores: claude_opus_4_1_score=2.43, claude_sonnet_4_5_score=6.79
+   Deviations: claude_opus_4_1_score=2.18, claude_sonnet_4_5_score=2.18
+
+4. Transfer Appliance (GCP)
+   Median Score: 5.25
+   Max Deviation: 2.04
+   Scores: claude_opus_4_1_score=7.29, claude_sonnet_4_5_score=3.21
+   Deviations: claude_opus_4_1_score=2.04, claude_sonnet_4_5_score=2.04
+
+=== HIGH SIMILARITY SERVICES (deviation <= 1) ===
+Total: 534 services
+
+1. Actifio GO (GCP)
+   Median Score: 8.36
+   Max Deviation: 0.00
+   Scores: claude_opus_4_1_score=8.36, claude_sonnet_4_5_score=8.36
+
+2. Address Validation API (GCP)
+   Median Score: 9.07
+   Max Deviation: 0.00
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.07
+
+3. Change Tracking and Inventory (Azure)
+   Median Score: 7.14
+   Max Deviation: 0.00
+   Scores: claude_opus_4_1_score=7.14, claude_sonnet_4_5_score=7.14
+
+4. Cloud Data Loss Prevention (GCP)
+   Median Score: 8.86
+   Max Deviation: 0.00
+   Scores: claude_opus_4_1_score=8.86, claude_sonnet_4_5_score=8.86
+
+5. Cloud Media Translation API (GCP)
+   Median Score: 9.07
+   Max Deviation: 0.00
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.07
+
+6. Cloud NGFW Enterprise (GCP)
+   Median Score: 8.07
+   Max Deviation: 0.00
+   Scores: claude_opus_4_1_score=8.07, claude_sonnet_4_5_score=8.07
+
+7. Cloud Video Intelligence API (GCP)
+   Median Score: 9.07
+   Max Deviation: 0.00
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.07
+
+8. Looker Data Platform SaaS (GCP)
+   Median Score: 9.00
+   Max Deviation: 0.00
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=9.00
+
+9. Translate (GCP)
+   Median Score: 9.07
+   Max Deviation: 0.00
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.07
+
+10. Visual Studio Subscription (Azure)
+   Median Score: 9.21
+   Max Deviation: 0.00
+   Scores: claude_opus_4_1_score=9.21, claude_sonnet_4_5_score=9.21
+
+11. mobileanalytics (AWS)
+   Median Score: 9.07
+   Max Deviation: 0.00
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.07
+
+12. Chronicle (GCP)
+   Median Score: 8.82
+   Max Deviation: 0.01
+   Scores: claude_opus_4_1_score=8.83, claude_sonnet_4_5_score=8.82
+
+13. Container Instances (Azure)
+   Median Score: 6.89
+   Max Deviation: 0.01
+   Scores: claude_opus_4_1_score=6.90, claude_sonnet_4_5_score=6.89
+
+14. Dataverse (Azure)
+   Median Score: 8.93
+   Max Deviation: 0.01
+   Scores: claude_opus_4_1_score=8.94, claude_sonnet_4_5_score=8.93
+
+15. Microsoft Entra (Azure)
+   Median Score: 9.07
+   Max Deviation: 0.01
+   Scores: claude_opus_4_1_score=9.06, claude_sonnet_4_5_score=9.07
+
+16. ContactCenterTelecomm (AWS)
+   Median Score: 8.83
+   Max Deviation: 0.01
+   Scores: claude_opus_4_1_score=8.84, claude_sonnet_4_5_score=8.82
+
+17. Compute Engine (GCP)
+   Median Score: 1.81
+   Max Deviation: 0.01
+   Scores: claude_opus_4_1_score=1.80, claude_sonnet_4_5_score=1.82
+
+18. AWSBudgets (AWS)
+   Median Score: 9.30
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=9.32, claude_sonnet_4_5_score=9.29
+
+19. AWSSecretsManager (AWS)
+   Median Score: 8.95
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=8.93, claude_sonnet_4_5_score=8.96
+
+20. Microsoft Fabric (Azure)
+   Median Score: 8.77
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=8.76, claude_sonnet_4_5_score=8.79
+
+21. Microsoft Security Copilot (Azure)
+   Median Score: 9.20
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.21
+
+22. Phone Numbers (Azure)
+   Median Score: 8.91
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=8.90, claude_sonnet_4_5_score=8.93
+
+23. AWSSupportBusiness (AWS)
+   Median Score: 9.48
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=9.46, claude_sonnet_4_5_score=9.50
+
+24. AmazonCodeWhisperer (AWS)
+   Median Score: 9.16
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.14
+
+25. App Engine (GCP)
+   Median Score: 8.16
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=8.14, claude_sonnet_4_5_score=8.18
+
+26. Cloud Natural Language (GCP)
+   Median Score: 9.16
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.14
+
+27. Cloud Run Functions (GCP)
+   Median Score: 8.66
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=8.68, claude_sonnet_4_5_score=8.64
+
+28. Cloud Vision API (GCP)
+   Median Score: 9.16
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.14
+
+29. Intelligent Recommendations (Azure)
+   Median Score: 8.92
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=8.94, claude_sonnet_4_5_score=8.90
+
+30. Cloud Contact Center AI Platform (GCP)
+   Median Score: 8.88
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=8.90, claude_sonnet_4_5_score=8.86
+
+31. Microsoft Graph Services (Azure)
+   Median Score: 9.20
+   Max Deviation: 0.02
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.22
+
+32. Azure DevOps (Azure)
+   Median Score: 8.73
+   Max Deviation: 0.03
+   Scores: claude_opus_4_1_score=8.76, claude_sonnet_4_5_score=8.71
+
+33. Recommendations AI (GCP)
+   Median Score: 8.76
+   Max Deviation: 0.03
+   Scores: claude_opus_4_1_score=8.73, claude_sonnet_4_5_score=8.79
+
+34. AmazonEC2 (AWS)
+   Median Score: 1.83
+   Max Deviation: 0.03
+   Scores: claude_opus_4_1_score=1.80, claude_sonnet_4_5_score=1.86
+
+35. Virtual Machines Licenses (Azure)
+   Median Score: 1.79
+   Max Deviation: 0.03
+   Scores: claude_opus_4_1_score=1.76, claude_sonnet_4_5_score=1.82
+
+36. AmazonBedrock (AWS)
+   Median Score: 8.72
+   Max Deviation: 0.03
+   Scores: claude_opus_4_1_score=8.69, claude_sonnet_4_5_score=8.75
+
+37. Azure Active Directory for External Identities (Azure)
+   Median Score: 8.97
+   Max Deviation: 0.03
+   Scores: claude_opus_4_1_score=8.94, claude_sonnet_4_5_score=9.00
+
+38. Cloud Scheduler (GCP)
+   Median Score: 9.03
+   Max Deviation: 0.03
+   Scores: claude_opus_4_1_score=9.06, claude_sonnet_4_5_score=9.00
+
+39. Cognitive Services (Azure)
+   Median Score: 9.03
+   Max Deviation: 0.03
+   Scores: claude_opus_4_1_score=9.06, claude_sonnet_4_5_score=9.00
+
+40. GitHub AE (Azure)
+   Median Score: 8.97
+   Max Deviation: 0.03
+   Scores: claude_opus_4_1_score=8.94, claude_sonnet_4_5_score=9.00
+
+41. Speaker ID (GCP)
+   Median Score: 8.97
+   Max Deviation: 0.03
+   Scores: claude_opus_4_1_score=8.94, claude_sonnet_4_5_score=9.00
+
+42. AKS Edge Essentials (Azure)
+   Median Score: 2.46
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=2.43, claude_sonnet_4_5_score=2.50
+
+43. AlexaTopSites (AWS)
+   Median Score: 9.04
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=9.07
+
+44. AmazonChimeFeatures (AWS)
+   Median Score: 9.18
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.21, claude_sonnet_4_5_score=9.14
+
+45. AmazonDAX (AWS)
+   Median Score: 7.04
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=7.00, claude_sonnet_4_5_score=7.07
+
+46. AmazonDevOpsGuru (AWS)
+   Median Score: 9.04
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=9.07
+
+47. AmazonKinesis (AWS)
+   Median Score: 6.54
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=6.57, claude_sonnet_4_5_score=6.50
+
+48. AmazonMSK (AWS)
+   Median Score: 5.54
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=5.57, claude_sonnet_4_5_score=5.50
+
+49. AmazonMacie (AWS)
+   Median Score: 8.89
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=8.86, claude_sonnet_4_5_score=8.93
+
+50. AmazonSNS (AWS)
+   Median Score: 9.04
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=9.07
+
+51. AmazonWorkSpaces (AWS)
+   Median Score: 7.39
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=7.36, claude_sonnet_4_5_score=7.43
+
+52. Azure Policy (Azure)
+   Median Score: 8.96
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=8.93
+
+53. Cloud Functions (GCP)
+   Median Score: 8.46
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=8.43, claude_sonnet_4_5_score=8.50
+
+54. Cloud Memorystore for Memcached (GCP)
+   Median Score: 6.04
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=6.00, claude_sonnet_4_5_score=6.07
+
+55. CloudHSM (AWS)
+   Median Score: 3.10
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=3.07, claude_sonnet_4_5_score=3.14
+
+56. Fraud Protection (Azure)
+   Median Score: 9.18
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.21, claude_sonnet_4_5_score=9.14
+
+57. Functions (Azure)
+   Median Score: 8.54
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=8.50, claude_sonnet_4_5_score=8.57
+
+58. Kubernetes Engine (GCP)
+   Median Score: 4.39
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=4.43, claude_sonnet_4_5_score=4.36
+
+59. Looker (GCP)
+   Median Score: 8.96
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=8.93
+
+60. Maps API (GCP)
+   Median Score: 9.29
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.25, claude_sonnet_4_5_score=9.32
+
+61. Secret Manager (GCP)
+   Median Score: 9.04
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=9.07
+
+62. Service Fabric (Azure)
+   Median Score: 3.33
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=3.36, claude_sonnet_4_5_score=3.29
+
+63. Time Zone API (GCP)
+   Median Score: 9.11
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.14
+
+64. awskms (AWS)
+   Median Score: 8.82
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=8.86, claude_sonnet_4_5_score=8.79
+
+65. transcribe (AWS)
+   Median Score: 9.04
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=9.07
+
+66. translate (AWS)
+   Median Score: 9.11
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.14, claude_sonnet_4_5_score=9.07
+
+67. AWSComputeOptimizer (AWS)
+   Median Score: 9.25
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.21, claude_sonnet_4_5_score=9.29
+
+68. Geolocation API (GCP)
+   Median Score: 9.25
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.29, claude_sonnet_4_5_score=9.21
+
+69. AWSApplicationMigrationSvc (AWS)
+   Median Score: 6.25
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=6.21, claude_sonnet_4_5_score=6.29
+
+70. AmazonOmics (AWS)
+   Median Score: 8.00
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=7.96, claude_sonnet_4_5_score=8.04
+
+71. AWSAppFabric (AWS)
+   Median Score: 8.90
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=8.94, claude_sonnet_4_5_score=8.86
+
+72. Cloud Domains (GCP)
+   Median Score: 9.10
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.06, claude_sonnet_4_5_score=9.14
+
+73. Contact Center AI Insights (GCP)
+   Median Score: 8.90
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=8.94, claude_sonnet_4_5_score=8.86
+
+74. Web Risk (GCP)
+   Median Score: 9.36
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.32, claude_sonnet_4_5_score=9.40
+
+75. BigQuery (GCP)
+   Median Score: 8.69
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=8.73, claude_sonnet_4_5_score=8.64
+
+76. Cloud Trace (GCP)
+   Median Score: 9.02
+   Max Deviation: 0.04
+   Scores: claude_opus_4_1_score=9.06, claude_sonnet_4_5_score=8.97
+
+77. Deep Learning VM (GCP)
+   Median Score: 1.98
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=2.03, claude_sonnet_4_5_score=1.93
+
+78. Confidential Computing (GCP)
+   Median Score: 2.26
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=2.31, claude_sonnet_4_5_score=2.21
+
+79. AWSEvents (AWS)
+   Median Score: 8.84
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=8.89, claude_sonnet_4_5_score=8.79
+
+80. AWSSecurityHub (AWS)
+   Median Score: 8.91
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=8.86, claude_sonnet_4_5_score=8.96
+
+81. AmazonChimeDialInAMCS (AWS)
+   Median Score: 9.09
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=9.04, claude_sonnet_4_5_score=9.14
+
+82. AmazonQuickSight (AWS)
+   Median Score: 8.95
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=8.90, claude_sonnet_4_5_score=9.00
+
+83. Azure Defender (Azure)
+   Median Score: 8.95
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=8.90, claude_sonnet_4_5_score=9.00
+
+84. PlayFab (Azure)
+   Median Score: 8.99
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=8.94, claude_sonnet_4_5_score=9.04
+
+85. comprehend (AWS)
+   Median Score: 8.95
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=8.90, claude_sonnet_4_5_score=9.00
+
+86. AWSCodePipeline (AWS)
+   Median Score: 8.05
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=8.11, claude_sonnet_4_5_score=8.00
+
+87. AWSSupplyChain (AWS)
+   Median Score: 9.05
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=9.11
+
+88. Chrome Enterprise Premium (GCP)
+   Median Score: 9.20
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=9.25, claude_sonnet_4_5_score=9.14
+
+89. Cloud Memorystore (GCP)
+   Median Score: 6.12
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=6.07, claude_sonnet_4_5_score=6.18
+
+90. Cloud Speech API (GCP)
+   Median Score: 9.12
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.07
+
+91. Gemini API (GCP)
+   Median Score: 9.12
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.07
+
+92. Google Maps Platform - Routes (GCP)
+   Median Score: 9.12
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.07
+
+93. Places API (New) (GCP)
+   Median Score: 9.12
+   Max Deviation: 0.05
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.07
+
+94. AWSDirectConnect (AWS)
+   Median Score: 2.55
+   Max Deviation: 0.06
+   Scores: claude_opus_4_1_score=2.61, claude_sonnet_4_5_score=2.50
+
+95. AWSDeviceFarm (AWS)
+   Median Score: 8.91
+   Max Deviation: 0.06
+   Scores: claude_opus_4_1_score=8.97, claude_sonnet_4_5_score=8.86
+
+96. Azure IoT Operations (Azure)
+   Median Score: 3.80
+   Max Deviation: 0.06
+   Scores: claude_opus_4_1_score=3.74, claude_sonnet_4_5_score=3.86
+
+97. SQL DB Edge (Azure)
+   Median Score: 2.63
+   Max Deviation: 0.06
+   Scores: claude_opus_4_1_score=2.69, claude_sonnet_4_5_score=2.57
+
+98. Virtual Machines (Azure)
+   Median Score: 1.90
+   Max Deviation: 0.06
+   Scores: claude_opus_4_1_score=1.84, claude_sonnet_4_5_score=1.96
+
+99. Cloud Dialogflow API (GCP)
+   Median Score: 8.80
+   Max Deviation: 0.06
+   Scores: claude_opus_4_1_score=8.74, claude_sonnet_4_5_score=8.86
+
+100. IoT Central (Azure)
+   Median Score: 8.80
+   Max Deviation: 0.06
+   Scores: claude_opus_4_1_score=8.87, claude_sonnet_4_5_score=8.74
+
+101. AmazonMonitron (AWS)
+   Median Score: 8.93
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=8.87, claude_sonnet_4_5_score=9.00
+
+102. Places UI Kit (GCP)
+   Median Score: 9.00
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=8.94, claude_sonnet_4_5_score=9.07
+
+103. Power Apps (Azure)
+   Median Score: 8.93
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=8.87, claude_sonnet_4_5_score=9.00
+
+104. Azure Arc (Azure)
+   Median Score: 3.00
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=2.93, claude_sonnet_4_5_score=3.07
+
+105. AWSEnterpriseOnRamp (AWS)
+   Median Score: 9.36
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=9.29, claude_sonnet_4_5_score=9.43
+
+106. AWSIAMAccessAnalyzer (AWS)
+   Median Score: 9.07
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=9.14
+
+107. AWSShield (AWS)
+   Median Score: 9.14
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=9.21, claude_sonnet_4_5_score=9.07
+
+108. AWSWickr (AWS)
+   Median Score: 9.00
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=8.93, claude_sonnet_4_5_score=9.07
+
+109. AmazonChime (AWS)
+   Median Score: 9.07
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=9.14
+
+110. AmazonRekognition (AWS)
+   Median Score: 9.07
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=9.14
+
+111. CodeGuru (AWS)
+   Median Score: 9.07
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=9.14
+
+112. Firebase Auth (GCP)
+   Median Score: 9.14
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.21
+
+113. Google Maps Platform Solar Service (GCP)
+   Median Score: 9.14
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.21
+
+114. MS Bing Services (Azure)
+   Median Score: 9.14
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.21
+
+115. Microsoft Azure Payment HSM (Azure)
+   Median Score: 3.14
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=3.07, claude_sonnet_4_5_score=3.21
+
+116. Packet Core (Azure)
+   Median Score: 5.57
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=5.64, claude_sonnet_4_5_score=5.50
+
+117. Places API (GCP)
+   Median Score: 9.25
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.32
+
+118. Power Automate (Azure)
+   Median Score: 8.93
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=8.86, claude_sonnet_4_5_score=9.00
+
+119. Power BI (Azure)
+   Median Score: 8.93
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=8.86
+
+120. Security Command Center (GCP)
+   Median Score: 8.86
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=8.93, claude_sonnet_4_5_score=8.79
+
+121. Service Fabric Mesh (Azure)
+   Median Score: 8.25
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.32
+
+122. VMware Engine (GCP)
+   Median Score: 4.00
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=4.07, claude_sonnet_4_5_score=3.93
+
+123. AmazonPolly (AWS)
+   Median Score: 9.21
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=9.29, claude_sonnet_4_5_score=9.14
+
+124. Cloud Logging (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.07
+   Scores: claude_opus_4_1_score=8.86, claude_sonnet_4_5_score=8.71
+
+125. Street View Static API (GCP)
+   Median Score: 9.25
+   Max Deviation: 0.08
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.33
+
+126. comprehendmedical (AWS)
+   Median Score: 9.14
+   Max Deviation: 0.08
+   Scores: claude_opus_4_1_score=9.06, claude_sonnet_4_5_score=9.21
+
+127. Kusto (Azure)
+   Median Score: 6.99
+   Max Deviation: 0.08
+   Scores: claude_opus_4_1_score=6.90, claude_sonnet_4_5_score=7.07
+
+128. Virtual Network (Azure)
+   Median Score: 2.42
+   Max Deviation: 0.08
+   Scores: claude_opus_4_1_score=2.33, claude_sonnet_4_5_score=2.50
+
+129. AWSCertificateManager (AWS)
+   Median Score: 9.38
+   Max Deviation: 0.09
+   Scores: claude_opus_4_1_score=9.29, claude_sonnet_4_5_score=9.46
+
+130. Cloud Optimization (GCP)
+   Median Score: 9.12
+   Max Deviation: 0.09
+   Scores: claude_opus_4_1_score=9.04, claude_sonnet_4_5_score=9.21
+
+131. Service Bus (Azure)
+   Median Score: 8.12
+   Max Deviation: 0.09
+   Scores: claude_opus_4_1_score=8.04, claude_sonnet_4_5_score=8.21
+
+132. AmazonFraudDetector (AWS)
+   Median Score: 8.80
+   Max Deviation: 0.09
+   Scores: claude_opus_4_1_score=8.89, claude_sonnet_4_5_score=8.71
+
+133. AmazonTextract (AWS)
+   Median Score: 9.09
+   Max Deviation: 0.09
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.00
+
+134. Azure Data Share (Azure)
+   Median Score: 8.27
+   Max Deviation: 0.09
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.36
+
+135. Cloud Document AI API (GCP)
+   Median Score: 9.09
+   Max Deviation: 0.09
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.00
+
+136. Cloud Document API (GCP)
+   Median Score: 9.09
+   Max Deviation: 0.09
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.00
+
+137. Cloud Text-to-Speech API (GCP)
+   Median Score: 9.09
+   Max Deviation: 0.09
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.00
+
+138. Microsoft Copilot Studio (Azure)
+   Median Score: 8.95
+   Max Deviation: 0.09
+   Scores: claude_opus_4_1_score=8.86, claude_sonnet_4_5_score=9.04
+
+139. Speech-to-Text On-Prem (GCP)
+   Median Score: 2.70
+   Max Deviation: 0.09
+   Scores: claude_opus_4_1_score=2.61, claude_sonnet_4_5_score=2.79
+
+140. Immersive Stream for XR (GCP)
+   Median Score: 8.71
+   Max Deviation: 0.10
+   Scores: claude_opus_4_1_score=8.80, claude_sonnet_4_5_score=8.61
+
+141. Video Stitcher API (GCP)
+   Median Score: 8.83
+   Max Deviation: 0.10
+   Scores: claude_opus_4_1_score=8.73, claude_sonnet_4_5_score=8.93
+
+142. AmazonChimeBusinessCalling (AWS)
+   Median Score: 9.04
+   Max Deviation: 0.10
+   Scores: claude_opus_4_1_score=8.94, claude_sonnet_4_5_score=9.14
+
+143. ContactLensAmazonConnect (AWS)
+   Median Score: 9.04
+   Max Deviation: 0.10
+   Scores: claude_opus_4_1_score=8.94, claude_sonnet_4_5_score=9.14
+
+144. Firebase Hosting (GCP)
+   Median Score: 9.11
+   Max Deviation: 0.10
+   Scores: claude_opus_4_1_score=9.01, claude_sonnet_4_5_score=9.21
+
+145. Trusted Signing (Azure)
+   Median Score: 9.11
+   Max Deviation: 0.10
+   Scores: claude_opus_4_1_score=9.01, claude_sonnet_4_5_score=9.21
+
+146. Windows Virtual Desktop (Azure)
+   Median Score: 4.04
+   Max Deviation: 0.10
+   Scores: claude_opus_4_1_score=3.93, claude_sonnet_4_5_score=4.14
+
+147. AWSBillingConductor (AWS)
+   Median Score: 9.11
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=9.21, claude_sonnet_4_5_score=9.00
+
+148. AmazonDetective (AWS)
+   Median Score: 8.89
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=8.79
+
+149. AmazonWorkDocs (AWS)
+   Median Score: 9.04
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=8.93, claude_sonnet_4_5_score=9.14
+
+150. AmazonWorkMail (AWS)
+   Median Score: 9.04
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=8.93, claude_sonnet_4_5_score=9.14
+
+151. Multi-Factor Authentication (Azure)
+   Median Score: 9.11
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=9.21
+
+152. Prediction (GCP)
+   Median Score: 8.04
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=8.14, claude_sonnet_4_5_score=7.93
+
+153. Virtual WAN (Azure)
+   Median Score: 6.46
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=6.36, claude_sonnet_4_5_score=6.57
+
+154. AWSLambda (AWS)
+   Median Score: 8.68
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=8.57, claude_sonnet_4_5_score=8.79
+
+155. AmazonVerifiedPermissions (AWS)
+   Median Score: 8.82
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=8.71, claude_sonnet_4_5_score=8.93
+
+156. Google Maps Tile API (GCP)
+   Median Score: 9.18
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.29
+
+157. Maps Elevation API (GCP)
+   Median Score: 9.25
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=9.36, claude_sonnet_4_5_score=9.14
+
+158. Maps Static API (GCP)
+   Median Score: 9.25
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=9.36, claude_sonnet_4_5_score=9.14
+
+159. AmazonVPC (AWS)
+   Median Score: 1.75
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=1.64, claude_sonnet_4_5_score=1.86
+
+160. AWSElasticDisasterRecovery (AWS)
+   Median Score: 6.32
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=6.43, claude_sonnet_4_5_score=6.21
+
+161. AWSFIS (AWS)
+   Median Score: 8.07
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=7.96
+
+162. AmazonFSx (AWS)
+   Median Score: 6.25
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=6.14, claude_sonnet_4_5_score=6.36
+
+163. Azure Databricks (Azure)
+   Median Score: 6.32
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=6.43, claude_sonnet_4_5_score=6.21
+
+164. Visual Studio Codespaces (Azure)
+   Median Score: 8.00
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=8.11, claude_sonnet_4_5_score=7.89
+
+165. AmazonChimeCallMe (AWS)
+   Median Score: 9.22
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=9.11, claude_sonnet_4_5_score=9.33
+
+166. Google Quickstart Simple pre-configured Debian VM (GCP)
+   Median Score: 1.96
+   Max Deviation: 0.11
+   Scores: claude_opus_4_1_score=1.84, claude_sonnet_4_5_score=2.07
+
+167. AmazonChimeDialin (AWS)
+   Median Score: 9.29
+   Max Deviation: 0.12
+   Scores: claude_opus_4_1_score=9.17, claude_sonnet_4_5_score=9.40
+
+168. AmazonConnectCases (AWS)
+   Median Score: 8.96
+   Max Deviation: 0.12
+   Scores: claude_opus_4_1_score=8.84, claude_sonnet_4_5_score=9.07
+
+169. AWSStorageGatewayDeepArchive (AWS)
+   Median Score: 4.76
+   Max Deviation: 0.12
+   Scores: claude_opus_4_1_score=4.64, claude_sonnet_4_5_score=4.89
+
+170. AmazonStates (AWS)
+   Median Score: 8.34
+   Max Deviation: 0.12
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.46
+
+171. SQL Managed Instance (Azure)
+   Median Score: 6.92
+   Max Deviation: 0.12
+   Scores: claude_opus_4_1_score=6.79, claude_sonnet_4_5_score=7.04
+
+172. Certificate Manager (GCP)
+   Median Score: 9.19
+   Max Deviation: 0.13
+   Scores: claude_opus_4_1_score=9.06, claude_sonnet_4_5_score=9.32
+
+173. Container Registry (Azure)
+   Median Score: 6.56
+   Max Deviation: 0.13
+   Scores: claude_opus_4_1_score=6.43, claude_sonnet_4_5_score=6.69
+
+174. Syntex (Azure)
+   Median Score: 9.07
+   Max Deviation: 0.14
+   Scores: claude_opus_4_1_score=8.94, claude_sonnet_4_5_score=9.21
+
+175. AmazonEKS (AWS)
+   Median Score: 4.00
+   Max Deviation: 0.14
+   Scores: claude_opus_4_1_score=3.86, claude_sonnet_4_5_score=4.14
+
+176. Azure Cloud HSM (Azure)
+   Median Score: 2.43
+   Max Deviation: 0.14
+   Scores: claude_opus_4_1_score=2.57, claude_sonnet_4_5_score=2.29
+
+177. AmazonFinSpace (AWS)
+   Median Score: 7.43
+   Max Deviation: 0.14
+   Scores: claude_opus_4_1_score=7.29, claude_sonnet_4_5_score=7.57
+
+178. AmazonGuardDuty (AWS)
+   Median Score: 8.93
+   Max Deviation: 0.14
+   Scores: claude_opus_4_1_score=8.79, claude_sonnet_4_5_score=9.07
+
+179. Sentinel (Azure)
+   Median Score: 8.00
+   Max Deviation: 0.14
+   Scores: claude_opus_4_1_score=7.86, claude_sonnet_4_5_score=8.14
+
+180. AlexaWebInfoService (AWS)
+   Median Score: 8.86
+   Max Deviation: 0.14
+   Scores: claude_opus_4_1_score=8.71, claude_sonnet_4_5_score=9.00
+
+181. AppFlow (AWS)
+   Median Score: 8.79
+   Max Deviation: 0.14
+   Scores: claude_opus_4_1_score=8.93, claude_sonnet_4_5_score=8.64
+
+182. Google Service Control (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.14
+   Scores: claude_opus_4_1_score=8.14, claude_sonnet_4_5_score=8.43
+
+183. Stream Analytics (Azure)
+   Median Score: 7.89
+   Max Deviation: 0.14
+   Scores: claude_opus_4_1_score=8.04, claude_sonnet_4_5_score=7.75
+
+184. OpsWorks (AWS)
+   Median Score: 3.79
+   Max Deviation: 0.15
+   Scores: claude_opus_4_1_score=3.64, claude_sonnet_4_5_score=3.93
+
+185. AmazonML (AWS)
+   Median Score: 8.04
+   Max Deviation: 0.15
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=7.89
+
+186. Data Box (Azure)
+   Median Score: 7.71
+   Max Deviation: 0.15
+   Scores: claude_opus_4_1_score=7.57, claude_sonnet_4_5_score=7.86
+
+187. ElasticMapReduce (AWS)
+   Median Score: 4.29
+   Max Deviation: 0.15
+   Scores: claude_opus_4_1_score=4.43, claude_sonnet_4_5_score=4.14
+
+188. Vertex AI Search (GCP)
+   Median Score: 8.75
+   Max Deviation: 0.15
+   Scores: claude_opus_4_1_score=8.90, claude_sonnet_4_5_score=8.61
+
+189. Duet AI (GCP)
+   Median Score: 9.36
+   Max Deviation: 0.15
+   Scores: claude_opus_4_1_score=9.21, claude_sonnet_4_5_score=9.51
+
+190. AWSMDC (AWS)
+   Median Score: 2.42
+   Max Deviation: 0.16
+   Scores: claude_opus_4_1_score=2.26, claude_sonnet_4_5_score=2.57
+
+191. Azure SQL Edge (Azure)
+   Median Score: 2.84
+   Max Deviation: 0.16
+   Scores: claude_opus_4_1_score=2.69, claude_sonnet_4_5_score=3.00
+
+192. Microsoft Dev Box (Azure)
+   Median Score: 7.48
+   Max Deviation: 0.16
+   Scores: claude_opus_4_1_score=7.33, claude_sonnet_4_5_score=7.64
+
+193. A4B (AWS)
+   Median Score: 8.09
+   Max Deviation: 0.16
+   Scores: claude_opus_4_1_score=8.25, claude_sonnet_4_5_score=7.93
+
+194. AWSElementalMediaTailor (AWS)
+   Median Score: 8.34
+   Max Deviation: 0.16
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.50
+
+195. AmazonChimeCallMeAMCS (AWS)
+   Median Score: 9.27
+   Max Deviation: 0.16
+   Scores: claude_opus_4_1_score=9.11, claude_sonnet_4_5_score=9.43
+
+196. Azure Machine Learning (Azure)
+   Median Score: 5.73
+   Max Deviation: 0.16
+   Scores: claude_opus_4_1_score=5.89, claude_sonnet_4_5_score=5.57
+
+197. Web PubSub (Azure)
+   Median Score: 8.34
+   Max Deviation: 0.16
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.50
+
+198. Microsoft Copilot for Security (Azure)
+   Median Score: 9.34
+   Max Deviation: 0.17
+   Scores: claude_opus_4_1_score=9.18, claude_sonnet_4_5_score=9.51
+
+199. Programmable Search Element (GCP)
+   Median Score: 9.52
+   Max Deviation: 0.17
+   Scores: claude_opus_4_1_score=9.36, claude_sonnet_4_5_score=9.69
+
+200. AWSConfig (AWS)
+   Median Score: 8.46
+   Max Deviation: 0.17
+   Scores: claude_opus_4_1_score=8.29, claude_sonnet_4_5_score=8.63
+
+201. Document Warehouse (GCP)
+   Median Score: 8.36
+   Max Deviation: 0.18
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.53
+
+202. Geocoding API (GCP)
+   Median Score: 9.54
+   Max Deviation: 0.18
+   Scores: claude_opus_4_1_score=9.36, claude_sonnet_4_5_score=9.71
+
+203. AWSAppSync (AWS)
+   Median Score: 8.39
+   Max Deviation: 0.18
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.57
+
+204. Azure Grafana Service (Azure)
+   Median Score: 8.39
+   Max Deviation: 0.18
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.57
+
+205. Cloud Monitoring (GCP)
+   Median Score: 8.61
+   Max Deviation: 0.18
+   Scores: claude_opus_4_1_score=8.43, claude_sonnet_4_5_score=8.79
+
+206. Firebase Test Lab (GCP)
+   Median Score: 8.82
+   Max Deviation: 0.18
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=8.64
+
+207. VMwareCloudOnAWS (AWS)
+   Median Score: 3.39
+   Max Deviation: 0.18
+   Scores: claude_opus_4_1_score=3.57, claude_sonnet_4_5_score=3.21
+
+208. AWSMigrationHubRefactorSpaces (AWS)
+   Median Score: 6.82
+   Max Deviation: 0.18
+   Scores: claude_opus_4_1_score=7.00, claude_sonnet_4_5_score=6.64
+
+209. Energy Data Manager (Azure)
+   Median Score: 8.07
+   Max Deviation: 0.18
+   Scores: claude_opus_4_1_score=8.25, claude_sonnet_4_5_score=7.89
+
+210. Microsoft Azure Peering Service (Azure)
+   Median Score: 7.61
+   Max Deviation: 0.18
+   Scores: claude_opus_4_1_score=7.43, claude_sonnet_4_5_score=7.79
+
+211. SQL Server Stretch Database (Azure)
+   Median Score: 4.61
+   Max Deviation: 0.18
+   Scores: claude_opus_4_1_score=4.79, claude_sonnet_4_5_score=4.43
+
+212. Azure DDOS Protection (Azure)
+   Median Score: 8.62
+   Max Deviation: 0.19
+   Scores: claude_opus_4_1_score=8.43, claude_sonnet_4_5_score=8.80
+
+213. Azure Spring Cloud (Azure)
+   Median Score: 7.35
+   Max Deviation: 0.19
+   Scores: claude_opus_4_1_score=7.16, claude_sonnet_4_5_score=7.54
+
+214. Parallelstore (GCP)
+   Median Score: 6.40
+   Max Deviation: 0.19
+   Scores: claude_opus_4_1_score=6.21, claude_sonnet_4_5_score=6.59
+
+215. Azure Stack Hub (Azure)
+   Median Score: 1.62
+   Max Deviation: 0.20
+   Scores: claude_opus_4_1_score=1.43, claude_sonnet_4_5_score=1.82
+
+216. AWSM2 (AWS)
+   Median Score: 6.80
+   Max Deviation: 0.20
+   Scores: claude_opus_4_1_score=7.00, claude_sonnet_4_5_score=6.61
+
+217. AmazonGrafana (AWS)
+   Median Score: 8.38
+   Max Deviation: 0.20
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.57
+
+218. AmazonMQ (AWS)
+   Median Score: 6.10
+   Max Deviation: 0.20
+   Scores: claude_opus_4_1_score=5.90, claude_sonnet_4_5_score=6.29
+
+219. AmazonWorkSpacesThinClient (AWS)
+   Median Score: 7.77
+   Max Deviation: 0.20
+   Scores: claude_opus_4_1_score=7.57, claude_sonnet_4_5_score=7.96
+
+220. Azure Monitor (Azure)
+   Median Score: 8.52
+   Max Deviation: 0.20
+   Scores: claude_opus_4_1_score=8.32, claude_sonnet_4_5_score=8.71
+
+221. Logic Apps (Azure)
+   Median Score: 8.38
+   Max Deviation: 0.20
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.57
+
+222. SignalR (Azure)
+   Median Score: 8.38
+   Max Deviation: 0.20
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.57
+
+223. Source Repository (GCP)
+   Median Score: 8.52
+   Max Deviation: 0.20
+   Scores: claude_opus_4_1_score=8.32, claude_sonnet_4_5_score=8.71
+
+224. Cloud Run (GCP)
+   Median Score: 8.59
+   Max Deviation: 0.20
+   Scores: claude_opus_4_1_score=8.39, claude_sonnet_4_5_score=8.79
+
+225. Traffic Manager (Azure)
+   Median Score: 8.49
+   Max Deviation: 0.20
+   Scores: claude_opus_4_1_score=8.29, claude_sonnet_4_5_score=8.69
+
+226. Azure Data Factory v2 (Azure)
+   Median Score: 7.37
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=7.16, claude_sonnet_4_5_score=7.57
+
+227. AmazonManagedBlockchain (AWS)
+   Median Score: 7.11
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=6.90, claude_sonnet_4_5_score=7.32
+
+228. Automation (Azure)
+   Median Score: 7.18
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=6.97, claude_sonnet_4_5_score=7.39
+
+229. VPN Gateway (Azure)
+   Median Score: 5.50
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=5.29, claude_sonnet_4_5_score=5.71
+
+230. AmazonPersonalize (AWS)
+   Median Score: 8.39
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.60
+
+231. AWSGroundStation (AWS)
+   Median Score: 8.43
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=8.64, claude_sonnet_4_5_score=8.21
+
+232. AmazonCloudSearch (AWS)
+   Median Score: 7.79
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=8.00, claude_sonnet_4_5_score=7.57
+
+233. AmazonElastiCache (AWS)
+   Median Score: 6.21
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=6.00, claude_sonnet_4_5_score=6.43
+
+234. AmazonKendra (AWS)
+   Median Score: 8.39
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.61
+
+235. AmazonLookoutVision (AWS)
+   Median Score: 8.32
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=8.11, claude_sonnet_4_5_score=8.54
+
+236. AmazonRedshift (AWS)
+   Median Score: 6.08
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=5.86, claude_sonnet_4_5_score=6.29
+
+237. AmazonSecurityLake (AWS)
+   Median Score: 7.96
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=7.75
+
+238. Azure Load Testing (Azure)
+   Median Score: 8.57
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=8.36, claude_sonnet_4_5_score=8.79
+
+239. Dataproc (GCP)
+   Median Score: 5.42
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=5.21, claude_sonnet_4_5_score=5.64
+
+240. Microsoft Entra Verified ID (Azure)
+   Median Score: 8.39
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.61
+
+241. Microsoft Purview (Azure)
+   Median Score: 8.39
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.61
+
+242. Notification Hubs (Azure)
+   Median Score: 8.39
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.61
+
+243. auditmanager (AWS)
+   Median Score: 8.43
+   Max Deviation: 0.21
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.64
+
+244. Azure Managed Instance for Apache Cassandra (Azure)
+   Median Score: 6.36
+   Max Deviation: 0.22
+   Scores: claude_opus_4_1_score=6.14, claude_sonnet_4_5_score=6.57
+
+245. BigQuery Reservation API (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.22
+   Scores: claude_opus_4_1_score=7.14, claude_sonnet_4_5_score=7.57
+
+246. Google Distributed Cloud Edge (GCP)
+   Median Score: 5.86
+   Max Deviation: 0.22
+   Scores: claude_opus_4_1_score=6.07, claude_sonnet_4_5_score=5.64
+
+247. AmazonHoneycode (AWS)
+   Median Score: 9.22
+   Max Deviation: 0.22
+   Scores: claude_opus_4_1_score=9.00, claude_sonnet_4_5_score=9.44
+
+248. Azure Bot Service (Azure)
+   Median Score: 6.94
+   Max Deviation: 0.23
+   Scores: claude_opus_4_1_score=7.16, claude_sonnet_4_5_score=6.71
+
+249. AWSCodeArtifact (AWS)
+   Median Score: 8.41
+   Max Deviation: 0.23
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.64
+
+250. Apigee (GCP)
+   Median Score: 8.09
+   Max Deviation: 0.23
+   Scores: claude_opus_4_1_score=8.32, claude_sonnet_4_5_score=7.86
+
+251. Blockchain Node Engine (GCP)
+   Median Score: 7.52
+   Max Deviation: 0.23
+   Scores: claude_opus_4_1_score=7.29, claude_sonnet_4_5_score=7.75
+
+252. Integration Connectors (GCP)
+   Median Score: 8.41
+   Max Deviation: 0.23
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.64
+
+253. Live Stream API (GCP)
+   Median Score: 8.41
+   Max Deviation: 0.23
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.64
+
+254. AWSCleanRooms (AWS)
+   Median Score: 8.45
+   Max Deviation: 0.23
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.68
+
+255. AWSCostExplorer (AWS)
+   Median Score: 9.55
+   Max Deviation: 0.23
+   Scores: claude_opus_4_1_score=9.32, claude_sonnet_4_5_score=9.79
+
+256. Azure Cognitive Search (Azure)
+   Median Score: 8.30
+   Max Deviation: 0.23
+   Scores: claude_opus_4_1_score=8.07, claude_sonnet_4_5_score=8.54
+
+257. BigQuery BI Engine (GCP)
+   Median Score: 8.55
+   Max Deviation: 0.23
+   Scores: claude_opus_4_1_score=8.32, claude_sonnet_4_5_score=8.79
+
+258. Data Lake Analytics (Azure)
+   Median Score: 8.30
+   Max Deviation: 0.23
+   Scores: claude_opus_4_1_score=8.07, claude_sonnet_4_5_score=8.54
+
+259. PaymentCryptography (AWS)
+   Median Score: 8.55
+   Max Deviation: 0.23
+   Scores: claude_opus_4_1_score=8.32, claude_sonnet_4_5_score=8.79
+
+260. AmazonSageMaker (AWS)
+   Median Score: 6.05
+   Max Deviation: 0.24
+   Scores: claude_opus_4_1_score=5.82, claude_sonnet_4_5_score=6.29
+
+261. Cloud Machine Learning Engine (GCP)
+   Median Score: 6.30
+   Max Deviation: 0.24
+   Scores: claude_opus_4_1_score=6.07, claude_sonnet_4_5_score=6.54
+
+262. Cloud Talent Solution (GCP)
+   Median Score: 8.77
+   Max Deviation: 0.24
+   Scores: claude_opus_4_1_score=8.53, claude_sonnet_4_5_score=9.00
+
+263. AWSTransfer (AWS)
+   Median Score: 7.44
+   Max Deviation: 0.24
+   Scores: claude_opus_4_1_score=7.20, claude_sonnet_4_5_score=7.68
+
+264. Azure Arc-enabled AKS (Azure)
+   Median Score: 3.40
+   Max Deviation: 0.24
+   Scores: claude_opus_4_1_score=3.16, claude_sonnet_4_5_score=3.64
+
+265. Azure API for FHIR (Azure)
+   Median Score: 8.43
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.67
+
+266. Directions API (GCP)
+   Median Score: 9.32
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.56
+
+267. API Management (Azure)
+   Median Score: 6.75
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=7.00, claude_sonnet_4_5_score=6.50
+
+268. AWSOutposts (AWS)
+   Median Score: 2.61
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=2.36, claude_sonnet_4_5_score=2.86
+
+269. AWSResilienceHub (AWS)
+   Median Score: 8.46
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.71
+
+270. AWSSupportEnterprise (AWS)
+   Median Score: 9.39
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=9.14, claude_sonnet_4_5_score=9.64
+
+271. AmazonKinesisAnalytics (AWS)
+   Median Score: 7.82
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=7.57, claude_sonnet_4_5_score=8.07
+
+272. AmazonLookoutEquipment (AWS)
+   Median Score: 8.43
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.68
+
+273. AmazonRDS (AWS)
+   Median Score: 5.61
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=5.36, claude_sonnet_4_5_score=5.86
+
+274. AmazonRoute53 (AWS)
+   Median Score: 8.54
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=8.29, claude_sonnet_4_5_score=8.79
+
+275. AmazonSWF (AWS)
+   Median Score: 6.18
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=6.43, claude_sonnet_4_5_score=5.93
+
+276. Cloud Key Management Service (KMS) (GCP)
+   Median Score: 8.46
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.71
+
+277. Vertex AI (GCP)
+   Median Score: 6.94
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=7.19, claude_sonnet_4_5_score=6.69
+
+278. Vertex AI Vision (GCP)
+   Median Score: 8.43
+   Max Deviation: 0.25
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.68
+
+279. AwsCloudShell (AWS)
+   Median Score: 8.82
+   Max Deviation: 0.26
+   Scores: claude_opus_4_1_score=9.08, claude_sonnet_4_5_score=8.57
+
+280. AWSCloudTrail (AWS)
+   Median Score: 8.45
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.71
+
+281. AWSCodeCommit (AWS)
+   Median Score: 8.45
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.71
+
+282. AWSDirectoryService (AWS)
+   Median Score: 6.45
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=6.18, claude_sonnet_4_5_score=6.71
+
+283. AWSElementalMediaConvert (AWS)
+   Median Score: 8.45
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.71
+
+284. Azure App Service (Azure)
+   Median Score: 7.23
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=6.97, claude_sonnet_4_5_score=7.50
+
+285. Azure Chaos Studio (Azure)
+   Median Score: 7.30
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=7.04, claude_sonnet_4_5_score=7.57
+
+286. Azure Lab Services (Azure)
+   Median Score: 7.60
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=7.33, claude_sonnet_4_5_score=7.86
+
+287. Data Catalog (Azure)
+   Median Score: 8.45
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.71
+
+288. Dataproc Metastore (GCP)
+   Median Score: 7.23
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=6.97, claude_sonnet_4_5_score=7.50
+
+289. AWSDeepRacer (AWS)
+   Median Score: 8.48
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.75
+
+290. Transfer Service (GCP)
+   Median Score: 8.34
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=8.07, claude_sonnet_4_5_score=8.61
+
+291. Cloud Build (GCP)
+   Median Score: 8.16
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=7.89, claude_sonnet_4_5_score=8.43
+
+292. Cloud Data Fusion (GCP)
+   Median Score: 7.16
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=6.89, claude_sonnet_4_5_score=7.43
+
+293. Cloud Dataflow (GCP)
+   Median Score: 7.41
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=7.14, claude_sonnet_4_5_score=7.68
+
+294. Managed Service for Apache Kafka (GCP)
+   Median Score: 6.63
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=6.90, claude_sonnet_4_5_score=6.36
+
+295. Event Grid (Azure)
+   Median Score: 8.63
+   Max Deviation: 0.27
+   Scores: claude_opus_4_1_score=8.36, claude_sonnet_4_5_score=8.90
+
+296. AmazonInspectorV2 (AWS)
+   Median Score: 8.71
+   Max Deviation: 0.29
+   Scores: claude_opus_4_1_score=8.43, claude_sonnet_4_5_score=9.00
+
+297. Azure Kubernetes Service (Azure)
+   Median Score: 4.71
+   Max Deviation: 0.29
+   Scores: claude_opus_4_1_score=4.43, claude_sonnet_4_5_score=5.00
+
+298. Azure NetApp Files (Azure)
+   Median Score: 6.58
+   Max Deviation: 0.29
+   Scores: claude_opus_4_1_score=6.86, claude_sonnet_4_5_score=6.29
+
+299. Azure Resource Mover (Azure)
+   Median Score: 7.86
+   Max Deviation: 0.29
+   Scores: claude_opus_4_1_score=7.57, claude_sonnet_4_5_score=8.14
+
+300. Scheduler (Azure)
+   Median Score: 8.64
+   Max Deviation: 0.29
+   Scores: claude_opus_4_1_score=8.36, claude_sonnet_4_5_score=8.93
+
+301. datapipeline (AWS)
+   Median Score: 5.64
+   Max Deviation: 0.29
+   Scores: claude_opus_4_1_score=5.93, claude_sonnet_4_5_score=5.36
+
+302. API Gateway (GCP)
+   Median Score: 8.50
+   Max Deviation: 0.29
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.79
+
+303. AmazonCloudWatch (AWS)
+   Median Score: 8.50
+   Max Deviation: 0.29
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.79
+
+304. AmazonSES (AWS)
+   Median Score: 8.47
+   Max Deviation: 0.29
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.76
+
+305. Azure Stack HCI (Azure)
+   Median Score: 2.06
+   Max Deviation: 0.30
+   Scores: claude_opus_4_1_score=2.36, claude_sonnet_4_5_score=1.76
+
+306. Firebase Realtime Database (GCP)
+   Median Score: 8.41
+   Max Deviation: 0.30
+   Scores: claude_opus_4_1_score=8.11, claude_sonnet_4_5_score=8.71
+
+307. AmazonForecast (AWS)
+   Median Score: 8.48
+   Max Deviation: 0.30
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.79
+
+308. AmazonLocationService (AWS)
+   Median Score: 8.48
+   Max Deviation: 0.30
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.79
+
+309. Application Insights (Azure)
+   Median Score: 8.48
+   Max Deviation: 0.30
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.79
+
+310. Cloud Tasks (GCP)
+   Median Score: 8.52
+   Max Deviation: 0.30
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.82
+
+311. Data Catalog (GCP)
+   Median Score: 8.48
+   Max Deviation: 0.30
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.79
+
+312. Roads API (GCP)
+   Median Score: 9.38
+   Max Deviation: 0.30
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.68
+
+313. AWSMediaConnect (AWS)
+   Median Score: 7.30
+   Max Deviation: 0.31
+   Scores: claude_opus_4_1_score=7.00, claude_sonnet_4_5_score=7.61
+
+314. Spatial Anchors (Azure)
+   Median Score: 8.27
+   Max Deviation: 0.31
+   Scores: claude_opus_4_1_score=7.96, claude_sonnet_4_5_score=8.57
+
+315. AWSElementalMediaStore (AWS)
+   Median Score: 7.40
+   Max Deviation: 0.31
+   Scores: claude_opus_4_1_score=7.09, claude_sonnet_4_5_score=7.71
+
+316. AWSAppRunner (AWS)
+   Median Score: 8.50
+   Max Deviation: 0.32
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.82
+
+317. AWSCodeDeploy (AWS)
+   Median Score: 6.68
+   Max Deviation: 0.32
+   Scores: claude_opus_4_1_score=6.36, claude_sonnet_4_5_score=7.00
+
+318. AmazonKinesisVideo (AWS)
+   Median Score: 7.43
+   Max Deviation: 0.32
+   Scores: claude_opus_4_1_score=7.11, claude_sonnet_4_5_score=7.75
+
+319. AmazonQ (AWS)
+   Median Score: 9.39
+   Max Deviation: 0.32
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.71
+
+320. Azure Analysis Services (Azure)
+   Median Score: 5.89
+   Max Deviation: 0.32
+   Scores: claude_opus_4_1_score=5.57, claude_sonnet_4_5_score=6.21
+
+321. Azure Database for MariaDB (Azure)
+   Median Score: 6.32
+   Max Deviation: 0.32
+   Scores: claude_opus_4_1_score=6.00, claude_sonnet_4_5_score=6.64
+
+322. BigQuery Storage API (GCP)
+   Median Score: 8.68
+   Max Deviation: 0.32
+   Scores: claude_opus_4_1_score=8.36, claude_sonnet_4_5_score=9.00
+
+323. Cloud DNS (GCP)
+   Median Score: 8.68
+   Max Deviation: 0.32
+   Scores: claude_opus_4_1_score=8.36, claude_sonnet_4_5_score=9.00
+
+324. Cloud Pub/Sub (GCP)
+   Median Score: 8.61
+   Max Deviation: 0.32
+   Scores: claude_opus_4_1_score=8.29, claude_sonnet_4_5_score=8.93
+
+325. ComputeSavingsPlans (AWS)
+   Median Score: 9.18
+   Max Deviation: 0.32
+   Scores: claude_opus_4_1_score=8.86, claude_sonnet_4_5_score=9.50
+
+326. Microsoft Entra Domain Services (Azure)
+   Median Score: 7.39
+   Max Deviation: 0.32
+   Scores: claude_opus_4_1_score=7.07, claude_sonnet_4_5_score=7.71
+
+327. Workflows (GCP)
+   Median Score: 8.61
+   Max Deviation: 0.32
+   Scores: claude_opus_4_1_score=8.29, claude_sonnet_4_5_score=8.93
+
+328. Azure confidential ledger (Azure)
+   Median Score: 8.54
+   Max Deviation: 0.32
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.86
+
+329. ExpressRoute (Azure)
+   Median Score: 3.04
+   Max Deviation: 0.33
+   Scores: claude_opus_4_1_score=2.71, claude_sonnet_4_5_score=3.36
+
+330. SimSpaceWeaver (AWS)
+   Median Score: 5.96
+   Max Deviation: 0.33
+   Scores: claude_opus_4_1_score=5.64, claude_sonnet_4_5_score=6.29
+
+331. AWSIoT (AWS)
+   Median Score: 7.24
+   Max Deviation: 0.33
+   Scores: claude_opus_4_1_score=6.90, claude_sonnet_4_5_score=7.57
+
+332. Distance Matrix API (GCP)
+   Median Score: 9.41
+   Max Deviation: 0.34
+   Scores: claude_opus_4_1_score=9.07, claude_sonnet_4_5_score=9.74
+
+333. AWSEntityResolution (AWS)
+   Median Score: 8.52
+   Max Deviation: 0.34
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.86
+
+334. AmazonCognito (AWS)
+   Median Score: 8.66
+   Max Deviation: 0.34
+   Scores: claude_opus_4_1_score=8.32, claude_sonnet_4_5_score=9.00
+
+335. AmazonWorkLink (AWS)
+   Median Score: 8.80
+   Max Deviation: 0.34
+   Scores: claude_opus_4_1_score=8.46, claude_sonnet_4_5_score=9.14
+
+336. App Center (Azure)
+   Median Score: 8.45
+   Max Deviation: 0.34
+   Scores: claude_opus_4_1_score=8.11, claude_sonnet_4_5_score=8.79
+
+337. CodeCatalyst (AWS)
+   Median Score: 8.52
+   Max Deviation: 0.34
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.86
+
+338. Event Hubs (Azure)
+   Median Score: 7.34
+   Max Deviation: 0.34
+   Scores: claude_opus_4_1_score=7.00, claude_sonnet_4_5_score=7.68
+
+339. HPC Cache (Azure)
+   Median Score: 6.16
+   Max Deviation: 0.34
+   Scores: claude_opus_4_1_score=5.82, claude_sonnet_4_5_score=6.50
+
+340. Timeseries Insights API (GCP)
+   Median Score: 8.59
+   Max Deviation: 0.34
+   Scores: claude_opus_4_1_score=8.25, claude_sonnet_4_5_score=8.93
+
+341. Transcoder API (GCP)
+   Median Score: 8.52
+   Max Deviation: 0.34
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.86
+
+342. Cloud Filestore (GCP)
+   Median Score: 6.35
+   Max Deviation: 0.35
+   Scores: claude_opus_4_1_score=6.00, claude_sonnet_4_5_score=6.69
+
+343. AWSElementalMediaPackage (AWS)
+   Median Score: 7.71
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=7.36, claude_sonnet_4_5_score=8.07
+
+344. AmazonMWAA (AWS)
+   Median Score: 7.26
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=6.90, claude_sonnet_4_5_score=7.61
+
+345. Application Gateway (Azure)
+   Median Score: 6.36
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=6.00, claude_sonnet_4_5_score=6.71
+
+346. Azure DNS (Azure)
+   Median Score: 8.64
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=8.29, claude_sonnet_4_5_score=9.00
+
+347. Azure Front Door Service (Azure)
+   Median Score: 7.64
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=7.29, claude_sonnet_4_5_score=8.00
+
+348. Stackdriver Monitoring (GCP)
+   Median Score: 8.64
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=8.29, claude_sonnet_4_5_score=9.00
+
+349. AmazonKinesisFirehose (AWS)
+   Median Score: 8.43
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=8.07, claude_sonnet_4_5_score=8.79
+
+350. AmazonLex (AWS)
+   Median Score: 8.57
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.93
+
+351. Earth Engine (GCP)
+   Median Score: 8.50
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=8.14, claude_sonnet_4_5_score=8.86
+
+352. Firebase (GCP)
+   Median Score: 8.57
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.93
+
+353. Power Pages (Azure)
+   Median Score: 8.57
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=8.93
+
+354. Transcode API (GCP)
+   Median Score: 8.50
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=8.14, claude_sonnet_4_5_score=8.86
+
+355. Bare Metal Solution (GCP)
+   Median Score: 1.75
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=1.39, claude_sonnet_4_5_score=2.11
+
+356. AWSDatabaseMigrationSvc (AWS)
+   Median Score: 6.57
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=6.93, claude_sonnet_4_5_score=6.21
+
+357. awswaf (AWS)
+   Median Score: 7.07
+   Max Deviation: 0.36
+   Scores: claude_opus_4_1_score=6.71, claude_sonnet_4_5_score=7.43
+
+358. AWSIoTThingsGraph (AWS)
+   Median Score: 7.27
+   Max Deviation: 0.37
+   Scores: claude_opus_4_1_score=6.90, claude_sonnet_4_5_score=7.64
+
+359. AmazonEKSAnywhere (AWS)
+   Median Score: 2.17
+   Max Deviation: 0.38
+   Scores: claude_opus_4_1_score=2.54, claude_sonnet_4_5_score=1.79
+
+360. AmazonLookoutMetrics (AWS)
+   Median Score: 8.55
+   Max Deviation: 0.38
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.93
+
+361. App Configuration (Azure)
+   Median Score: 8.55
+   Max Deviation: 0.38
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=8.93
+
+362. Azure Database Migration Service (Azure)
+   Median Score: 7.30
+   Max Deviation: 0.38
+   Scores: claude_opus_4_1_score=6.93, claude_sonnet_4_5_score=7.68
+
+363. Azure Modeling and Simulation Workbench (Azure)
+   Median Score: 6.38
+   Max Deviation: 0.38
+   Scores: claude_opus_4_1_score=6.00, claude_sonnet_4_5_score=6.75
+
+364. Backup and DR Service (GCP)
+   Median Score: 7.80
+   Max Deviation: 0.38
+   Scores: claude_opus_4_1_score=7.43, claude_sonnet_4_5_score=8.18
+
+365. IoTDeviceManagement (AWS)
+   Median Score: 7.45
+   Max Deviation: 0.38
+   Scores: claude_opus_4_1_score=7.07, claude_sonnet_4_5_score=7.82
+
+366. Key Vault (Azure)
+   Median Score: 8.62
+   Max Deviation: 0.38
+   Scores: claude_opus_4_1_score=8.25, claude_sonnet_4_5_score=9.00
+
+367. AWSCloudWAN (AWS)
+   Median Score: 6.45
+   Max Deviation: 0.38
+   Scores: claude_opus_4_1_score=6.07, claude_sonnet_4_5_score=6.83
+
+368. Microsoft Planetary Computer Pro (Azure)
+   Median Score: 7.55
+   Max Deviation: 0.38
+   Scores: claude_opus_4_1_score=7.17, claude_sonnet_4_5_score=7.93
+
+369. Azure Data Factory (Azure)
+   Median Score: 7.25
+   Max Deviation: 0.38
+   Scores: claude_opus_4_1_score=6.87, claude_sonnet_4_5_score=7.64
+
+370. Azure Synapse Analytics (Azure)
+   Median Score: 6.25
+   Max Deviation: 0.39
+   Scores: claude_opus_4_1_score=5.86, claude_sonnet_4_5_score=6.64
+
+371. AmazonGlacier (AWS)
+   Median Score: 7.68
+   Max Deviation: 0.39
+   Scores: claude_opus_4_1_score=7.29, claude_sonnet_4_5_score=8.07
+
+372. Cloud IDS (GCP)
+   Median Score: 7.43
+   Max Deviation: 0.39
+   Scores: claude_opus_4_1_score=7.04, claude_sonnet_4_5_score=7.82
+
+373. HDInsight (Azure)
+   Median Score: 4.82
+   Max Deviation: 0.39
+   Scores: claude_opus_4_1_score=4.43, claude_sonnet_4_5_score=5.21
+
+374. AmazonConnect (AWS)
+   Median Score: 8.61
+   Max Deviation: 0.39
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=9.00
+
+375. AmazonInspector (AWS)
+   Median Score: 8.61
+   Max Deviation: 0.39
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=9.00
+
+376. AmazonWorkSpacesWeb (AWS)
+   Median Score: 8.61
+   Max Deviation: 0.39
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=9.00
+
+377. Azure Maps (Azure)
+   Median Score: 8.61
+   Max Deviation: 0.39
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=9.00
+
+378. Microsoft Defender for Cloud (Azure)
+   Median Score: 8.61
+   Max Deviation: 0.39
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=9.00
+
+379. On-Demand Scanning (GCP)
+   Median Score: 8.61
+   Max Deviation: 0.39
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=9.00
+
+380. Azure Firewall (Azure)
+   Median Score: 7.46
+   Max Deviation: 0.40
+   Scores: claude_opus_4_1_score=7.07, claude_sonnet_4_5_score=7.86
+
+381. Cloud Bigtable (GCP)
+   Median Score: 6.46
+   Max Deviation: 0.40
+   Scores: claude_opus_4_1_score=6.07, claude_sonnet_4_5_score=6.86
+
+382. Cloud SQL (GCP)
+   Median Score: 5.89
+   Max Deviation: 0.40
+   Scores: claude_opus_4_1_score=5.50, claude_sonnet_4_5_score=6.29
+
+383. Cloud Workstations (GCP)
+   Median Score: 7.79
+   Max Deviation: 0.40
+   Scores: claude_opus_4_1_score=7.39, claude_sonnet_4_5_score=8.18
+
+384. Zync (GCP)
+   Median Score: 7.54
+   Max Deviation: 0.40
+   Scores: claude_opus_4_1_score=7.14, claude_sonnet_4_5_score=7.93
+
+385. AWSIoTFleetWise (AWS)
+   Median Score: 7.56
+   Max Deviation: 0.40
+   Scores: claude_opus_4_1_score=7.16, claude_sonnet_4_5_score=7.96
+
+386. Azure Site Recovery (Azure)
+   Median Score: 6.83
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=6.43, claude_sonnet_4_5_score=7.24
+
+387. AWSB2Bi (AWS)
+   Median Score: 8.59
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=9.00
+
+388. AWSIoTEvents (AWS)
+   Median Score: 8.52
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=8.11, claude_sonnet_4_5_score=8.93
+
+389. AmazonAppStream (AWS)
+   Median Score: 7.84
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=8.25, claude_sonnet_4_5_score=7.43
+
+390. AmazonCognitoSync (AWS)
+   Median Score: 8.59
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=9.00
+
+391. AmazonPinpoint (AWS)
+   Median Score: 8.59
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=9.00
+
+392. Azure Purview (Azure)
+   Median Score: 8.48
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=8.07, claude_sonnet_4_5_score=8.89
+
+393. Azure Synthetics (Azure)
+   Median Score: 8.73
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=8.32, claude_sonnet_4_5_score=9.14
+
+394. Backup for GKE (GCP)
+   Median Score: 7.55
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=7.14, claude_sonnet_4_5_score=7.96
+
+395. BigQuery Data Transfer Service (GCP)
+   Median Score: 8.52
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=8.93, claude_sonnet_4_5_score=8.11
+
+396. Cloud AutoML (GCP)
+   Median Score: 8.41
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=8.00, claude_sonnet_4_5_score=8.82
+
+397. Email (Azure)
+   Median Score: 8.59
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=9.00
+
+398. Identity Platform (GCP)
+   Median Score: 8.73
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=8.32, claude_sonnet_4_5_score=9.14
+
+399. IoTDeviceDefender (AWS)
+   Median Score: 8.59
+   Max Deviation: 0.41
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=9.00
+
+400. Azure Local (Azure)
+   Median Score: 1.92
+   Max Deviation: 0.42
+   Scores: claude_opus_4_1_score=2.33, claude_sonnet_4_5_score=1.50
+
+401. Network Security (GCP)
+   Median Score: 6.55
+   Max Deviation: 0.42
+   Scores: claude_opus_4_1_score=6.14, claude_sonnet_4_5_score=6.97
+
+402. AWSDataSync (AWS)
+   Median Score: 7.62
+   Max Deviation: 0.42
+   Scores: claude_opus_4_1_score=7.19, claude_sonnet_4_5_score=8.04
+
+403. IoT Hub (Azure)
+   Median Score: 7.21
+   Max Deviation: 0.42
+   Scores: claude_opus_4_1_score=6.79, claude_sonnet_4_5_score=7.64
+
+404. Secure Source Manager (GCP)
+   Median Score: 7.68
+   Max Deviation: 0.42
+   Scores: claude_opus_4_1_score=8.11, claude_sonnet_4_5_score=7.26
+
+405. AWSIoT1Click (AWS)
+   Median Score: 8.54
+   Max Deviation: 0.43
+   Scores: claude_opus_4_1_score=8.11, claude_sonnet_4_5_score=8.96
+
+406. Storage Insights (GCP)
+   Median Score: 8.50
+   Max Deviation: 0.43
+   Scores: claude_opus_4_1_score=8.07, claude_sonnet_4_5_score=8.93
+
+407. AKS on Azure Stack HCI (Azure)
+   Median Score: 3.00
+   Max Deviation: 0.43
+   Scores: claude_opus_4_1_score=2.57, claude_sonnet_4_5_score=3.43
+
+408. AmazonBraket (AWS)
+   Median Score: 8.14
+   Max Deviation: 0.43
+   Scores: claude_opus_4_1_score=7.71, claude_sonnet_4_5_score=8.57
+
+409. Cloud Vision OCR On-Prem (GCP)
+   Median Score: 2.27
+   Max Deviation: 0.44
+   Scores: claude_opus_4_1_score=1.83, claude_sonnet_4_5_score=2.71
+
+410. AWSELB (AWS)
+   Median Score: 7.52
+   Max Deviation: 0.45
+   Scores: claude_opus_4_1_score=7.07, claude_sonnet_4_5_score=7.96
+
+411. AmazonConnectVoiceID (AWS)
+   Median Score: 8.62
+   Max Deviation: 0.45
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=9.07
+
+412. Application Integration (GCP)
+   Median Score: 8.48
+   Max Deviation: 0.45
+   Scores: claude_opus_4_1_score=8.04, claude_sonnet_4_5_score=8.93
+
+413. CustomerProfiles (AWS)
+   Median Score: 8.62
+   Max Deviation: 0.45
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=9.07
+
+414. Azure Data Explorer (Azure)
+   Median Score: 6.45
+   Max Deviation: 0.45
+   Scores: claude_opus_4_1_score=6.90, claude_sonnet_4_5_score=6.00
+
+415. speech-onprem-private INTERNAL Speech-to-Text On-Prem DevTest (GCP)
+   Median Score: 2.25
+   Max Deviation: 0.46
+   Scores: claude_opus_4_1_score=1.80, claude_sonnet_4_5_score=2.71
+
+416. Cloud IoT Core (GCP)
+   Median Score: 7.36
+   Max Deviation: 0.46
+   Scores: claude_opus_4_1_score=6.90, claude_sonnet_4_5_score=7.82
+
+417. AWSGreengrass (AWS)
+   Median Score: 4.17
+   Max Deviation: 0.46
+   Scores: claude_opus_4_1_score=3.71, claude_sonnet_4_5_score=4.64
+
+418. AWSWisdom (AWS)
+   Median Score: 8.64
+   Max Deviation: 0.46
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=9.11
+
+419. Container Registry Vulnerability Scanning (GCP)
+   Median Score: 8.68
+   Max Deviation: 0.46
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=9.14
+
+420. Maps SDK for Unity (GCP)
+   Median Score: 7.89
+   Max Deviation: 0.46
+   Scores: claude_opus_4_1_score=7.43, claude_sonnet_4_5_score=8.36
+
+421. Azure Orbital (Azure)
+   Median Score: 7.86
+   Max Deviation: 0.47
+   Scores: claude_opus_4_1_score=7.39, claude_sonnet_4_5_score=8.32
+
+422. GKE Enterprise / GDC (GCP)
+   Median Score: 4.89
+   Max Deviation: 0.47
+   Scores: claude_opus_4_1_score=4.43, claude_sonnet_4_5_score=5.36
+
+423. AWSIoTAnalytics (AWS)
+   Median Score: 7.57
+   Max Deviation: 0.47
+   Scores: claude_opus_4_1_score=7.10, claude_sonnet_4_5_score=8.04
+
+424. AmazonCloudDirectory (AWS)
+   Median Score: 7.57
+   Max Deviation: 0.47
+   Scores: claude_opus_4_1_score=7.10, claude_sonnet_4_5_score=8.04
+
+425. Azure Blockchain (Azure)
+   Median Score: 7.21
+   Max Deviation: 0.47
+   Scores: claude_opus_4_1_score=6.73, claude_sonnet_4_5_score=7.68
+
+426. AmazonLightsail (AWS)
+   Median Score: 3.27
+   Max Deviation: 0.48
+   Scores: claude_opus_4_1_score=3.74, claude_sonnet_4_5_score=2.79
+
+427. Audit Manager (GCP)
+   Median Score: 8.66
+   Max Deviation: 0.48
+   Scores: claude_opus_4_1_score=8.18, claude_sonnet_4_5_score=9.14
+
+428. Azure Fluid Relay (Azure)
+   Median Score: 8.45
+   Max Deviation: 0.49
+   Scores: claude_opus_4_1_score=7.96, claude_sonnet_4_5_score=8.93
+
+429. Azure Route Server (Azure)
+   Median Score: 7.20
+   Max Deviation: 0.49
+   Scores: claude_opus_4_1_score=6.71, claude_sonnet_4_5_score=7.68
+
+430. Microsoft Playwright Testing (Azure)
+   Median Score: 8.38
+   Max Deviation: 0.49
+   Scores: claude_opus_4_1_score=7.89, claude_sonnet_4_5_score=8.86
+
+431. Content Delivery Network (Azure)
+   Median Score: 7.69
+   Max Deviation: 0.50
+   Scores: claude_opus_4_1_score=7.19, claude_sonnet_4_5_score=8.18
+
+432. AWSDataExchange (AWS)
+   Median Score: 8.57
+   Max Deviation: 0.50
+   Scores: claude_opus_4_1_score=8.07, claude_sonnet_4_5_score=9.07
+
+433. AWSFMS (AWS)
+   Median Score: 7.61
+   Max Deviation: 0.50
+   Scores: claude_opus_4_1_score=7.11, claude_sonnet_4_5_score=8.11
+
+434. AWSQueueService (AWS)
+   Median Score: 8.57
+   Max Deviation: 0.50
+   Scores: claude_opus_4_1_score=8.07, claude_sonnet_4_5_score=9.07
+
+435. Hybrid Data Services (Azure)
+   Median Score: 4.21
+   Max Deviation: 0.50
+   Scores: claude_opus_4_1_score=3.71, claude_sonnet_4_5_score=4.71
+
+436. AmazonGameLift (AWS)
+   Median Score: 6.62
+   Max Deviation: 0.51
+   Scores: claude_opus_4_1_score=7.13, claude_sonnet_4_5_score=6.11
+
+437. Azure Container Apps (Azure)
+   Median Score: 7.77
+   Max Deviation: 0.51
+   Scores: claude_opus_4_1_score=7.26, claude_sonnet_4_5_score=8.29
+
+438. CodeBuild (AWS)
+   Median Score: 7.69
+   Max Deviation: 0.52
+   Scores: claude_opus_4_1_score=7.17, claude_sonnet_4_5_score=8.21
+
+439. Backup (Azure)
+   Median Score: 7.93
+   Max Deviation: 0.53
+   Scores: claude_opus_4_1_score=7.40, claude_sonnet_4_5_score=8.46
+
+440. AmazonDocDB (AWS)
+   Median Score: 6.61
+   Max Deviation: 0.54
+   Scores: claude_opus_4_1_score=6.07, claude_sonnet_4_5_score=7.14
+
+441. Load Balancer (Azure)
+   Median Score: 6.61
+   Max Deviation: 0.54
+   Scores: claude_opus_4_1_score=6.07, claude_sonnet_4_5_score=7.14
+
+442. Pub/Sub Lite (GCP)
+   Median Score: 5.11
+   Max Deviation: 0.54
+   Scores: claude_opus_4_1_score=4.57, claude_sonnet_4_5_score=5.64
+
+443. AWSR53AppRecoveryController (AWS)
+   Median Score: 7.68
+   Max Deviation: 0.54
+   Scores: claude_opus_4_1_score=7.14, claude_sonnet_4_5_score=8.21
+
+444. AmazonMedicalImaging (AWS)
+   Median Score: 7.63
+   Max Deviation: 0.54
+   Scores: claude_opus_4_1_score=7.09, claude_sonnet_4_5_score=8.18
+
+445. Certificate Authority Service (GCP)
+   Median Score: 7.34
+   Max Deviation: 0.55
+   Scores: claude_opus_4_1_score=6.79, claude_sonnet_4_5_score=7.89
+
+446. Cloud Deploy (GCP)
+   Median Score: 7.70
+   Max Deviation: 0.56
+   Scores: claude_opus_4_1_score=7.14, claude_sonnet_4_5_score=8.26
+
+447. AWSElementalMediaLive (AWS)
+   Median Score: 7.44
+   Max Deviation: 0.57
+   Scores: claude_opus_4_1_score=6.87, claude_sonnet_4_5_score=8.00
+
+448. Microsoft Azure Internet Analyzer (Azure)
+   Median Score: 7.76
+   Max Deviation: 0.57
+   Scores: claude_opus_4_1_score=7.19, claude_sonnet_4_5_score=8.32
+
+449. AWSRoboMaker (AWS)
+   Median Score: 6.00
+   Max Deviation: 0.57
+   Scores: claude_opus_4_1_score=5.43, claude_sonnet_4_5_score=6.57
+
+450. AWSServiceCatalog (AWS)
+   Median Score: 8.07
+   Max Deviation: 0.57
+   Scores: claude_opus_4_1_score=7.50, claude_sonnet_4_5_score=8.64
+
+451. BizTalk Services (Azure)
+   Median Score: 6.00
+   Max Deviation: 0.57
+   Scores: claude_opus_4_1_score=5.43, claude_sonnet_4_5_score=6.57
+
+452. StorSimple (Azure)
+   Median Score: 4.43
+   Max Deviation: 0.57
+   Scores: claude_opus_4_1_score=3.86, claude_sonnet_4_5_score=5.00
+
+453. AWSLakeFormation (AWS)
+   Median Score: 6.79
+   Max Deviation: 0.58
+   Scores: claude_opus_4_1_score=6.21, claude_sonnet_4_5_score=7.36
+
+454. AlloyDB (GCP)
+   Median Score: 6.71
+   Max Deviation: 0.58
+   Scores: claude_opus_4_1_score=6.14, claude_sonnet_4_5_score=7.29
+
+455. Workload Manager (GCP)
+   Median Score: 7.79
+   Max Deviation: 0.58
+   Scores: claude_opus_4_1_score=7.21, claude_sonnet_4_5_score=8.36
+
+456. AmazonPrometheus (AWS)
+   Median Score: 7.49
+   Max Deviation: 0.58
+   Scores: claude_opus_4_1_score=6.90, claude_sonnet_4_5_score=8.07
+
+457. Media Services (Azure)
+   Median Score: 6.84
+   Max Deviation: 0.59
+   Scores: claude_opus_4_1_score=6.25, claude_sonnet_4_5_score=7.43
+
+458. Dataplex (GCP)
+   Median Score: 7.76
+   Max Deviation: 0.60
+   Scores: claude_opus_4_1_score=7.16, claude_sonnet_4_5_score=8.36
+
+459. Azure Cosmos DB (Azure)
+   Median Score: 7.68
+   Max Deviation: 0.61
+   Scores: claude_opus_4_1_score=7.07, claude_sonnet_4_5_score=8.29
+
+460. Microsoft Graph data connect (Azure)
+   Median Score: 6.48
+   Max Deviation: 0.62
+   Scores: claude_opus_4_1_score=7.10, claude_sonnet_4_5_score=5.86
+
+461. AWSGlue (AWS)
+   Median Score: 7.73
+   Max Deviation: 0.62
+   Scores: claude_opus_4_1_score=7.11, claude_sonnet_4_5_score=8.36
+
+462. Database Migration (GCP)
+   Median Score: 7.55
+   Max Deviation: 0.62
+   Scores: claude_opus_4_1_score=6.93, claude_sonnet_4_5_score=8.18
+
+463. AmazonS3 (AWS)
+   Median Score: 7.84
+   Max Deviation: 0.63
+   Scores: claude_opus_4_1_score=7.21, claude_sonnet_4_5_score=8.46
+
+464. AmazonMemoryDB (AWS)
+   Median Score: 6.86
+   Max Deviation: 0.65
+   Scores: claude_opus_4_1_score=6.21, claude_sonnet_4_5_score=7.50
+
+465. Quantum Computing (Azure)
+   Median Score: 7.36
+   Max Deviation: 0.65
+   Scores: claude_opus_4_1_score=6.71, claude_sonnet_4_5_score=8.00
+
+466. SQL Data Warehouse (Azure)
+   Median Score: 6.64
+   Max Deviation: 0.65
+   Scores: claude_opus_4_1_score=6.00, claude_sonnet_4_5_score=7.29
+
+467. AmazonCloudFront (AWS)
+   Median Score: 7.85
+   Max Deviation: 0.66
+   Scores: claude_opus_4_1_score=7.19, claude_sonnet_4_5_score=8.50
+
+468. AI Ops (Azure)
+   Median Score: 8.09
+   Max Deviation: 0.66
+   Scores: claude_opus_4_1_score=7.43, claude_sonnet_4_5_score=8.75
+
+469. Cloud Spanner (GCP)
+   Median Score: 7.73
+   Max Deviation: 0.66
+   Scores: claude_opus_4_1_score=7.07, claude_sonnet_4_5_score=8.39
+
+470. Cloud Healthcare (GCP)
+   Median Score: 7.88
+   Max Deviation: 0.67
+   Scores: claude_opus_4_1_score=7.21, claude_sonnet_4_5_score=8.54
+
+471. Machine Learning Studio (Azure)
+   Median Score: 6.30
+   Max Deviation: 0.67
+   Scores: claude_opus_4_1_score=6.97, claude_sonnet_4_5_score=5.64
+
+472. AWSStorageGateway (AWS)
+   Median Score: 4.46
+   Max Deviation: 0.67
+   Scores: claude_opus_4_1_score=3.79, claude_sonnet_4_5_score=5.14
+
+473. Binary Authorization (GCP)
+   Median Score: 7.96
+   Max Deviation: 0.68
+   Scores: claude_opus_4_1_score=7.29, claude_sonnet_4_5_score=8.64
+
+474. AmazonNeptune (AWS)
+   Median Score: 6.57
+   Max Deviation: 0.68
+   Scores: claude_opus_4_1_score=5.89, claude_sonnet_4_5_score=7.25
+
+475. SQL Database (Azure)
+   Median Score: 6.68
+   Max Deviation: 0.68
+   Scores: claude_opus_4_1_score=6.00, claude_sonnet_4_5_score=7.36
+
+476. AmazonApiGateway (AWS)
+   Median Score: 8.04
+   Max Deviation: 0.71
+   Scores: claude_opus_4_1_score=7.33, claude_sonnet_4_5_score=8.74
+
+477. Azure Arc Enabled Databases (Azure)
+   Median Score: 4.00
+   Max Deviation: 0.71
+   Scores: claude_opus_4_1_score=3.29, claude_sonnet_4_5_score=4.71
+
+478. AmazonS3GlacierDeepArchive (AWS)
+   Median Score: 8.00
+   Max Deviation: 0.71
+   Scores: claude_opus_4_1_score=7.29, claude_sonnet_4_5_score=8.71
+
+479. Digital Twins (Azure)
+   Median Score: 6.58
+   Max Deviation: 0.71
+   Scores: claude_opus_4_1_score=5.86, claude_sonnet_4_5_score=7.29
+
+480. Routing (Azure)
+   Median Score: 3.42
+   Max Deviation: 0.71
+   Scores: claude_opus_4_1_score=2.71, claude_sonnet_4_5_score=4.14
+
+481. Cloud Memorystore for Redis (GCP)
+   Median Score: 6.86
+   Max Deviation: 0.72
+   Scores: claude_opus_4_1_score=6.14, claude_sonnet_4_5_score=7.57
+
+482. Redis Cache (Azure)
+   Median Score: 6.71
+   Max Deviation: 0.72
+   Scores: claude_opus_4_1_score=5.99, claude_sonnet_4_5_score=7.43
+
+483. AmazonIVS (AWS)
+   Median Score: 7.99
+   Max Deviation: 0.73
+   Scores: claude_opus_4_1_score=7.26, claude_sonnet_4_5_score=8.71
+
+484. AmazonIVSChat (AWS)
+   Median Score: 7.92
+   Max Deviation: 0.73
+   Scores: claude_opus_4_1_score=7.19, claude_sonnet_4_5_score=8.64
+
+485. AmazonECR (AWS)
+   Median Score: 7.70
+   Max Deviation: 0.73
+   Scores: claude_opus_4_1_score=6.97, claude_sonnet_4_5_score=8.43
+
+486. AWSAmplify (AWS)
+   Median Score: 7.94
+   Max Deviation: 0.75
+   Scores: claude_opus_4_1_score=7.19, claude_sonnet_4_5_score=8.68
+
+487. Datastream (GCP)
+   Median Score: 7.94
+   Max Deviation: 0.75
+   Scores: claude_opus_4_1_score=7.19, claude_sonnet_4_5_score=8.68
+
+488. AmazonECS (AWS)
+   Median Score: 4.54
+   Max Deviation: 0.75
+   Scores: claude_opus_4_1_score=3.79, claude_sonnet_4_5_score=5.29
+
+489. AmazonETS (AWS)
+   Median Score: 8.11
+   Max Deviation: 0.75
+   Scores: claude_opus_4_1_score=7.36, claude_sonnet_4_5_score=8.86
+
+490. Artifact Registry (GCP)
+   Median Score: 8.11
+   Max Deviation: 0.75
+   Scores: claude_opus_4_1_score=7.36, claude_sonnet_4_5_score=8.86
+
+491. Azure Bastion (Azure)
+   Median Score: 8.18
+   Max Deviation: 0.75
+   Scores: claude_opus_4_1_score=7.43, claude_sonnet_4_5_score=8.93
+
+492. Azure Database for PostgreSQL (Azure)
+   Median Score: 6.25
+   Max Deviation: 0.75
+   Scores: claude_opus_4_1_score=5.50, claude_sonnet_4_5_score=7.00
+
+493. Cloud Firestore (GCP)
+   Median Score: 8.25
+   Max Deviation: 0.75
+   Scores: claude_opus_4_1_score=7.50, claude_sonnet_4_5_score=9.00
+
+494. Private Mobile Network (Azure)
+   Median Score: 5.25
+   Max Deviation: 0.75
+   Scores: claude_opus_4_1_score=4.50, claude_sonnet_4_5_score=6.00
+
+495. nimble (AWS)
+   Median Score: 6.75
+   Max Deviation: 0.75
+   Scores: claude_opus_4_1_score=6.00, claude_sonnet_4_5_score=7.50
+
+496. AWSXRay (AWS)
+   Median Score: 7.46
+   Max Deviation: 0.75
+   Scores: claude_opus_4_1_score=8.21, claude_sonnet_4_5_score=6.71
+
+497. AmazonAthena (AWS)
+   Median Score: 7.89
+   Max Deviation: 0.75
+   Scores: claude_opus_4_1_score=7.14, claude_sonnet_4_5_score=8.64
+
+498. Firebase Data Connect (GCP)
+   Median Score: 7.77
+   Max Deviation: 0.76
+   Scores: claude_opus_4_1_score=7.01, claude_sonnet_4_5_score=8.53
+
+499. AWSGlueElasticViews (AWS)
+   Median Score: 7.88
+   Max Deviation: 0.77
+   Scores: claude_opus_4_1_score=7.11, claude_sonnet_4_5_score=8.64
+
+500. AmazonEFS (AWS)
+   Median Score: 7.05
+   Max Deviation: 0.77
+   Scores: claude_opus_4_1_score=6.29, claude_sonnet_4_5_score=7.82
+
+501. Power BI Embedded (Azure)
+   Median Score: 7.05
+   Max Deviation: 0.77
+   Scores: claude_opus_4_1_score=7.82, claude_sonnet_4_5_score=6.29
+
+502. Log Analytics (Azure)
+   Median Score: 7.94
+   Max Deviation: 0.78
+   Scores: claude_opus_4_1_score=7.16, claude_sonnet_4_5_score=8.71
+
+503. Cloud Storage (GCP)
+   Median Score: 8.07
+   Max Deviation: 0.79
+   Scores: claude_opus_4_1_score=7.29, claude_sonnet_4_5_score=8.86
+
+504. Network Watcher (Azure)
+   Median Score: 8.07
+   Max Deviation: 0.79
+   Scores: claude_opus_4_1_score=7.29, claude_sonnet_4_5_score=8.86
+
+505. AWSIoTSiteWise (AWS)
+   Median Score: 7.89
+   Max Deviation: 0.79
+   Scores: claude_opus_4_1_score=7.10, claude_sonnet_4_5_score=8.68
+
+506. AmazonDataZone (AWS)
+   Median Score: 7.99
+   Max Deviation: 0.80
+   Scores: claude_opus_4_1_score=7.19, claude_sonnet_4_5_score=8.79
+
+507. Azure Remote Rendering (Azure)
+   Median Score: 7.70
+   Max Deviation: 0.80
+   Scores: claude_opus_4_1_score=6.90, claude_sonnet_4_5_score=8.50
+
+508. Data Lake Store (Azure)
+   Median Score: 7.09
+   Max Deviation: 0.80
+   Scores: claude_opus_4_1_score=6.29, claude_sonnet_4_5_score=7.89
+
+509. AmazonTimestream (AWS)
+   Median Score: 7.91
+   Max Deviation: 0.80
+   Scores: claude_opus_4_1_score=7.11, claude_sonnet_4_5_score=8.71
+
+510. Managed Lustre (GCP)
+   Median Score: 5.95
+   Max Deviation: 0.81
+   Scores: claude_opus_4_1_score=5.14, claude_sonnet_4_5_score=6.76
+
+511. Azure Stack Edge (Azure)
+   Median Score: 3.69
+   Max Deviation: 0.81
+   Scores: claude_opus_4_1_score=2.87, claude_sonnet_4_5_score=4.50
+
+512. AmazonDynamoDB (AWS)
+   Median Score: 7.82
+   Max Deviation: 0.82
+   Scores: claude_opus_4_1_score=7.00, claude_sonnet_4_5_score=8.64
+
+513. AmazonSumerian (AWS)
+   Median Score: 7.82
+   Max Deviation: 0.82
+   Scores: claude_opus_4_1_score=7.00, claude_sonnet_4_5_score=8.64
+
+514. Stackdriver (GCP)
+   Median Score: 8.11
+   Max Deviation: 0.82
+   Scores: claude_opus_4_1_score=7.29, claude_sonnet_4_5_score=8.93
+
+515. Cloud Composer (GCP)
+   Median Score: 6.54
+   Max Deviation: 0.83
+   Scores: claude_opus_4_1_score=5.71, claude_sonnet_4_5_score=7.36
+
+516. AmazonA2I (AWS)
+   Median Score: 7.86
+   Max Deviation: 0.83
+   Scores: claude_opus_4_1_score=7.03, claude_sonnet_4_5_score=8.69
+
+517. AWSGlobalAccelerator (AWS)
+   Median Score: 7.91
+   Max Deviation: 0.84
+   Scores: claude_opus_4_1_score=7.07, claude_sonnet_4_5_score=8.75
+
+518. Time Series Insights (Azure)
+   Median Score: 7.84
+   Max Deviation: 0.84
+   Scores: claude_opus_4_1_score=7.00, claude_sonnet_4_5_score=8.68
+
+519. AWSCloudMap (AWS)
+   Median Score: 8.14
+   Max Deviation: 0.86
+   Scores: claude_opus_4_1_score=7.29, claude_sonnet_4_5_score=9.00
+
+520. AmazonHealthLake (AWS)
+   Median Score: 7.86
+   Max Deviation: 0.86
+   Scores: claude_opus_4_1_score=7.00, claude_sonnet_4_5_score=8.71
+
+521. AmazonWAM (AWS)
+   Median Score: 6.86
+   Max Deviation: 0.86
+   Scores: claude_opus_4_1_score=6.00, claude_sonnet_4_5_score=7.71
+
+522. Network Traversal (Azure)
+   Median Score: 7.93
+   Max Deviation: 0.86
+   Scores: claude_opus_4_1_score=7.07, claude_sonnet_4_5_score=8.79
+
+523. Azure Device Registry (Azure)
+   Median Score: 8.00
+   Max Deviation: 0.86
+   Scores: claude_opus_4_1_score=7.14, claude_sonnet_4_5_score=8.86
+
+524. AWSNetworkFirewall (AWS)
+   Median Score: 7.16
+   Max Deviation: 0.88
+   Scores: claude_opus_4_1_score=6.29, claude_sonnet_4_5_score=8.04
+
+525. NAT Gateway (Azure)
+   Median Score: 7.95
+   Max Deviation: 0.88
+   Scores: claude_opus_4_1_score=7.07, claude_sonnet_4_5_score=8.82
+
+526. AmazonSimpleDB (AWS)
+   Median Score: 7.79
+   Max Deviation: 0.89
+   Scores: claude_opus_4_1_score=6.90, claude_sonnet_4_5_score=8.68
+
+527. AmazonChimeVoiceConnector (AWS)
+   Median Score: 7.91
+   Max Deviation: 0.91
+   Scores: claude_opus_4_1_score=7.00, claude_sonnet_4_5_score=8.82
+
+528. Azure Database for MySQL (Azure)
+   Median Score: 6.41
+   Max Deviation: 0.91
+   Scores: claude_opus_4_1_score=5.50, claude_sonnet_4_5_score=7.32
+
+529. AmazonQLDB (AWS)
+   Median Score: 7.86
+   Max Deviation: 0.93
+   Scores: claude_opus_4_1_score=6.93, claude_sonnet_4_5_score=8.79
+
+530. Elastifile Cloud File System (GCP)
+   Median Score: 5.00
+   Max Deviation: 0.93
+   Scores: claude_opus_4_1_score=5.93, claude_sonnet_4_5_score=4.07
+
+531. IoTTwinMaker (AWS)
+   Median Score: 6.86
+   Max Deviation: 0.93
+   Scores: claude_opus_4_1_score=5.93, claude_sonnet_4_5_score=7.79
+
+532. Voice (Azure)
+   Median Score: 8.05
+   Max Deviation: 0.95
+   Scores: claude_opus_4_1_score=7.10, claude_sonnet_4_5_score=9.00
+
+533. AWSBackup (AWS)
+   Median Score: 7.72
+   Max Deviation: 0.96
+   Scores: claude_opus_4_1_score=6.76, claude_sonnet_4_5_score=8.68
+
+534. Windows 10 IoT Core Services (Azure)
+   Median Score: 5.39
+   Max Deviation: 0.97
+   Scores: claude_opus_4_1_score=6.36, claude_sonnet_4_5_score=4.43
+
+================================================================================
+END OF REPORT
+================================================================================

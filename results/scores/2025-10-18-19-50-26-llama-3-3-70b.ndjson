@@ -1,0 +1,623 @@
+{"provider": "AWS", "service_name": "AWSDataTransfer", "llama_3_3_70b_score": 8.0, "service_alias": "AWS Data Transfer"}
+{"provider": "AWS", "service_name": "AWSMDC", "llama_3_3_70b_score": 8.29, "service_alias": "AWS Modular Data Center"}
+{"provider": "AWS", "service_name": "AWSDirectConnect", "llama_3_3_70b_score": 3.79, "service_alias": "AWS Direct Connect"}
+{"provider": "AWS", "service_name": "AwsCloudShell", "llama_3_3_70b_score": 8.43, "service_alias": "AWS CloudShell"}
+{"provider": "AWS", "service_name": "AmazonVPC", "llama_3_3_70b_score": 1.57, "service_alias": "Amazon Virtual Private Cloud"}
+{"provider": "AWS", "service_name": "IngestionService", "llama_3_3_70b_score": 8.36, "service_alias": "AWS Import/Export"}
+{"provider": "AWS", "service_name": "Registrar", "llama_3_3_70b_score": 8.14, "service_alias": "Amazon Registrar"}
+{"provider": "AWS", "service_name": "AWSOutposts", "llama_3_3_70b_score": 5.43, "service_alias": "AWS Outposts"}
+{"provider": "AWS", "service_name": "ComputeSavingsPlans", "llama_3_3_70b_score": 2.86, "service_alias": "Savings Plans for AWS Compute usage"}
+{"provider": "AWS", "service_name": "AmazonRDS", "llama_3_3_70b_score": 7.0, "service_alias": "Amazon Relational Database Service"}
+{"provider": "AWS", "service_name": "AWSStorageGatewayDeepArchive", "llama_3_3_70b_score": 8.43, "service_alias": "AWS Storage Gateway Deep Archive"}
+{"provider": "AWS", "service_name": "AmazonEKSAnywhere", "llama_3_3_70b_score": 5.86, "service_alias": "Amazon EKS Anywhere"}
+{"provider": "AWS", "service_name": "OpsWorks", "llama_3_3_70b_score": 5.36, "service_alias": "AWS OpsWorks"}
+{"provider": "AWS", "service_name": "IngestionServiceSnowball", "llama_3_3_70b_score": 7.43, "service_alias": "AWS Import/Export Snowball"}
+{"provider": "AWS", "service_name": "AmazonEFS", "llama_3_3_70b_score": 7.86, "service_alias": "Amazon Elastic File System"}
+{"provider": "AWS", "service_name": "VMwareCloudOnAWS", "llama_3_3_70b_score": 6.14, "service_alias": "VMware Cloud on AWS"}
+{"provider": "AWS", "service_name": "AWSStorageGateway", "llama_3_3_70b_score": 6.43, "service_alias": "AWS Storage Gateway"}
+{"provider": "AWS", "service_name": "CloudHSM", "llama_3_3_70b_score": 8.0, "service_alias": "AWS CloudHSM"}
+{"provider": "AWS", "service_name": "AmazonEKS", "llama_3_3_70b_score": 5.71, "service_alias": "Amazon Elastic Container Service for Kubernetes"}
+{"provider": "AWS", "service_name": "AWSCloudFormation", "llama_3_3_70b_score": 4.93, "service_alias": "AWS CloudFormation"}
+{"provider": "AWS", "service_name": "ElasticMapReduce", "llama_3_3_70b_score": 5.5, "service_alias": "Amazon Elastic MapReduce"}
+{"provider": "AWS", "service_name": "AWSApplicationMigrationSvc", "llama_3_3_70b_score": 7.71, "service_alias": "AWS Application Migration Service"}
+{"provider": "AWS", "service_name": "AmazonMemoryDB", "llama_3_3_70b_score": 7.71, "service_alias": "Amazon MemoryDB"}
+{"provider": "AWS", "service_name": "AmazonBraket", "llama_3_3_70b_score": 9.26, "service_alias": "Amazon Braket"}
+{"provider": "AWS", "service_name": "datapipeline", "llama_3_3_70b_score": 6.14, "service_alias": "AWS Data Pipeline"}
+{"provider": "AWS", "service_name": "AWSM2", "llama_3_3_70b_score": 8.21, "service_alias": "AWS Mainframe Modernization"}
+{"provider": "AWS", "service_name": "AmazonElastiCache", "llama_3_3_70b_score": 6.93, "service_alias": "Amazon ElastiCache"}
+{"provider": "AWS", "service_name": "AWSGreengrass", "llama_3_3_70b_score": 5.71, "service_alias": "AWS Greengrass"}
+{"provider": "AWS", "service_name": "AmazonEI", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon Elastic Inference"}
+{"provider": "AWS", "service_name": "AmazonFSx", "llama_3_3_70b_score": 8.29, "service_alias": "Amazon FSx"}
+{"provider": "AWS", "service_name": "AmazonMCS", "llama_3_3_70b_score": 8.21, "service_alias": "Amazon Keyspaces (for Apache Cassandra)"}
+{"provider": "AWS", "service_name": "AmazonKinesis", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon Kinesis"}
+{"provider": "AWS", "service_name": "AmazonSageMaker", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon SageMaker"}
+{"provider": "AWS", "service_name": "AmazonRedshift", "llama_3_3_70b_score": 8.14, "service_alias": "Amazon Redshift"}
+{"provider": "AWS", "service_name": "AmazonLightsail", "llama_3_3_70b_score": 5.57, "service_alias": "Amazon Lightsail"}
+{"provider": "AWS", "service_name": "AmazonManagedBlockchain", "llama_3_3_70b_score": 8.14, "service_alias": "Amazon Managed Blockchain"}
+{"provider": "AWS", "service_name": "AWSSystemsManager", "llama_3_3_70b_score": 5.79, "service_alias": "AWS Systems Manager"}
+{"provider": "AWS", "service_name": "AmazonMQ", "llama_3_3_70b_score": 7.64, "service_alias": "Amazon MQ"}
+{"provider": "AWS", "service_name": "AmazonECS", "llama_3_3_70b_score": 5.5, "service_alias": "Amazon Elastic Container Service"}
+{"provider": "AWS", "service_name": "AmazonEC2", "llama_3_3_70b_score": 1.57, "service_alias": "Amazon Elastic Compute Cloud"}
+{"provider": "AWS", "service_name": "AmazonES", "llama_3_3_70b_score": 8.29, "service_alias": "Amazon OpenSearch Service"}
+{"provider": "AWS", "service_name": "AmazonNeptune", "llama_3_3_70b_score": 8.29, "service_alias": "Amazon Neptune"}
+{"provider": "AWS", "service_name": "AmazonGameLift", "llama_3_3_70b_score": 8.14, "service_alias": "Amazon GameLift"}
+{"provider": "AWS", "service_name": "AmazonMSK", "llama_3_3_70b_score": 8.21, "service_alias": "Amazon Managed Streaming for Apache Kafka"}
+{"provider": "AWS", "service_name": "AWSElasticDisasterRecovery", "llama_3_3_70b_score": 8.36, "service_alias": "AWS Elastic Disaster Recovery"}
+{"provider": "AWS", "service_name": "AWSTelcoNetworkBuilder", "llama_3_3_70b_score": 8.29, "service_alias": "AWS Telco Network Builder"}
+{"provider": "AWS", "service_name": "AmazonETS", "llama_3_3_70b_score": 8.8, "service_alias": "Amazon Elastic Transcoder"}
+{"provider": "AWS", "service_name": "AWSDataSync", "llama_3_3_70b_score": 7.86, "service_alias": "AWS DataSync"}
+{"provider": "AWS", "service_name": "AWSCodeDeploy", "llama_3_3_70b_score": 5.86, "service_alias": "AWS CodeDeploy"}
+{"provider": "AWS", "service_name": "AmazonSimpleDB", "llama_3_3_70b_score": 8.21, "service_alias": "Amazon SimpleDB"}
+{"provider": "AWS", "service_name": "AmazonTimestream", "llama_3_3_70b_score": 8.79, "service_alias": "Amazon Timestream"}
+{"provider": "AWS", "service_name": "awswaf", "llama_3_3_70b_score": 8.29, "service_alias": "AWS WAF"}
+{"provider": "AWS", "service_name": "AWSCloudMap", "llama_3_3_70b_score": 8.21, "service_alias": "AWS Cloud Map"}
+{"provider": "AWS", "service_name": "AWSFIS", "llama_3_3_70b_score": 9.14, "service_alias": "AWS Fault Injection Simulator"}
+{"provider": "AWS", "service_name": "AWSDatabaseMigrationSvc", "llama_3_3_70b_score": 8.29, "service_alias": "AWS Database Migration Service"}
+{"provider": "AWS", "service_name": "CodeBuild", "llama_3_3_70b_score": 8.43, "service_alias": "CodeBuild"}
+{"provider": "AWS", "service_name": "AmazonQLDB", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon Quantum Ledger Database"}
+{"provider": "AWS", "service_name": "AWSGlue", "llama_3_3_70b_score": 8.43, "service_alias": "AWS Glue"}
+{"provider": "AWS", "service_name": "AmazonWorkSpaces", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon WorkSpaces"}
+{"provider": "AWS", "service_name": "AmazonGlacier", "llama_3_3_70b_score": 8.23, "service_alias": "Amazon Glacier"}
+{"provider": "AWS", "service_name": "AWSIoT", "llama_3_3_70b_score": 8.29, "service_alias": "AWS IoT"}
+{"provider": "AWS", "service_name": "AWSELB", "llama_3_3_70b_score": 8.14, "service_alias": "Elastic Load Balancing"}
+{"provider": "AWS", "service_name": "AWSDirectoryService", "llama_3_3_70b_score": 8.21, "service_alias": "AWS Directory Service"}
+{"provider": "AWS", "service_name": "AWSPrivate5G", "llama_3_3_70b_score": 5.0, "service_alias": "AWS Private 5G"}
+{"provider": "AWS", "service_name": "AmazonFinSpace", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon FinSpace"}
+{"provider": "AWS", "service_name": "AmazonChimeVoiceConnector", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon Chime Voice Connector a service sold by AMCS LLC"}
+{"provider": "AWS", "service_name": "AWSElementalMediaLive", "llama_3_3_70b_score": 8.36, "service_alias": "AWS Elemental MediaLive"}
+{"provider": "AWS", "service_name": "AWSMigrationHubRefactorSpaces", "llama_3_3_70b_score": 8.43, "service_alias": "AWS Migration Hub Refactor Spaces"}
+{"provider": "AWS", "service_name": "AmazonHealthLake", "llama_3_3_70b_score": 8.9, "service_alias": "Amazon HealthLake"}
+{"provider": "AWS", "service_name": "AWSNetworkFirewall", "llama_3_3_70b_score": 8.36, "service_alias": "AWS Network Firewall"}
+{"provider": "AWS", "service_name": "AmazonKinesisAnalytics", "llama_3_3_70b_score": 8.43, "service_alias": "Amazon Kinesis Analytics"}
+{"provider": "AWS", "service_name": "AWSLakeFormation", "llama_3_3_70b_score": 8.57, "service_alias": "AWS Lake Formation"}
+{"provider": "AWS", "service_name": "AmazonMWAA", "llama_3_3_70b_score": 8.29, "service_alias": "Amazon Managed Workflows for Apache Airflow"}
+{"provider": "AWS", "service_name": "AmazonCloudDirectory", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon Cloud Directory"}
+{"provider": "AWS", "service_name": "AWSRoboMaker", "llama_3_3_70b_score": 7.71, "service_alias": "AWS RoboMaker"}
+{"provider": "AWS", "service_name": "AWSGroundStation", "llama_3_3_70b_score": 8.57, "service_alias": "AWS Ground Station"}
+{"provider": "AWS", "service_name": "AmazonSWF", "llama_3_3_70b_score": 8.21, "service_alias": "Amazon Simple Workflow Service"}
+{"provider": "AWS", "service_name": "SimSpaceWeaver", "llama_3_3_70b_score": 8.43, "service_alias": "AWS SimSpace Weaver"}
+{"provider": "AWS", "service_name": "AmazonS3", "llama_3_3_70b_score": 7.93, "service_alias": "Amazon Simple Storage Service"}
+{"provider": "AWS", "service_name": "AmazonWAM", "llama_3_3_70b_score": 8.29, "service_alias": "Amazon WorkSpaces Application Manager"}
+{"provider": "AWS", "service_name": "AWSCloudWAN", "llama_3_3_70b_score": 8.36, "service_alias": "AWS Cloud WAN"}
+{"provider": "AWS", "service_name": "AWSAmplify", "llama_3_3_70b_score": 8.29, "service_alias": "AWS Amplify"}
+{"provider": "AWS", "service_name": "AWSGlobalAccelerator", "llama_3_3_70b_score": 8.36, "service_alias": "AWS Global Accelerator"}
+{"provider": "AWS", "service_name": "AWSIAMAccessAnalyzer", "llama_3_3_70b_score": 8.71, "service_alias": "AWS Identity and Access Management Access Analyzer"}
+{"provider": "AWS", "service_name": "AWSCodePipeline", "llama_3_3_70b_score": 8.36, "service_alias": "AWS CodePipeline"}
+{"provider": "AWS", "service_name": "AmazonDocDB", "llama_3_3_70b_score": 7.71, "service_alias": "Amazon DocumentDB (with MongoDB compatibility)"}
+{"provider": "AWS", "service_name": "AWSIoTThingsGraph", "llama_3_3_70b_score": 8.36, "service_alias": "AWS IoT Things Graph"}
+{"provider": "AWS", "service_name": "AWSAppFabric", "llama_3_3_70b_score": 8.36, "service_alias": "AWS AppFabric"}
+{"provider": "AWS", "service_name": "AWSResilienceHub", "llama_3_3_70b_score": 8.36, "service_alias": "AWS Resilience Hub"}
+{"provider": "AWS", "service_name": "AmazonDAX", "llama_3_3_70b_score": 7.71, "service_alias": "DynamoDB Accelerator (DAX)"}
+{"provider": "AWS", "service_name": "AmazonPersonalize", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon Personalize"}
+{"provider": "AWS", "service_name": "nimble", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon Nimble Studio"}
+{"provider": "AWS", "service_name": "AWSDeepRacer", "llama_3_3_70b_score": 8.71, "service_alias": "AWS DeepRacer"}
+{"provider": "AWS", "service_name": "AmazonCloudSearch", "llama_3_3_70b_score": 8.0, "service_alias": "Amazon CloudSearch"}
+{"provider": "AWS", "service_name": "AmazonDynamoDB", "llama_3_3_70b_score": 8.64, "service_alias": "Amazon DynamoDB"}
+{"provider": "AWS", "service_name": "AWSIoTSiteWise", "llama_3_3_70b_score": 8.36, "service_alias": "AWS IoT SiteWise"}
+{"provider": "AWS", "service_name": "AWSIoTFleetWise", "llama_3_3_70b_score": 8.36, "service_alias": "AWS IoT FleetWise"}
+{"provider": "AWS", "service_name": "AmazonOmics", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon Omics"}
+{"provider": "AWS", "service_name": "AmazonSumerian", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon Sumerian"}
+{"provider": "AWS", "service_name": "AmazonKinesisFirehose", "llama_3_3_70b_score": 8.87, "service_alias": "Amazon Kinesis Firehose"}
+{"provider": "AWS", "service_name": "AmazonAppStream", "llama_3_3_70b_score": 9.07, "service_alias": "Amazon AppStream"}
+{"provider": "AWS", "service_name": "AWSElementalMediaConvert", "llama_3_3_70b_score": 8.57, "service_alias": "AWS Elemental MediaConvert"}
+{"provider": "AWS", "service_name": "AmazonSNS", "llama_3_3_70b_score": 9.14, "service_alias": "Amazon Simple Notification Service"}
+{"provider": "AWS", "service_name": "AmazonStates", "llama_3_3_70b_score": 8.64, "service_alias": "AWS Step Functions"}
+{"provider": "AWS", "service_name": "IoTTwinMaker", "llama_3_3_70b_score": 8.36, "service_alias": "AWS IoT TwinMaker"}
+{"provider": "AWS", "service_name": "AmazonECR", "llama_3_3_70b_score": 8.29, "service_alias": "Amazon EC2 Container Registry (ECR)"}
+{"provider": "AWS", "service_name": "IoTDeviceDefender", "llama_3_3_70b_score": 8.5, "service_alias": "AWS IoT Device Defender"}
+{"provider": "AWS", "service_name": "AmazonCloudFront", "llama_3_3_70b_score": 8.43, "service_alias": "Amazon CloudFront"}
+{"provider": "AWS", "service_name": "AWSBackup", "llama_3_3_70b_score": 9.14, "service_alias": "AWS Backup"}
+{"provider": "AWS", "service_name": "AmazonDevOpsGuru", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon DevOps Guru"}
+{"provider": "AWS", "service_name": "AWSServiceCatalog", "llama_3_3_70b_score": 8.29, "service_alias": "AWS Service Catalog"}
+{"provider": "AWS", "service_name": "AmazonIVS", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon Interactive Video Service"}
+{"provider": "AWS", "service_name": "AWSDeviceFarm", "llama_3_3_70b_score": 8.57, "service_alias": "AWS Device Farm"}
+{"provider": "AWS", "service_name": "AWSElementalMediaTailor", "llama_3_3_70b_score": 8.43, "service_alias": "AWS Elemental MediaTailor"}
+{"provider": "AWS", "service_name": "A4B", "llama_3_3_70b_score": 9.07, "service_alias": "Alexa for Business"}
+{"provider": "AWS", "service_name": "AmazonInspector", "llama_3_3_70b_score": 8.64, "service_alias": "Amazon Inspector"}
+{"provider": "AWS", "service_name": "AmazonGrafana", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon Managed Grafana"}
+{"provider": "AWS", "service_name": "AmazonML", "llama_3_3_70b_score": 8.29, "service_alias": "Amazon Machine Learning"}
+{"provider": "AWS", "service_name": "AWSEvents", "llama_3_3_70b_score": 8.64, "service_alias": "CloudWatch Events"}
+{"provider": "AWS", "service_name": "AWSGlueElasticViews", "llama_3_3_70b_score": 8.79, "service_alias": "AWS Glue Elastic Views"}
+{"provider": "AWS", "service_name": "AmazonECRPublic", "llama_3_3_70b_score": 8.29, "service_alias": "Amazon Elastic Container Registry Public"}
+{"provider": "AWS", "service_name": "AWSSupplyChain", "llama_3_3_70b_score": 8.29, "service_alias": "AWS Supply Chain"}
+{"provider": "AWS", "service_name": "AWSCodeCommit", "llama_3_3_70b_score": 8.64, "service_alias": "AWS CodeCommit"}
+{"provider": "AWS", "service_name": "AmazonCloudWatch", "llama_3_3_70b_score": 8.43, "service_alias": "AmazonCloudWatch"}
+{"provider": "AWS", "service_name": "AmazonFraudDetector", "llama_3_3_70b_score": 8.64, "service_alias": "Amazon Fraud Detector"}
+{"provider": "AWS", "service_name": "AmazonCognito", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon Cognito"}
+{"provider": "AWS", "service_name": "AmazonS3GlacierDeepArchive", "llama_3_3_70b_score": 8.23, "service_alias": "Amazon S3 Glacier Deep Archive"}
+{"provider": "AWS", "service_name": "AmazonInspectorV2", "llama_3_3_70b_score": 9.14, "service_alias": "Amazon Inspector"}
+{"provider": "AWS", "service_name": "AWSR53AppRecoveryController", "llama_3_3_70b_score": 8.43, "service_alias": "AWS Route 53 Application Recovery Controller"}
+{"provider": "AWS", "service_name": "AWSIoTEvents", "llama_3_3_70b_score": 8.43, "service_alias": "AWS IoT Events"}
+{"provider": "AWS", "service_name": "AmazonLocationService", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon Location Service"}
+{"provider": "AWS", "service_name": "AmazonDataZone", "llama_3_3_70b_score": 9.37, "service_alias": "Amazon DataZone"}
+{"provider": "AWS", "service_name": "AWSCleanRooms", "llama_3_3_70b_score": 8.36, "service_alias": "AWS Clean Rooms"}
+{"provider": "AWS", "service_name": "AmazonSES", "llama_3_3_70b_score": 8.43, "service_alias": "Amazon Simple Email Service"}
+{"provider": "AWS", "service_name": "auditmanager", "llama_3_3_70b_score": 8.8, "service_alias": "AWS Audit Manager"}
+{"provider": "AWS", "service_name": "IoTDeviceManagement", "llama_3_3_70b_score": 8.36, "service_alias": "AWS IoT Device Management"}
+{"provider": "AWS", "service_name": "AmazonRoute53", "llama_3_3_70b_score": 8.5, "service_alias": "Amazon Route 53"}
+{"provider": "AWS", "service_name": "AmazonPrometheus", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon Managed Service for Prometheus"}
+{"provider": "AWS", "service_name": "AppFlow", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon AppFlow"}
+{"provider": "AWS", "service_name": "AWSQueueService", "llama_3_3_70b_score": 8.64, "service_alias": "Amazon Simple Queue Service"}
+{"provider": "AWS", "service_name": "AWSMediaConnect", "llama_3_3_70b_score": 8.36, "service_alias": "AWS Elemental MediaConnect"}
+{"provider": "AWS", "service_name": "AWSElementalMediaStore", "llama_3_3_70b_score": 8.36, "service_alias": "AWS Elemental MediaStore"}
+{"provider": "AWS", "service_name": "AWSAppSync", "llama_3_3_70b_score": 8.57, "service_alias": "AWS AppSync"}
+{"provider": "AWS", "service_name": "AWSFMS", "llama_3_3_70b_score": 8.29, "service_alias": "AWS Firewall Manager"}
+{"provider": "AWS", "service_name": "AmazonApiGateway", "llama_3_3_70b_score": 8.5, "service_alias": "Amazon API Gateway"}
+{"provider": "AWS", "service_name": "AWSXRay", "llama_3_3_70b_score": 8.36, "service_alias": "AWS X-Ray"}
+{"provider": "AWS", "service_name": "AWSEntityResolution", "llama_3_3_70b_score": 9.21, "service_alias": "AWS Entity Resolution"}
+{"provider": "AWS", "service_name": "AWSCodeArtifact", "llama_3_3_70b_score": 8.36, "service_alias": "AWS CodeArtifact"}
+{"provider": "AWS", "service_name": "AWSIoTAnalytics", "llama_3_3_70b_score": 8.36, "service_alias": "AWS IoT Analytics"}
+{"provider": "AWS", "service_name": "AmazonKinesisVideo", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon Kinesis Video Streams"}
+{"provider": "AWS", "service_name": "AmazonSecurityLake", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon Security Lake"}
+{"provider": "AWS", "service_name": "AWSConfig", "llama_3_3_70b_score": 8.36, "service_alias": "AWS Config"}
+{"provider": "AWS", "service_name": "AWSTransfer", "llama_3_3_70b_score": 9.37, "service_alias": "AWS Transfer Family"}
+{"provider": "AWS", "service_name": "AmazonCognitoSync", "llama_3_3_70b_score": 8.64, "service_alias": "Amazon Cognito Sync"}
+{"provider": "AWS", "service_name": "CodeCatalyst", "llama_3_3_70b_score": 8.36, "service_alias": "CodeCatalyst"}
+{"provider": "AWS", "service_name": "AWSElementalMediaPackage", "llama_3_3_70b_score": 8.36, "service_alias": "AWS Elemental MediaPackage"}
+{"provider": "AWS", "service_name": "AmazonLookoutEquipment", "llama_3_3_70b_score": 8.5, "service_alias": "Amazon Lookout for Equipment"}
+{"provider": "AWS", "service_name": "AmazonAthena", "llama_3_3_70b_score": 8.5, "service_alias": "Amazon Athena"}
+{"provider": "AWS", "service_name": "AWSAppRunner", "llama_3_3_70b_score": 8.43, "service_alias": "AWS App Runner"}
+{"provider": "AWS", "service_name": "AmazonMedicalImaging", "llama_3_3_70b_score": 8.5, "service_alias": "AWS HealthImaging"}
+{"provider": "AWS", "service_name": "AmazonLookoutMetrics", "llama_3_3_70b_score": 8.87, "service_alias": "Amazon Lookout for Metrics"}
+{"provider": "AWS", "service_name": "AmazonA2I", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon Augmented AI"}
+{"provider": "AWS", "service_name": "AmazonLex", "llama_3_3_70b_score": 8.64, "service_alias": "Amazon Lex"}
+{"provider": "AWS", "service_name": "AWSB2Bi", "llama_3_3_70b_score": 8.29, "service_alias": "AWS B2B Data Interchange"}
+{"provider": "AWS", "service_name": "AmazonForecast", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon Forecast"}
+{"provider": "AWS", "service_name": "AWSBillingConductor", "llama_3_3_70b_score": 9.21, "service_alias": "AWS Billing Conductor"}
+{"provider": "AWS", "service_name": "AmazonMacie", "llama_3_3_70b_score": 9.21, "service_alias": "Amazon Macie"}
+{"provider": "AWS", "service_name": "AmazonBedrock", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon Bedrock"}
+{"provider": "AWS", "service_name": "AWSCloudTrail", "llama_3_3_70b_score": 8.64, "service_alias": "AWS CloudTrail"}
+{"provider": "AWS", "service_name": "CodeGuru", "llama_3_3_70b_score": 9.07, "service_alias": "CodeGuru"}
+{"provider": "AWS", "service_name": "AWSSupportEnterprise", "llama_3_3_70b_score": 9.43, "service_alias": "AWS Support (Enterprise)"}
+{"provider": "AWS", "service_name": "AWSDataExchange", "llama_3_3_70b_score": 8.57, "service_alias": "AWS Data Exchange"}
+{"provider": "AWS", "service_name": "AWSIoT1Click", "llama_3_3_70b_score": 8.36, "service_alias": "AWS IoT 1 Click"}
+{"provider": "AWS", "service_name": "AmazonMonitron", "llama_3_3_70b_score": 9.37, "service_alias": "Amazon Monitron"}
+{"provider": "AWS", "service_name": "PaymentCryptography", "llama_3_3_70b_score": 8.43, "service_alias": "AWS Payment Cryptography"}
+{"provider": "AWS", "service_name": "AmazonLookoutVision", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon Lookout for Vision"}
+{"provider": "AWS", "service_name": "comprehendmedical", "llama_3_3_70b_score": 8.8, "service_alias": "Comprehend Medical"}
+{"provider": "AWS", "service_name": "AmazonKendra", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon Kendra"}
+{"provider": "AWS", "service_name": "AmazonWorkDocs", "llama_3_3_70b_score": 8.3, "service_alias": "Amazon WorkDocs"}
+{"provider": "AWS", "service_name": "AWSComputeOptimizer", "llama_3_3_70b_score": 8.0, "service_alias": "AWS Compute Optimizer"}
+{"provider": "AWS", "service_name": "AWSLambda", "llama_3_3_70b_score": 8.64, "service_alias": "AWS Lambda"}
+{"provider": "AWS", "service_name": "AWSCostExplorer", "llama_3_3_70b_score": 8.14, "service_alias": "AWS Cost Explorer"}
+{"provider": "AWS", "service_name": "AmazonPinpoint", "llama_3_3_70b_score": 8.87, "service_alias": "Amazon Pinpoint"}
+{"provider": "AWS", "service_name": "AWSBudgets", "llama_3_3_70b_score": 8.14, "service_alias": "AWS Budgets"}
+{"provider": "AWS", "service_name": "AWSShield", "llama_3_3_70b_score": 8.0, "service_alias": "AWS Shield"}
+{"provider": "AWS", "service_name": "AmazonConnect", "llama_3_3_70b_score": 8.43, "service_alias": "Amazon Connect"}
+{"provider": "AWS", "service_name": "ContactCenterTelecommKR", "llama_3_3_70b_score": 8.36, "service_alias": "Contact Center Telecommunications Korea"}
+{"provider": "AWS", "service_name": "AlexaWebInfoService", "llama_3_3_70b_score": 9.21, "service_alias": "Alexa Web Information Service"}
+{"provider": "AWS", "service_name": "AmazonChimeDialin", "llama_3_3_70b_score": 8.3, "service_alias": "Amazon Chime Dialin"}
+{"provider": "AWS", "service_name": "AlexaTopSites", "llama_3_3_70b_score": 8.14, "service_alias": "Alexa Top Sites"}
+{"provider": "AWS", "service_name": "AmazonWorkSpacesThinClient", "llama_3_3_70b_score": 8.29, "service_alias": "Amazon WorkSpaces Thin Client"}
+{"provider": "AWS", "service_name": "AmazonChime", "llama_3_3_70b_score": 8.3, "service_alias": "Amazon Chime"}
+{"provider": "AWS", "service_name": "ContactLensAmazonConnect", "llama_3_3_70b_score": 8.43, "service_alias": "Contact Lens for Amazon Connect"}
+{"provider": "AWS", "service_name": "AmazonTextract", "llama_3_3_70b_score": 9.14, "service_alias": "Amazon Textract"}
+{"provider": "AWS", "service_name": "AmazonCodeWhisperer", "llama_3_3_70b_score": 9.37, "service_alias": "Amazon CodeWhisperer"}
+{"provider": "AWS", "service_name": "AmazonConnectVoiceID", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon Connect Voice ID"}
+{"provider": "AWS", "service_name": "AmazonHoneycode", "llama_3_3_70b_score": 8.64, "service_alias": "Amazon Honeycode"}
+{"provider": "AWS", "service_name": "AmazonPolly", "llama_3_3_70b_score": 9.14, "service_alias": "Amazon Polly"}
+{"provider": "AWS", "service_name": "AWSWisdom", "llama_3_3_70b_score": 8.36, "service_alias": "Amazon Connect Wisdom"}
+{"provider": "AWS", "service_name": "CustomerProfiles", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon Connect Customer Profiles"}
+{"provider": "AWS", "service_name": "comprehend", "llama_3_3_70b_score": 8.79, "service_alias": "Amazon Comprehend"}
+{"provider": "AWS", "service_name": "AmazonChimeBusinessCalling", "llama_3_3_70b_score": 8.3, "service_alias": "Amazon Chime Business Calling a service sold by AMCS LLC"}
+{"provider": "AWS", "service_name": "AmazonWorkMail", "llama_3_3_70b_score": 8.0, "service_alias": "AmazonWorkMail"}
+{"provider": "AWS", "service_name": "AmazonDetective", "llama_3_3_70b_score": 8.87, "service_alias": "Amazon Detective"}
+{"provider": "AWS", "service_name": "AmazonGuardDuty", "llama_3_3_70b_score": 9.21, "service_alias": "Amazon GuardDuty"}
+{"provider": "AWS", "service_name": "mobileanalytics", "llama_3_3_70b_score": 8.87, "service_alias": "Amazon Mobile Analytics"}
+{"provider": "AWS", "service_name": "AmazonWorkSpacesWeb", "llama_3_3_70b_score": 7.71, "service_alias": "Amazon WorkSpaces Web"}
+{"provider": "AWS", "service_name": "AWSCertificateManager", "llama_3_3_70b_score": 9.07, "service_alias": "AWS Certificate Manager"}
+{"provider": "AWS", "service_name": "AWSSecurityHub", "llama_3_3_70b_score": 8.71, "service_alias": "AWS Security Hub"}
+{"provider": "AWS", "service_name": "AmazonQuickSight", "llama_3_3_70b_score": 8.57, "service_alias": "Amazon QuickSight"}
+{"provider": "AWS", "service_name": "repostspace", "llama_3_3_70b_score": 8.0, "service_alias": "AWS re:Post Private"}
+{"provider": "AWS", "service_name": "AmazonChimeFeatures", "llama_3_3_70b_score": 8.3, "service_alias": "Amazon Chime Features"}
+{"provider": "AWS", "service_name": "AmazonChimeCallMe", "llama_3_3_70b_score": 8.3, "service_alias": "Amazon Chime Call Me"}
+{"provider": "AWS", "service_name": "AWSSecretsManager", "llama_3_3_70b_score": 8.14, "service_alias": "AWS Secrets Manager"}
+{"provider": "AWS", "service_name": "AmazonRekognition", "llama_3_3_70b_score": 8.87, "service_alias": "Amazon Rekognition"}
+{"provider": "AWS", "service_name": "AWSWickr", "llama_3_3_70b_score": 8.14, "service_alias": "AWS Wickr"}
+{"provider": "AWS", "service_name": "AmazonIVSChat", "llama_3_3_70b_score": 8.79, "service_alias": "Amazon IVS Chat"}
+{"provider": "AWS", "service_name": "ContactCenterTelecomm", "llama_3_3_70b_score": 8.36, "service_alias": "Contact Center Telecommunications (service sold by AMCS, LLC)"}
+{"provider": "AWS", "service_name": "AmazonConnectCases", "llama_3_3_70b_score": 8.9, "service_alias": "AmazonConnectCases"}
+{"provider": "AWS", "service_name": "transcribe", "llama_3_3_70b_score": 8.3, "service_alias": "Amazon Transcribe"}
+{"provider": "AWS", "service_name": "AmazonChimeServices", "llama_3_3_70b_score": 8.3, "service_alias": "Amazon Chime Services"}
+{"provider": "AWS", "service_name": "AWSSupportBusiness", "llama_3_3_70b_score": 8.43, "service_alias": "AWS Support (Business)"}
+{"provider": "AWS", "service_name": "awskms", "llama_3_3_70b_score": 8.57, "service_alias": "AWS Key Management Service"}
+{"provider": "AWS", "service_name": "AmazonChimeDialInAMCS", "llama_3_3_70b_score": 8.21, "service_alias": "Amazon Chime Dial In a service sold by AMCS LLC"}
+{"provider": "AWS", "service_name": "ContactCenterTelecommZA", "llama_3_3_70b_score": 8.29, "service_alias": "Contact Center Telecommunications South Africa"}
+{"provider": "AWS", "service_name": "AmazonWorkLink", "llama_3_3_70b_score": 9.37, "service_alias": "Amazon WorkLink"}
+{"provider": "AWS", "service_name": "translate", "llama_3_3_70b_score": 8.0, "service_alias": "Amazon Translate"}
+{"provider": "AWS", "service_name": "AmazonChimeCallMeAMCS", "llama_3_3_70b_score": 8.0, "service_alias": "Contact Center Telecommunications (service sold by AMCS, LLC)"}
+{"provider": "AWS", "service_name": "AmazonVerifiedPermissions", "llama_3_3_70b_score": 8.23, "service_alias": "Amazon Verified Permissions"}
+{"provider": "AWS", "service_name": "AmazonQ", "llama_3_3_70b_score": 8.5, "service_alias": "Amazon Q"}
+{"provider": "AWS", "service_name": "AWSDeveloperSupport", "llama_3_3_70b_score": 8.57, "service_alias": "AWS Support (Developer)"}
+{"provider": "AWS", "service_name": "SnowballExtraDays", "llama_3_3_70b_score": 8.71, "service_alias": "AWS Snowball Extra Days"}
+{"provider": "Azure", "service_name": "Microsoft Copilot for Security", "llama_3_3_70b_score": 9.37, "service_alias": "Microsoft Copilot for Security"}
+{"provider": "Azure", "service_name": "Data Lake Analytics", "llama_3_3_70b_score": 8.57, "service_alias": "Data Lake Analytics"}
+{"provider": "Azure", "service_name": "Virtual Machines", "llama_3_3_70b_score": 1.97, "service_alias": "Virtual Machines"}
+{"provider": "Azure", "service_name": "Azure Arc", "llama_3_3_70b_score": 5.71, "service_alias": "Azure Arc"}
+{"provider": "AWS", "service_name": "AWSEnterpriseOnRamp", "llama_3_3_70b_score": 8.29, "service_alias": "AWS Enterprise On Ramp"}
+{"provider": "Azure", "service_name": "Azure Stack HCI", "llama_3_3_70b_score": 2.43, "service_alias": "Azure Stack HCI"}
+{"provider": "Azure", "service_name": "Azure VM Image Builder", "llama_3_3_70b_score": 4.93, "service_alias": "Azure VM Image Builder"}
+{"provider": "Azure", "service_name": "Azure Modeling and Simulation Workbench", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Modeling and Simulation Workbench"}
+{"provider": "Azure", "service_name": "Azure Stack Hub", "llama_3_3_70b_score": 2.43, "service_alias": "Azure Stack Hub"}
+{"provider": "Azure", "service_name": "AKS Edge Essentials", "llama_3_3_70b_score": 5.71, "service_alias": "AKS Edge Essentials"}
+{"provider": "Azure", "service_name": "Virtual Machines Licenses", "llama_3_3_70b_score": 1.64, "service_alias": "Virtual Machines Licenses"}
+{"provider": "Azure", "service_name": "Azure Arc Enabled Databases", "llama_3_3_70b_score": 5.93, "service_alias": "Azure Arc Enabled Databases"}
+{"provider": "Azure", "service_name": "Virtual Network", "llama_3_3_70b_score": 2.21, "service_alias": "Virtual Network"}
+{"provider": "Azure", "service_name": "SQL Server Stretch Database", "llama_3_3_70b_score": 6.43, "service_alias": "SQL Server Stretch Database"}
+{"provider": "Azure", "service_name": "Azure Arc-enabled AKS", "llama_3_3_70b_score": 5.71, "service_alias": "Azure Arc-enabled AKS"}
+{"provider": "Azure", "service_name": "Private Mobile Network", "llama_3_3_70b_score": 7.57, "service_alias": "Private Mobile Network"}
+{"provider": "Azure", "service_name": "Specialized Compute", "llama_3_3_70b_score": 2.43, "service_alias": "Specialized Compute"}
+{"provider": "Azure", "service_name": "Azure Cloud HSM", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Cloud HSM"}
+{"provider": "Azure", "service_name": "Advanced Container Networking Services", "llama_3_3_70b_score": 5.21, "service_alias": "Advanced Container Networking Services"}
+{"provider": "Azure", "service_name": "Azure Virtual Enclaves", "llama_3_3_70b_score": 5.43, "service_alias": "Azure Virtual Enclaves"}
+{"provider": "Azure", "service_name": "SQL DB Edge", "llama_3_3_70b_score": 8.21, "service_alias": "SQL DB Edge"}
+{"provider": "Azure", "service_name": "Azure Kubernetes Service", "llama_3_3_70b_score": 5.71, "service_alias": "Azure Kubernetes Service"}
+{"provider": "Azure", "service_name": "Azure SQL Edge", "llama_3_3_70b_score": 7.57, "service_alias": "Azure SQL Edge"}
+{"provider": "Azure", "service_name": "Data Box", "llama_3_3_70b_score": 6.14, "service_alias": "Data Box"}
+{"provider": "Azure", "service_name": "ExpressRoute", "llama_3_3_70b_score": 2.79, "service_alias": "ExpressRoute"}
+{"provider": "Azure", "service_name": "Windows 10 IoT Core Services", "llama_3_3_70b_score": 8.14, "service_alias": "Windows 10 IoT Core Services"}
+{"provider": "Azure", "service_name": "Microsoft Azure Payment HSM", "llama_3_3_70b_score": 8.36, "service_alias": "Microsoft Azure Payment HSM"}
+{"provider": "Azure", "service_name": "Azure Route Server", "llama_3_3_70b_score": 8.21, "service_alias": "Azure Route Server"}
+{"provider": "Azure", "service_name": "HDInsight", "llama_3_3_70b_score": 5.79, "service_alias": "HDInsight"}
+{"provider": "Azure", "service_name": "AKS on Azure Stack HCI", "llama_3_3_70b_score": 4.93, "service_alias": "AKS on Azure Stack HCI"}
+{"provider": "Azure", "service_name": "Azure Stack Edge", "llama_3_3_70b_score": 7.57, "service_alias": "Azure Stack Edge"}
+{"provider": "Azure", "service_name": "Bandwidth", "llama_3_3_70b_score": 8.36, "service_alias": "Bandwidth"}
+{"provider": "Azure", "service_name": "Azure Orbital Edge", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Orbital Edge"}
+{"provider": "Azure", "service_name": "Azure Database for PostgreSQL", "llama_3_3_70b_score": 7.64, "service_alias": "Azure Database for PostgreSQL"}
+{"provider": "Azure", "service_name": "Packet Core", "llama_3_3_70b_score": 8.14, "service_alias": "Packet Core"}
+{"provider": "Azure", "service_name": "Storage", "llama_3_3_70b_score": 7.93, "service_alias": "Storage"}
+{"provider": "Azure", "service_name": "SQL Managed Instance", "llama_3_3_70b_score": 8.07, "service_alias": "SQL Managed Instance"}
+{"provider": "Azure", "service_name": "Microsoft Azure Peering Service", "llama_3_3_70b_score": 8.36, "service_alias": "Microsoft Azure Peering Service"}
+{"provider": "Azure", "service_name": "StorSimple", "llama_3_3_70b_score": 5.86, "service_alias": "StorSimple"}
+{"provider": "Azure", "service_name": "Azure Operator Nexus", "llama_3_3_70b_score": 6.71, "service_alias": "Azure Operator Nexus"}
+{"provider": "Azure", "service_name": "Azure Site Recovery", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Site Recovery"}
+{"provider": "Azure", "service_name": "Azure IoT Operations", "llama_3_3_70b_score": 8.36, "service_alias": "Azure IoT Operations"}
+{"provider": "Azure", "service_name": "Azure NetApp Files", "llama_3_3_70b_score": 8.29, "service_alias": "Azure NetApp Files"}
+{"provider": "Azure", "service_name": "Hybrid Data Services", "llama_3_3_70b_score": 6.64, "service_alias": "Hybrid Data Services"}
+{"provider": "Azure", "service_name": "Service Fabric", "llama_3_3_70b_score": 5.71, "service_alias": "Service Fabric"}
+{"provider": "Azure", "service_name": "Data Lake Store", "llama_3_3_70b_score": 8.36, "service_alias": "Data Lake Store"}
+{"provider": "Azure", "service_name": "Azure Orbital", "llama_3_3_70b_score": 8.29, "service_alias": "Azure Orbital"}
+{"provider": "Azure", "service_name": "Spatial Anchors", "llama_3_3_70b_score": 8.29, "service_alias": "Spatial Anchors"}
+{"provider": "Azure", "service_name": "Azure Database for MariaDB", "llama_3_3_70b_score": 7.0, "service_alias": "Azure Database for MariaDB"}
+{"provider": "Azure", "service_name": "Load Balancer", "llama_3_3_70b_score": 8.14, "service_alias": "Load Balancer"}
+{"provider": "Azure", "service_name": "Azure Blockchain", "llama_3_3_70b_score": 8.0, "service_alias": "Azure Blockchain"}
+{"provider": "Azure", "service_name": "Azure Database for MySQL", "llama_3_3_70b_score": 7.0, "service_alias": "Azure Database for MySQL"}
+{"provider": "Azure", "service_name": "NAT Gateway", "llama_3_3_70b_score": 8.14, "service_alias": "NAT Gateway"}
+{"provider": "Azure", "service_name": "HPC Cache", "llama_3_3_70b_score": 5.71, "service_alias": "HPC Cache"}
+{"provider": "Azure", "service_name": "Windows Virtual Desktop", "llama_3_3_70b_score": 5.86, "service_alias": "Windows Virtual Desktop"}
+{"provider": "Azure", "service_name": "Service Fabric Mesh", "llama_3_3_70b_score": 8.43, "service_alias": "Service Fabric Mesh"}
+{"provider": "Azure", "service_name": "Cloud Services", "llama_3_3_70b_score": 5.57, "service_alias": "Cloud Services"}
+{"provider": "Azure", "service_name": "Azure Database Migration Service", "llama_3_3_70b_score": 8.14, "service_alias": "Azure Database Migration Service"}
+{"provider": "Azure", "service_name": "Change Tracking and Inventory", "llama_3_3_70b_score": 8.36, "service_alias": "Change Tracking and Inventory"}
+{"provider": "Azure", "service_name": "Network Watcher", "llama_3_3_70b_score": 8.29, "service_alias": "Network Watcher"}
+{"provider": "Azure", "service_name": "Network Traversal", "llama_3_3_70b_score": 8.36, "service_alias": "Network Traversal"}
+{"provider": "Azure", "service_name": "Azure Resource Mover", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Resource Mover"}
+{"provider": "Azure", "service_name": "VPN Gateway", "llama_3_3_70b_score": 5.43, "service_alias": "VPN Gateway"}
+{"provider": "Azure", "service_name": "Microsoft Entra Domain Services", "llama_3_3_70b_score": 8.36, "service_alias": "Microsoft Entra Domain Services"}
+{"provider": "Azure", "service_name": "Azure Data Factory", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Data Factory"}
+{"provider": "Azure", "service_name": "Azure Managed Instance for Apache Cassandra", "llama_3_3_70b_score": 8.21, "service_alias": "Azure Managed Instance for Apache Cassandra"}
+{"provider": "Azure", "service_name": "BizTalk Services", "llama_3_3_70b_score": 8.21, "service_alias": "BizTalk Services"}
+{"provider": "Azure", "service_name": "Application Gateway", "llama_3_3_70b_score": 7.71, "service_alias": "Application Gateway"}
+{"provider": "Azure", "service_name": "Azure Databricks", "llama_3_3_70b_score": 8.21, "service_alias": "Azure Databricks"}
+{"provider": "Azure", "service_name": "Event Hubs", "llama_3_3_70b_score": 8.64, "service_alias": "Event Hubs"}
+{"provider": "Azure", "service_name": "Azure Data Factory v2", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Data Factory v2"}
+{"provider": "Azure", "service_name": "Azure App Service", "llama_3_3_70b_score": 8.14, "service_alias": "Azure App Service"}
+{"provider": "Azure", "service_name": "Kusto", "llama_3_3_70b_score": 8.57, "service_alias": "Kusto"}
+{"provider": "Azure", "service_name": "Azure Data Explorer", "llama_3_3_70b_score": 8.64, "service_alias": "Azure Data Explorer"}
+{"provider": "Azure", "service_name": "SQL Data Warehouse", "llama_3_3_70b_score": 8.29, "service_alias": "SQL Data Warehouse"}
+{"provider": "Azure", "service_name": "Azure Update Manager", "llama_3_3_70b_score": 7.86, "service_alias": "Azure Update Manager"}
+{"provider": "Azure", "service_name": "Redis Cache", "llama_3_3_70b_score": 8.14, "service_alias": "Redis Cache"}
+{"provider": "Azure", "service_name": "Azure Synapse Analytics", "llama_3_3_70b_score": 8.5, "service_alias": "Azure Synapse Analytics"}
+{"provider": "Azure", "service_name": "Azure Machine Learning", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Machine Learning"}
+{"provider": "Azure", "service_name": "Media Services", "llama_3_3_70b_score": 8.36, "service_alias": "Media Services"}
+{"provider": "Azure", "service_name": "SignalR", "llama_3_3_70b_score": 8.36, "service_alias": "SignalR"}
+{"provider": "Azure", "service_name": "Microsoft Dev Box", "llama_3_3_70b_score": 8.36, "service_alias": "Microsoft Dev Box"}
+{"provider": "Azure", "service_name": "Automation", "llama_3_3_70b_score": 8.14, "service_alias": "Automation"}
+{"provider": "Azure", "service_name": "Azure Cosmos DB", "llama_3_3_70b_score": 8.57, "service_alias": "Azure Cosmos DB"}
+{"provider": "Azure", "service_name": "Email", "llama_3_3_70b_score": 9.14, "service_alias": "Email"}
+{"provider": "Azure", "service_name": "Container Instances", "llama_3_3_70b_score": 7.57, "service_alias": "Container Instances"}
+{"provider": "Azure", "service_name": "Scheduler", "llama_3_3_70b_score": 8.43, "service_alias": "Scheduler"}
+{"provider": "Azure", "service_name": "Azure Analysis Services", "llama_3_3_70b_score": 8.14, "service_alias": "Azure Analysis Services"}
+{"provider": "Azure", "service_name": "Azure Firewall", "llama_3_3_70b_score": 8.29, "service_alias": "Azure Firewall"}
+{"provider": "Azure", "service_name": "Azure Lab Services", "llama_3_3_70b_score": 7.71, "service_alias": "Azure Lab Services"}
+{"provider": "Azure", "service_name": "Azure DNS", "llama_3_3_70b_score": 8.5, "service_alias": "Azure DNS"}
+{"provider": "Azure", "service_name": "Quantum Computing", "llama_3_3_70b_score": 9.26, "service_alias": "Quantum Computing"}
+{"provider": "Azure", "service_name": "Virtual WAN", "llama_3_3_70b_score": 8.21, "service_alias": "Virtual WAN"}
+{"provider": "Azure", "service_name": "Azure Remote Rendering", "llama_3_3_70b_score": 8.43, "service_alias": "Azure Remote Rendering"}
+{"provider": "Azure", "service_name": "IoT Hub", "llama_3_3_70b_score": 8.36, "service_alias": "IoT Hub"}
+{"provider": "Azure", "service_name": "Data Catalog", "llama_3_3_70b_score": 8.5, "service_alias": "Data Catalog"}
+{"provider": "Azure", "service_name": "Messaging", "llama_3_3_70b_score": 8.36, "service_alias": "Messaging"}
+{"provider": "Azure", "service_name": "Azure Container Apps", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Container Apps"}
+{"provider": "Azure", "service_name": "Unassigned", "llama_3_3_70b_score": 1.0, "service_alias": "Unassigned"}
+{"provider": "Azure", "service_name": "Insight and Analytics", "llama_3_3_70b_score": 8.5, "service_alias": "Insight and Analytics"}
+{"provider": "Azure", "service_name": "Energy Data Manager", "llama_3_3_70b_score": 8.36, "service_alias": "Energy Data Manager"}
+{"provider": "Azure", "service_name": "Azure Bastion", "llama_3_3_70b_score": 7.86, "service_alias": "Azure Bastion"}
+{"provider": "Azure", "service_name": "Backup", "llama_3_3_70b_score": 9.14, "service_alias": "Backup"}
+{"provider": "Azure", "service_name": "Azure Data Share", "llama_3_3_70b_score": 8.57, "service_alias": "Azure Data Share"}
+{"provider": "Azure", "service_name": "Container Registry", "llama_3_3_70b_score": 8.14, "service_alias": "Container Registry"}
+{"provider": "Azure", "service_name": "AI Ops", "llama_3_3_70b_score": 8.43, "service_alias": "AI Ops"}
+{"provider": "Azure", "service_name": "SQL Database", "llama_3_3_70b_score": 8.14, "service_alias": "SQL Database"}
+{"provider": "Azure", "service_name": "Azure Device Registry", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Device Registry"}
+{"provider": "Azure", "service_name": "Test Base", "llama_3_3_70b_score": 8.36, "service_alias": "Test Base"}
+{"provider": "Azure", "service_name": "Microsoft Azure Internet Analyzer", "llama_3_3_70b_score": 8.23, "service_alias": "Microsoft Azure Internet Analyzer"}
+{"provider": "Azure", "service_name": "Content Delivery Network", "llama_3_3_70b_score": 8.29, "service_alias": "Content Delivery Network"}
+{"provider": "Azure", "service_name": "Event Grid", "llama_3_3_70b_score": 8.87, "service_alias": "Event Grid"}
+{"provider": "Azure", "service_name": "Azure Load Testing", "llama_3_3_70b_score": 8.29, "service_alias": "Azure Load Testing"}
+{"provider": "Azure", "service_name": "Microsoft Purview", "llama_3_3_70b_score": 8.57, "service_alias": "Microsoft Purview"}
+{"provider": "Azure", "service_name": "Web PubSub", "llama_3_3_70b_score": 8.43, "service_alias": "Web PubSub"}
+{"provider": "Azure", "service_name": "App Configuration", "llama_3_3_70b_score": 8.43, "service_alias": "App Configuration"}
+{"provider": "Azure", "service_name": "Stream Analytics", "llama_3_3_70b_score": 8.36, "service_alias": "Stream Analytics"}
+{"provider": "Azure", "service_name": "Digital Twins", "llama_3_3_70b_score": 7.71, "service_alias": "Digital Twins"}
+{"provider": "Azure", "service_name": "Voice", "llama_3_3_70b_score": 8.29, "service_alias": "Voice"}
+{"provider": "Azure", "service_name": "Traffic Manager", "llama_3_3_70b_score": 8.5, "service_alias": "Traffic Manager"}
+{"provider": "Azure", "service_name": "Azure Chaos Studio", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Chaos Studio"}
+{"provider": "Azure", "service_name": "Azure Spring Cloud", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Spring Cloud"}
+{"provider": "Azure", "service_name": "Trusted Signing", "llama_3_3_70b_score": 9.39, "service_alias": "Trusted Signing"}
+{"provider": "Azure", "service_name": "Azure Firewall Manager", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Firewall Manager"}
+{"provider": "Azure", "service_name": "Azure Local", "llama_3_3_70b_score": 2.43, "service_alias": "Azure Local"}
+{"provider": "Azure", "service_name": "Visual Studio Codespaces", "llama_3_3_70b_score": 8.36, "service_alias": "Visual Studio Codespaces"}
+{"provider": "Azure", "service_name": "Mixed Reality", "llama_3_3_70b_score": 8.29, "service_alias": "Mixed Reality"}
+{"provider": "Azure", "service_name": "Log Analytics", "llama_3_3_70b_score": 8.43, "service_alias": "Log Analytics"}
+{"provider": "Azure", "service_name": "Azure Monitor", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Monitor"}
+{"provider": "Azure", "service_name": "Azure Programmable Connectivity", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Programmable Connectivity"}
+{"provider": "Azure", "service_name": "API Management", "llama_3_3_70b_score": 8.36, "service_alias": "API Management"}
+{"provider": "Azure", "service_name": "Azure API Center", "llama_3_3_70b_score": 8.36, "service_alias": "Azure API Center"}
+{"provider": "Azure", "service_name": "Azure Cognitive Search", "llama_3_3_70b_score": 8.43, "service_alias": "Azure Cognitive Search"}
+{"provider": "Azure", "service_name": "Microsoft Graph data connect", "llama_3_3_70b_score": 8.9, "service_alias": "Microsoft Graph data connect"}
+{"provider": "Azure", "service_name": "Microsoft Defender for Cloud", "llama_3_3_70b_score": 8.43, "service_alias": "Microsoft Defender for Cloud"}
+{"provider": "Azure", "service_name": "Time Series Insights", "llama_3_3_70b_score": 8.79, "service_alias": "Time Series Insights"}
+{"provider": "Azure", "service_name": "Azure Policy", "llama_3_3_70b_score": 8.5, "service_alias": "Azure Policy"}
+{"provider": "Azure", "service_name": "Service Bus", "llama_3_3_70b_score": 8.21, "service_alias": "Service Bus"}
+{"provider": "Azure", "service_name": "Microsoft Entra Verified ID", "llama_3_3_70b_score": 8.9, "service_alias": "Microsoft Entra Verified ID"}
+{"provider": "Azure", "service_name": "Azure API for FHIR", "llama_3_3_70b_score": 8.43, "service_alias": "Azure API for FHIR"}
+{"provider": "Azure", "service_name": "Azure confidential ledger", "llama_3_3_70b_score": 8.5, "service_alias": "Azure confidential ledger"}
+{"provider": "Azure", "service_name": "Power Automate", "llama_3_3_70b_score": 8.79, "service_alias": "Power Automate"}
+{"provider": "Azure", "service_name": "Key Vault", "llama_3_3_70b_score": 8.43, "service_alias": "Key Vault"}
+{"provider": "Azure", "service_name": "Azure Fluid Relay", "llama_3_3_70b_score": 8.57, "service_alias": "Azure Fluid Relay"}
+{"provider": "Azure", "service_name": "Azure Synthetics", "llama_3_3_70b_score": 8.43, "service_alias": "Azure Synthetics"}
+{"provider": "Azure", "service_name": "Azure Purview", "llama_3_3_70b_score": 9.14, "service_alias": "Azure Purview"}
+{"provider": "Azure", "service_name": "Application Insights", "llama_3_3_70b_score": 8.64, "service_alias": "Application Insights"}
+{"provider": "Azure", "service_name": "Azure Front Door Service", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Front Door Service"}
+{"provider": "Azure", "service_name": "Machine Learning Studio", "llama_3_3_70b_score": 7.93, "service_alias": "Machine Learning Studio"}
+{"provider": "Azure", "service_name": "Azure Defender", "llama_3_3_70b_score": 9.14, "service_alias": "Azure Defender"}
+{"provider": "Azure", "service_name": "Microsoft Fabric", "llama_3_3_70b_score": 8.36, "service_alias": "Microsoft Fabric"}
+{"provider": "Azure", "service_name": "Power Apps", "llama_3_3_70b_score": 8.36, "service_alias": "Power Apps"}
+{"provider": "Azure", "service_name": "App Center", "llama_3_3_70b_score": 8.36, "service_alias": "App Center"}
+{"provider": "Azure", "service_name": "Routing", "llama_3_3_70b_score": 8.36, "service_alias": "Routing"}
+{"provider": "Azure", "service_name": "Azure Grafana Service", "llama_3_3_70b_score": 8.36, "service_alias": "Azure Grafana Service"}
+{"provider": "Azure", "service_name": "Azure IoT Security", "llama_3_3_70b_score": 8.43, "service_alias": "Azure IoT Security"}
+{"provider": "Azure", "service_name": "Sentinel", "llama_3_3_70b_score": 8.9, "service_alias": "Sentinel"}
+{"provider": "Azure", "service_name": "Microsoft Genomics", "llama_3_3_70b_score": 8.36, "service_alias": "Microsoft Genomics"}
+{"provider": "Azure", "service_name": "Notification Hubs", "llama_3_3_70b_score": 8.43, "service_alias": "Notification Hubs"}
+{"provider": "Azure", "service_name": "Premonition", "llama_3_3_70b_score": 9.37, "service_alias": "Premonition"}
+{"provider": "Azure", "service_name": "Azure DevOps", "llama_3_3_70b_score": 8.36, "service_alias": "Azure DevOps"}
+{"provider": "Azure", "service_name": "Microsoft Playwright Testing", "llama_3_3_70b_score": 8.57, "service_alias": "Microsoft Playwright Testing"}
+{"provider": "Azure", "service_name": "Power BI Embedded", "llama_3_3_70b_score": 8.21, "service_alias": "Power BI Embedded"}
+{"provider": "Azure", "service_name": "Logic Apps", "llama_3_3_70b_score": 8.79, "service_alias": "Logic Apps"}
+{"provider": "Azure", "service_name": "Azure Bot Service", "llama_3_3_70b_score": 8.57, "service_alias": "Azure Bot Service"}
+{"provider": "Azure", "service_name": "Phone Numbers", "llama_3_3_70b_score": 9.37, "service_alias": "Phone Numbers"}
+{"provider": "Azure", "service_name": "Azure DDOS Protection", "llama_3_3_70b_score": 8.36, "service_alias": "Azure DDOS Protection"}
+{"provider": "Azure", "service_name": "Microsoft Planetary Computer Pro", "llama_3_3_70b_score": 8.36, "service_alias": "Microsoft Planetary Computer Pro"}
+{"provider": "Azure", "service_name": "Syntex", "llama_3_3_70b_score": 8.9, "service_alias": "Syntex"}
+{"provider": "Azure", "service_name": "GitHub AE", "llama_3_3_70b_score": 9.07, "service_alias": "GitHub AE"}
+{"provider": "Azure", "service_name": "Power Platform Request", "llama_3_3_70b_score": 8.36, "service_alias": "Power Platform Request"}
+{"provider": "Azure", "service_name": "Durable Task Scheduler", "llama_3_3_70b_score": 8.79, "service_alias": "Durable Task Scheduler"}
+{"provider": "Azure", "service_name": "Business Applications Embedded", "llama_3_3_70b_score": 8.36, "service_alias": "Business Applications Embedded"}
+{"provider": "Azure", "service_name": "Community Training", "llama_3_3_70b_score": 9.21, "service_alias": "Community Training"}
+{"provider": "Azure", "service_name": "GitHub", "llama_3_3_70b_score": 8.23, "service_alias": "GitHub"}
+{"provider": "Azure", "service_name": "Voice Core", "llama_3_3_70b_score": 8.36, "service_alias": "Voice Core"}
+{"provider": "Azure", "service_name": "Intelligent Recommendations", "llama_3_3_70b_score": 8.79, "service_alias": "Intelligent Recommendations"}
+{"provider": "Azure", "service_name": "Fraud Protection", "llama_3_3_70b_score": 9.39, "service_alias": "Fraud Protection"}
+{"provider": "Azure", "service_name": "SMS", "llama_3_3_70b_score": 9.14, "service_alias": "SMS"}
+{"provider": "Azure", "service_name": "Visual Studio Subscription", "llama_3_3_70b_score": 8.36, "service_alias": "Visual Studio Subscription"}
+{"provider": "Azure", "service_name": "MS Bing Services", "llama_3_3_70b_score": 8.57, "service_alias": "MS Bing Services"}
+{"provider": "Azure", "service_name": "Azure Applied AI Services", "llama_3_3_70b_score": 8.57, "service_alias": "Azure Applied AI Services"}
+{"provider": "Azure", "service_name": "Microsoft Copilot Studio", "llama_3_3_70b_score": 8.79, "service_alias": "Microsoft Copilot Studio"}
+{"provider": "Azure", "service_name": "Power Pages", "llama_3_3_70b_score": 8.36, "service_alias": "Power Pages"}
+{"provider": "Azure", "service_name": "Azure Maps", "llama_3_3_70b_score": 8.57, "service_alias": "Azure Maps"}
+{"provider": "Azure", "service_name": "Cognitive Services", "llama_3_3_70b_score": 8.57, "service_alias": "Cognitive Services"}
+{"provider": "Azure", "service_name": "Power BI", "llama_3_3_70b_score": 8.79, "service_alias": "Power BI"}
+{"provider": "Azure", "service_name": "Microsoft Entra", "llama_3_3_70b_score": 9.39, "service_alias": "Microsoft Entra"}
+{"provider": "Azure", "service_name": "PlayFab", "llama_3_3_70b_score": 8.36, "service_alias": "PlayFab"}
+{"provider": "Azure", "service_name": "Azure Active Directory B2C", "llama_3_3_70b_score": 8.9, "service_alias": "Azure Active Directory B2C"}
+{"provider": "Azure", "service_name": "Functions", "llama_3_3_70b_score": 8.43, "service_alias": "Functions"}
+{"provider": "Azure", "service_name": "Dataverse", "llama_3_3_70b_score": 8.36, "service_alias": "Dataverse"}
+{"provider": "Azure", "service_name": "Microsoft Graph Services", "llama_3_3_70b_score": 8.87, "service_alias": "Microsoft Graph Services"}
+{"provider": "Azure", "service_name": "Dynamics 365 for Customer Insights", "llama_3_3_70b_score": 8.79, "service_alias": "Dynamics 365 for Customer Insights"}
+{"provider": "Azure", "service_name": "Azure Active Directory for External Identities", "llama_3_3_70b_score": 8.9, "service_alias": "Azure Active Directory for External Identities"}
+{"provider": "Azure", "service_name": "IoT Central", "llama_3_3_70b_score": 8.36, "service_alias": "IoT Central"}
+{"provider": "Azure", "service_name": "Multi-Factor Authentication", "llama_3_3_70b_score": 8.23, "service_alias": "Multi-Factor Authentication"}
+{"provider": "Azure", "service_name": "Microsoft Security Copilot", "llama_3_3_70b_score": 9.37, "service_alias": "Microsoft Security Copilot"}
+{"provider": "Azure", "service_name": "Microsoft Dragon Copilot", "llama_3_3_70b_score": 9.37, "service_alias": "Microsoft Dragon Copilot"}
+{"provider": "GCP", "service_name": "Stackdriver Monitoring", "llama_3_3_70b_score": 8.87, "service_alias": "Stackdriver Monitoring"}
+{"provider": "GCP", "service_name": "Google Quickstart Simple pre-configured Debian VM", "llama_3_3_70b_score": 1.64, "service_alias": "Google Quickstart Simple pre-configured Debian VM"}
+{"provider": "GCP", "service_name": "Compute Engine", "llama_3_3_70b_score": 1.71, "service_alias": "Compute Engine"}
+{"provider": "GCP", "service_name": "Networking", "llama_3_3_70b_score": 3.57, "service_alias": "Networking"}
+{"provider": "GCP", "service_name": "Bare Metal Solution", "llama_3_3_70b_score": 1.64, "service_alias": "Bare Metal Solution"}
+{"provider": "GCP", "service_name": "Speech-to-Text On-Prem", "llama_3_3_70b_score": 1.5, "service_alias": "Speech-to-Text On-Prem"}
+{"provider": "GCP", "service_name": "Cloud TPU", "llama_3_3_70b_score": 8.07, "service_alias": "Cloud TPU"}
+{"provider": "GCP", "service_name": "Deep Learning VM", "llama_3_3_70b_score": 5.71, "service_alias": "Deep Learning VM"}
+{"provider": "GCP", "service_name": "speech-onprem-private INTERNAL Speech-to-Text On-Prem DevTest", "llama_3_3_70b_score": 1.71, "service_alias": "speech-onprem-private INTERNAL Speech-to-Text On-Prem DevTest"}
+{"provider": "GCP", "service_name": "Cloud Vision OCR On-Prem", "llama_3_3_70b_score": 2.0, "service_alias": "Cloud Vision OCR On-Prem"}
+{"provider": "GCP", "service_name": "Transfer Appliance", "llama_3_3_70b_score": 7.43, "service_alias": "Transfer Appliance"}
+{"provider": "GCP", "service_name": "Parallelstore", "llama_3_3_70b_score": 8.29, "service_alias": "Parallelstore"}
+{"provider": "GCP", "service_name": "VMware Engine", "llama_3_3_70b_score": 5.43, "service_alias": "VMware Engine"}
+{"provider": "GCP", "service_name": "NetApp Volumes", "llama_3_3_70b_score": 8.29, "service_alias": "NetApp Volumes"}
+{"provider": "GCP", "service_name": "Confidential Computing", "llama_3_3_70b_score": 7.86, "service_alias": "Confidential Computing"}
+{"provider": "GCP", "service_name": "Google Distributed Cloud Edge", "llama_3_3_70b_score": 6.43, "service_alias": "Google Distributed Cloud Edge"}
+{"provider": "GCP", "service_name": "Kubernetes Engine", "llama_3_3_70b_score": 5.71, "service_alias": "Kubernetes Engine"}
+{"provider": "GCP", "service_name": "Dataproc", "llama_3_3_70b_score": 7.71, "service_alias": "Dataproc"}
+{"provider": "GCP", "service_name": "GKE Enterprise / GDC", "llama_3_3_70b_score": 5.79, "service_alias": "GKE Enterprise / GDC"}
+{"provider": "GCP", "service_name": "Pub/Sub Lite", "llama_3_3_70b_score": 8.29, "service_alias": "Pub/Sub Lite"}
+{"provider": "GCP", "service_name": "Elastifile Cloud File System", "llama_3_3_70b_score": 7.86, "service_alias": "Elastifile Cloud File System"}
+{"provider": "GCP", "service_name": "Financial Services", "llama_3_3_70b_score": 8.43, "service_alias": "Financial Services"}
+{"provider": "GCP", "service_name": "Managed Lustre", "llama_3_3_70b_score": 8.36, "service_alias": "Managed Lustre"}
+{"provider": "GCP", "service_name": "Cloud Composer", "llama_3_3_70b_score": 8.36, "service_alias": "Cloud Composer"}
+{"provider": "GCP", "service_name": "MultiClusterIngress", "llama_3_3_70b_score": 8.36, "service_alias": "MultiClusterIngress"}
+{"provider": "GCP", "service_name": "Dataplex", "llama_3_3_70b_score": 8.36, "service_alias": "Dataplex"}
+{"provider": "GCP", "service_name": "Workload Manager", "llama_3_3_70b_score": 8.36, "service_alias": "Workload Manager"}
+{"provider": "GCP", "service_name": "VM Manager", "llama_3_3_70b_score": 4.5, "service_alias": "VM Manager"}
+{"provider": "GCP", "service_name": "Cloud IoT Core", "llama_3_3_70b_score": 8.36, "service_alias": "Cloud IoT Core"}
+{"provider": "GCP", "service_name": "Cloud NGFW Enterprise", "llama_3_3_70b_score": 8.5, "service_alias": "Cloud NGFW Enterprise"}
+{"provider": "GCP", "service_name": "Blockchain Accelerator", "llama_3_3_70b_score": 7.71, "service_alias": "Blockchain Accelerator"}
+{"provider": "GCP", "service_name": "Genomics", "llama_3_3_70b_score": 9.21, "service_alias": "Genomics"}
+{"provider": "GCP", "service_name": "Anthos Policy Controller", "llama_3_3_70b_score": 8.43, "service_alias": "Anthos Policy Controller"}
+{"provider": "GCP", "service_name": "Managed Service for Apache Kafka", "llama_3_3_70b_score": 8.36, "service_alias": "Managed Service for Apache Kafka"}
+{"provider": "GCP", "service_name": "Assured Workloads", "llama_3_3_70b_score": 8.29, "service_alias": "Assured Workloads"}
+{"provider": "GCP", "service_name": "Apache Kafka for BigQuery", "llama_3_3_70b_score": 8.57, "service_alias": "Apache Kafka for BigQuery"}
+{"provider": "GCP", "service_name": "Database Migration", "llama_3_3_70b_score": 8.29, "service_alias": "Database Migration"}
+{"provider": "GCP", "service_name": "Cloud Filestore", "llama_3_3_70b_score": 8.07, "service_alias": "Cloud Filestore"}
+{"provider": "GCP", "service_name": "Actifio GO", "llama_3_3_70b_score": 8.36, "service_alias": "Actifio GO"}
+{"provider": "GCP", "service_name": "BigQuery Engine for Apache Flink", "llama_3_3_70b_score": 8.57, "service_alias": "BigQuery Engine for Apache Flink"}
+{"provider": "GCP", "service_name": "Anthos Service Mesh", "llama_3_3_70b_score": 5.71, "service_alias": "Anthos Service Mesh"}
+{"provider": "GCP", "service_name": "Apache Flink for BigQuery", "llama_3_3_70b_score": 8.57, "service_alias": "Apache Flink for BigQuery"}
+{"provider": "GCP", "service_name": "BigQuery Reservation API", "llama_3_3_70b_score": 8.79, "service_alias": "BigQuery Reservation API"}
+{"provider": "GCP", "service_name": "Vertex AI", "llama_3_3_70b_score": 8.36, "service_alias": "Vertex AI"}
+{"provider": "GCP", "service_name": "Cloud Memorystore", "llama_3_3_70b_score": 8.43, "service_alias": "Cloud Memorystore"}
+{"provider": "GCP", "service_name": "Maps SDK for Unity", "llama_3_3_70b_score": 8.36, "service_alias": "Maps SDK for Unity"}
+{"provider": "GCP", "service_name": "Cloud Memorystore for Redis", "llama_3_3_70b_score": 8.14, "service_alias": "Cloud Memorystore for Redis"}
+{"provider": "GCP", "service_name": "Cloud SQL", "llama_3_3_70b_score": 7.0, "service_alias": "Cloud SQL"}
+{"provider": "GCP", "service_name": "Cloud Memorystore for Memcached", "llama_3_3_70b_score": 8.14, "service_alias": "Cloud Memorystore for Memcached"}
+{"provider": "GCP", "service_name": "Cloud Storage", "llama_3_3_70b_score": 7.86, "service_alias": "Cloud Storage"}
+{"provider": "GCP", "service_name": "Transfer Service", "llama_3_3_70b_score": 8.21, "service_alias": "Transfer Service"}
+{"provider": "GCP", "service_name": "Network Security", "llama_3_3_70b_score": 5.43, "service_alias": "Network Security"}
+{"provider": "GCP", "service_name": "Notebooks", "llama_3_3_70b_score": 8.07, "service_alias": "Notebooks"}
+{"provider": "GCP", "service_name": "Identity Platform", "llama_3_3_70b_score": 8.9, "service_alias": "Identity Platform"}
+{"provider": "GCP", "service_name": "Certificate Manager", "llama_3_3_70b_score": 9.07, "service_alias": "Certificate Manager"}
+{"provider": "GCP", "service_name": "Apigee", "llama_3_3_70b_score": 8.43, "service_alias": "Apigee"}
+{"provider": "GCP", "service_name": "Cloud Data Fusion", "llama_3_3_70b_score": 8.57, "service_alias": "Cloud Data Fusion"}
+{"provider": "GCP", "service_name": "Cloud Contact Center AI Platform", "llama_3_3_70b_score": 8.43, "service_alias": "Cloud Contact Center AI Platform"}
+{"provider": "GCP", "service_name": "Cloud Deploy", "llama_3_3_70b_score": 5.86, "service_alias": "Cloud Deploy"}
+{"provider": "GCP", "service_name": "Document Warehouse", "llama_3_3_70b_score": 9.39, "service_alias": "Document Warehouse"}
+{"provider": "GCP", "service_name": "Certificate Authority Service", "llama_3_3_70b_score": 8.43, "service_alias": "Certificate Authority Service"}
+{"provider": "GCP", "service_name": "Cloud Build", "llama_3_3_70b_score": 8.79, "service_alias": "Cloud Build"}
+{"provider": "GCP", "service_name": "Apigee Developer Portal Kickstart", "llama_3_3_70b_score": 8.57, "service_alias": "Apigee Developer Portal Kickstart"}
+{"provider": "GCP", "service_name": "Cloud Trace", "llama_3_3_70b_score": 8.64, "service_alias": "Cloud Trace"}
+{"provider": "GCP", "service_name": "Application Integration", "llama_3_3_70b_score": 8.79, "service_alias": "Application Integration"}
+{"provider": "GCP", "service_name": "Remote Build Execution", "llama_3_3_70b_score": 8.79, "service_alias": "Remote Build Execution"}
+{"provider": "GCP", "service_name": "Cloud Dataflow", "llama_3_3_70b_score": 8.57, "service_alias": "Cloud Dataflow"}
+{"provider": "GCP", "service_name": "Cloud Machine Learning Engine", "llama_3_3_70b_score": 8.29, "service_alias": "Cloud Machine Learning Engine"}
+{"provider": "GCP", "service_name": "Secure Source Manager", "llama_3_3_70b_score": 8.36, "service_alias": "Secure Source Manager"}
+{"provider": "GCP", "service_name": "Audit Manager", "llama_3_3_70b_score": 8.3, "service_alias": "Audit Manager"}
+{"provider": "GCP", "service_name": "Blockchain Node Engine", "llama_3_3_70b_score": 8.21, "service_alias": "Blockchain Node Engine"}
+{"provider": "GCP", "service_name": "BigQuery BI Engine", "llama_3_3_70b_score": 8.9, "service_alias": "BigQuery BI Engine"}
+{"provider": "GCP", "service_name": "Source Repository", "llama_3_3_70b_score": 8.29, "service_alias": "Source Repository"}
+{"provider": "GCP", "service_name": "Transcoder API", "llama_3_3_70b_score": 8.57, "service_alias": "Transcoder API"}
+{"provider": "GCP", "service_name": "Datashare", "llama_3_3_70b_score": 8.36, "service_alias": "Datashare"}
+{"provider": "GCP", "service_name": "API Gateway", "llama_3_3_70b_score": 8.53, "service_alias": "API Gateway"}
+{"provider": "GCP", "service_name": "Zync", "llama_3_3_70b_score": 9.34, "service_alias": "Zync"}
+{"provider": "GCP", "service_name": "Storage Insights", "llama_3_3_70b_score": 8.36, "service_alias": "Storage Insights"}
+{"provider": "GCP", "service_name": "Spectrum SAS", "llama_3_3_70b_score": 8.29, "service_alias": "Spectrum SAS"}
+{"provider": "GCP", "service_name": "Cloud Data Loss Prevention", "llama_3_3_70b_score": 8.57, "service_alias": "Cloud Data Loss Prevention"}
+{"provider": "GCP", "service_name": "Cloud Logging", "llama_3_3_70b_score": 8.87, "service_alias": "Cloud Logging"}
+{"provider": "GCP", "service_name": "Stackdriver", "llama_3_3_70b_score": 8.29, "service_alias": "Stackdriver"}
+{"provider": "GCP", "service_name": "Artifact Registry", "llama_3_3_70b_score": 8.21, "service_alias": "Artifact Registry"}
+{"provider": "GCP", "service_name": "Cloud Data Labeling Service", "llama_3_3_70b_score": 8.57, "service_alias": "Cloud Data Labeling Service"}
+{"provider": "GCP", "service_name": "BigQuery Storage API", "llama_3_3_70b_score": 8.79, "service_alias": "BigQuery Storage API"}
+{"provider": "GCP", "service_name": "Google Service Control", "llama_3_3_70b_score": 8.36, "service_alias": "Google Service Control"}
+{"provider": "GCP", "service_name": "Cloud Workstations", "llama_3_3_70b_score": 8.36, "service_alias": "Cloud Workstations"}
+{"provider": "GCP", "service_name": "Cloud Monitoring", "llama_3_3_70b_score": 8.43, "service_alias": "Cloud Monitoring"}
+{"provider": "GCP", "service_name": "Backup and DR Service", "llama_3_3_70b_score": 8.43, "service_alias": "Backup and DR Service"}
+{"provider": "GCP", "service_name": "Earth Engine", "llama_3_3_70b_score": 8.43, "service_alias": "Earth Engine"}
+{"provider": "GCP", "service_name": "AlloyDB", "llama_3_3_70b_score": 8.14, "service_alias": "AlloyDB"}
+{"provider": "GCP", "service_name": "Cloud Spanner", "llama_3_3_70b_score": 8.57, "service_alias": "Cloud Spanner"}
+{"provider": "GCP", "service_name": "Cloud Bigtable", "llama_3_3_70b_score": 8.57, "service_alias": "Cloud Bigtable"}
+{"provider": "GCP", "service_name": "Secret Manager", "llama_3_3_70b_score": 9.07, "service_alias": "Secret Manager"}
+{"provider": "GCP", "service_name": "Datastream", "llama_3_3_70b_score": 8.36, "service_alias": "Datastream"}
+{"provider": "GCP", "service_name": "Cloud DNS", "llama_3_3_70b_score": 9.07, "service_alias": "Cloud DNS"}
+{"provider": "GCP", "service_name": "Parameter Manager", "llama_3_3_70b_score": 9.07, "service_alias": "Parameter Manager"}
+{"provider": "GCP", "service_name": "Security Command Center", "llama_3_3_70b_score": 8.87, "service_alias": "Security Command Center"}
+{"provider": "GCP", "service_name": "Dataproc Metastore", "llama_3_3_70b_score": 8.21, "service_alias": "Dataproc Metastore"}
+{"provider": "GCP", "service_name": "Binary Authorization", "llama_3_3_70b_score": 8.5, "service_alias": "Binary Authorization"}
+{"provider": "GCP", "service_name": "Backup for GKE", "llama_3_3_70b_score": 8.14, "service_alias": "Backup for GKE"}
+{"provider": "GCP", "service_name": "Cloud IDS", "llama_3_3_70b_score": 8.29, "service_alias": "Cloud IDS"}
+{"provider": "GCP", "service_name": "Telecom Network Automation", "llama_3_3_70b_score": 8.36, "service_alias": "Telecom Network Automation"}
+{"provider": "GCP", "service_name": "Transcode API", "llama_3_3_70b_score": 8.21, "service_alias": "Transcode API"}
+{"provider": "GCP", "service_name": "Live Stream API", "llama_3_3_70b_score": 8.79, "service_alias": "Live Stream API"}
+{"provider": "GCP", "service_name": "Vertex AI Vision", "llama_3_3_70b_score": 8.57, "service_alias": "Vertex AI Vision"}
+{"provider": "GCP", "service_name": "Cloud Tasks", "llama_3_3_70b_score": 8.79, "service_alias": "Cloud Tasks"}
+{"provider": "GCP", "service_name": "Maps API", "llama_3_3_70b_score": 8.64, "service_alias": "Maps API"}
+{"provider": "GCP", "service_name": "BigQuery Data Transfer Service", "llama_3_3_70b_score": 8.79, "service_alias": "BigQuery Data Transfer Service"}
+{"provider": "GCP", "service_name": "Google Maps Mobile SDK", "llama_3_3_70b_score": 8.86, "service_alias": "Google Maps Mobile SDK"}
+{"provider": "GCP", "service_name": "Integration Connectors", "llama_3_3_70b_score": 8.36, "service_alias": "Integration Connectors"}
+{"provider": "GCP", "service_name": "App Engine", "llama_3_3_70b_score": 8.29, "service_alias": "App Engine"}
+{"provider": "GCP", "service_name": "Firebase Data Connect", "llama_3_3_70b_score": 8.79, "service_alias": "Firebase Data Connect"}
+{"provider": "GCP", "service_name": "Firebase Realtime Database", "llama_3_3_70b_score": 8.43, "service_alias": "Firebase Realtime Database"}
+{"provider": "GCP", "service_name": "Cloud Pub/Sub", "llama_3_3_70b_score": 8.43, "service_alias": "Cloud Pub/Sub"}
+{"provider": "GCP", "service_name": "Cloud Firestore", "llama_3_3_70b_score": 8.64, "service_alias": "Cloud Firestore"}
+{"provider": "GCP", "service_name": "BigQuery", "llama_3_3_70b_score": 8.87, "service_alias": "BigQuery"}
+{"provider": "GCP", "service_name": "BeyondCorp Enterprise", "llama_3_3_70b_score": 8.5, "service_alias": "BeyondCorp Enterprise"}
+{"provider": "GCP", "service_name": "Cloud Healthcare", "llama_3_3_70b_score": 8.43, "service_alias": "Cloud Healthcare"}
+{"provider": "GCP", "service_name": "Data Catalog", "llama_3_3_70b_score": 8.87, "service_alias": "Data Catalog"}
+{"provider": "GCP", "service_name": "Cloud Key Management Service (KMS)", "llama_3_3_70b_score": 8.43, "service_alias": "Cloud Key Management Service (KMS)"}
+{"provider": "GCP", "service_name": "Container Registry Vulnerability Scanning", "llama_3_3_70b_score": 8.5, "service_alias": "Container Registry Vulnerability Scanning"}
+{"provider": "GCP", "service_name": "Cloud Document AI API", "llama_3_3_70b_score": 8.57, "service_alias": "Cloud Document AI API"}
+{"provider": "GCP", "service_name": "Cloud Video Intelligence API", "llama_3_3_70b_score": 8.57, "service_alias": "Cloud Video Intelligence API"}
+{"provider": "GCP", "service_name": "On-Demand Scanning", "llama_3_3_70b_score": 9.21, "service_alias": "On-Demand Scanning"}
+{"provider": "GCP", "service_name": "Route Optimization API", "llama_3_3_70b_score": 8.57, "service_alias": "Route Optimization API"}
+{"provider": "GCP", "service_name": "Google Maps Platform - Routes", "llama_3_3_70b_score": 8.64, "service_alias": "Google Maps Platform - Routes"}
+{"provider": "GCP", "service_name": "Cloud Scheduler", "llama_3_3_70b_score": 8.64, "service_alias": "Cloud Scheduler"}
+{"provider": "GCP", "service_name": "Chrome Enterprise Premium", "llama_3_3_70b_score": 8.21, "service_alias": "Chrome Enterprise Premium"}
+{"provider": "GCP", "service_name": "Navigation API", "llama_3_3_70b_score": 8.07, "service_alias": "Navigation API"}
+{"provider": "GCP", "service_name": "Cloud AutoML", "llama_3_3_70b_score": 8.57, "service_alias": "Cloud AutoML"}
+{"provider": "GCP", "service_name": "Cloud Dialogflow API", "llama_3_3_70b_score": 8.79, "service_alias": "Cloud Dialogflow API"}
+{"provider": "GCP", "service_name": "Firebase Hosting", "llama_3_3_70b_score": 8.79, "service_alias": "Firebase Hosting"}
+{"provider": "GCP", "service_name": "Cloud Run", "llama_3_3_70b_score": 8.5, "service_alias": "Cloud Run"}
+{"provider": "GCP", "service_name": "Recommendations AI", "llama_3_3_70b_score": 8.71, "service_alias": "Recommendations AI"}
+{"provider": "GCP", "service_name": "Cloud Talent Solution", "llama_3_3_70b_score": 8.64, "service_alias": "Cloud Talent Solution"}
+{"provider": "GCP", "service_name": "Prediction", "llama_3_3_70b_score": 8.29, "service_alias": "Prediction"}
+{"provider": "GCP", "service_name": "Firebase Auth", "llama_3_3_70b_score": 9.37, "service_alias": "Firebase Auth"}
+{"provider": "GCP", "service_name": "Vertex AI Search", "llama_3_3_70b_score": 8.57, "service_alias": "Vertex AI Search"}
+{"provider": "GCP", "service_name": "Cloud Optimization", "llama_3_3_70b_score": 8.36, "service_alias": "Cloud Optimization"}
+{"provider": "GCP", "service_name": "Chronicle", "llama_3_3_70b_score": 8.57, "service_alias": "Chronicle"}
+{"provider": "GCP", "service_name": "Looker", "llama_3_3_70b_score": 8.36, "service_alias": "Looker"}
+{"provider": "GCP", "service_name": "Workflows", "llama_3_3_70b_score": 8.79, "service_alias": "Workflows"}
+{"provider": "GCP", "service_name": "Retail API", "llama_3_3_70b_score": 8.71, "service_alias": "Retail API"}
+{"provider": "GCP", "service_name": "Cloud Domains", "llama_3_3_70b_score": 8.23, "service_alias": "Cloud Domains"}
+{"provider": "GCP", "service_name": "Firebase Test Lab", "llama_3_3_70b_score": 8.87, "service_alias": "Firebase Test Lab"}
+{"provider": "GCP", "service_name": "Telecom Subscriber Insights", "llama_3_3_70b_score": 9.37, "service_alias": "Telecom Subscriber Insights"}
+{"provider": "GCP", "service_name": "Cloud Document API", "llama_3_3_70b_score": 8.71, "service_alias": "Cloud Document API"}
+{"provider": "GCP", "service_name": "Immersive Stream for XR", "llama_3_3_70b_score": 8.36, "service_alias": "Immersive Stream for XR"}
+{"provider": "GCP", "service_name": "Duet AI", "llama_3_3_70b_score": 8.71, "service_alias": "Duet AI"}
+{"provider": "GCP", "service_name": "Firebase", "llama_3_3_70b_score": 8.36, "service_alias": "Firebase"}
+{"provider": "GCP", "service_name": "product Studio APIs", "llama_3_3_70b_score": 8.36, "service_alias": "product Studio APIs"}
+{"provider": "GCP", "service_name": "Contact Center AI Insights", "llama_3_3_70b_score": 8.57, "service_alias": "Contact Center AI Insights"}
+{"provider": "GCP", "service_name": "Timeseries Insights API", "llama_3_3_70b_score": 8.79, "service_alias": "Timeseries Insights API"}
+{"provider": "GCP", "service_name": "Gemini API", "llama_3_3_70b_score": 8.71, "service_alias": "Gemini API"}
+{"provider": "GCP", "service_name": "Video Stitcher API", "llama_3_3_70b_score": 8.57, "service_alias": "Video Stitcher API"}
+{"provider": "GCP", "service_name": "Time Zone API", "llama_3_3_70b_score": 8.71, "service_alias": "Time Zone API"}
+{"provider": "GCP", "service_name": "Looker Data Platform SaaS", "llama_3_3_70b_score": 9.37, "service_alias": "Looker Data Platform SaaS"}
+{"provider": "GCP", "service_name": "Google Maps Platform Solar Service", "llama_3_3_70b_score": 9.37, "service_alias": "Google Maps Platform Solar Service"}
+{"provider": "GCP", "service_name": "Street View Static API", "llama_3_3_70b_score": 8.07, "service_alias": "Street View Static API"}
+{"provider": "GCP", "service_name": "Speaker ID", "llama_3_3_70b_score": 8.0, "service_alias": "Speaker ID"}
+{"provider": "GCP", "service_name": "Cloud Natural Language", "llama_3_3_70b_score": 8.0, "service_alias": "Cloud Natural Language"}
+{"provider": "GCP", "service_name": "Maps Elevation API", "llama_3_3_70b_score": 8.14, "service_alias": "Maps Elevation API"}
+{"provider": "GCP", "service_name": "Google Maps Platform Air Quality Service", "llama_3_3_70b_score": 8.07, "service_alias": "Google Maps Platform Air Quality Service"}
+{"provider": "GCP", "service_name": "Cloud Speech API", "llama_3_3_70b_score": 8.8, "service_alias": "Cloud Speech API"}
+{"provider": "GCP", "service_name": "Cloud Media Translation API", "llama_3_3_70b_score": 8.3, "service_alias": "Cloud Media Translation API"}
+{"provider": "GCP", "service_name": "Places API", "llama_3_3_70b_score": 8.07, "service_alias": "Places API"}
+{"provider": "GCP", "service_name": "Places UI Kit", "llama_3_3_70b_score": 9.21, "service_alias": "Places UI Kit"}
+{"provider": "GCP", "service_name": "Distance Matrix API", "llama_3_3_70b_score": 8.07, "service_alias": "Distance Matrix API"}
+{"provider": "GCP", "service_name": "Maps Static API", "llama_3_3_70b_score": 8.07, "service_alias": "Maps Static API"}
+{"provider": "GCP", "service_name": "Custom Search", "llama_3_3_70b_score": 8.71, "service_alias": "Custom Search"}
+{"provider": "GCP", "service_name": "Geolocation API", "llama_3_3_70b_score": 8.43, "service_alias": "Geolocation API"}
+{"provider": "GCP", "service_name": "Google Maps Tile API", "llama_3_3_70b_score": 8.07, "service_alias": "Google Maps Tile API"}
+{"provider": "GCP", "service_name": "Translate", "llama_3_3_70b_score": 8.3, "service_alias": "Translate"}
+{"provider": "GCP", "service_name": "Cloud Vision API", "llama_3_3_70b_score": 8.57, "service_alias": "Cloud Vision API"}
+{"provider": "GCP", "service_name": "Maps Embed API", "llama_3_3_70b_score": 8.07, "service_alias": "Maps Embed API"}
+{"provider": "GCP", "service_name": "Google Maps Platform Pollen Service", "llama_3_3_70b_score": 8.43, "service_alias": "Google Maps Platform Pollen Service"}
+{"provider": "GCP", "service_name": "Places API (New)", "llama_3_3_70b_score": 8.14, "service_alias": "Places API (New)"}
+{"provider": "GCP", "service_name": "Aerial View API", "llama_3_3_70b_score": 8.64, "service_alias": "Aerial View API"}
+{"provider": "GCP", "service_name": "Web Risk", "llama_3_3_70b_score": 9.21, "service_alias": "Web Risk"}
+{"provider": "GCP", "service_name": "Places Aggregate API", "llama_3_3_70b_score": 8.07, "service_alias": "Places Aggregate API"}
+{"provider": "GCP", "service_name": "Address Validation API", "llama_3_3_70b_score": 8.14, "service_alias": "Address Validation API"}
+{"provider": "GCP", "service_name": "Programmable Search Element", "llama_3_3_70b_score": 8.57, "service_alias": "Programmable Search Element"}
+{"provider": "GCP", "service_name": "Cloud Text-to-Speech API", "llama_3_3_70b_score": 9.14, "service_alias": "Cloud Text-to-Speech API"}
+{"provider": "GCP", "service_name": "Geocoding API", "llama_3_3_70b_score": 8.07, "service_alias": "Geocoding API"}
+{"provider": "GCP", "service_name": "Roads API", "llama_3_3_70b_score": 8.0, "service_alias": "Roads API"}
+{"provider": "GCP", "service_name": "reCAPTCHA Enterprise", "llama_3_3_70b_score": 8.23, "service_alias": "reCAPTCHA Enterprise"}
+{"provider": "GCP", "service_name": "Payment Gateway", "llama_3_3_70b_score": 8.71, "service_alias": "Payment Gateway"}
+{"provider": "GCP", "service_name": "Cloud Functions", "llama_3_3_70b_score": 9.26, "service_alias": "Cloud Functions"}
+{"provider": "GCP", "service_name": "Directions API", "llama_3_3_70b_score": 8.07, "service_alias": "Directions API"}
+{"provider": "GCP", "service_name": "Enterprise Agreement", "llama_3_3_70b_score": 2.57, "service_alias": "Enterprise Agreement"}
+{"provider": "GCP", "service_name": "Cloud Run Functions", "llama_3_3_70b_score": 8.5, "service_alias": "Cloud Run Functions"}

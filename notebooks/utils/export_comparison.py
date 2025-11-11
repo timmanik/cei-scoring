@@ -15,7 +15,7 @@ def export_comparison_results_to_file(comparison_results, filename=None):
     """
     
     # Create comparisons folder if it doesn't exist
-    comparisons_dir = "comparisons"
+    comparisons_dir = "../results/comparison-reports"
     os.makedirs(comparisons_dir, exist_ok=True)
     
     # Generate filename if not provided

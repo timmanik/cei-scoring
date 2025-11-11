@@ -1,0 +1,62 @@
+{"provider": "AWS", "service_name": "IngestionService", "service_alias": "AWS Import/Export"}
+{"provider": "AWS", "service_name": "Registrar", "service_alias": "Amazon Registrar"}
+{"provider": "AWS", "service_name": "AmazonMCS", "service_alias": "Amazon Keyspaces (for Apache Cassandra)"}
+{"provider": "AWS", "service_name": "AmazonES", "service_alias": "Amazon OpenSearch Service"}
+{"provider": "AWS", "service_name": "ContactCenterTelecommKR", "service_alias": "Contact Center Telecommunications Korea"}
+{"provider": "AWS", "service_name": "ContactCenterTelecommZA", "service_alias": "Contact Center Telecommunications South Africa"}
+{"provider": "AWS", "service_name": "AWSDeveloperSupport", "service_alias": "AWS Support (Developer)"}
+{"provider": "Azure", "service_name": "Specialized Compute", "service_alias": "Specialized Compute"}
+{"provider": "Azure", "service_name": "Azure Virtual Enclaves", "service_alias": "Azure Virtual Enclaves"}
+{"provider": "Azure", "service_name": "Bandwidth", "service_alias": "Bandwidth"}
+{"provider": "Azure", "service_name": "Storage", "service_alias": "Storage"}
+{"provider": "Azure", "service_name": "Azure Orbital Edge", "service_alias": "Azure Orbital Edge"}
+{"provider": "Azure", "service_name": "Cloud Services", "service_alias": "Cloud Services"}
+{"provider": "Azure", "service_name": "Messaging", "service_alias": "Messaging"}
+{"provider": "Azure", "service_name": "Insight and Analytics", "service_alias": "Insight and Analytics"}
+{"provider": "Azure", "service_name": "Unassigned", "service_alias": "Unassigned"}
+{"provider": "Azure", "service_name": "Test Base", "service_alias": "Test Base"}
+{"provider": "Azure", "service_name": "Azure Programmable Connectivity", "service_alias": "Azure Programmable Connectivity"}
+{"provider": "Azure", "service_name": "Azure API Center", "service_alias": "Azure API Center"}
+{"provider": "Azure", "service_name": "Azure IoT Security", "service_alias": "Azure IoT Security"}
+{"provider": "Azure", "service_name": "Microsoft Genomics", "service_alias": "Microsoft Genomics"}
+{"provider": "Azure", "service_name": "Premonition", "service_alias": "Premonition"}
+{"provider": "Azure", "service_name": "GitHub", "service_alias": "GitHub"}
+{"provider": "Azure", "service_name": "Voice Core", "service_alias": "Voice Core"}
+{"provider": "Azure", "service_name": "SMS", "service_alias": "SMS"}
+{"provider": "Azure", "service_name": "Durable Task Scheduler", "service_alias": "Durable Task Scheduler"}
+{"provider": "Azure", "service_name": "Power Platform Request", "service_alias": "Power Platform Request"}
+{"provider": "Azure", "service_name": "Community Training", "service_alias": "Community Training"}
+{"provider": "Azure", "service_name": "Business Applications Embedded", "service_alias": "Business Applications Embedded"}
+{"provider": "Azure", "service_name": "Azure Active Directory B2C", "service_alias": "Azure Active Directory B2C"}
+{"provider": "Azure", "service_name": "Azure Applied AI Services", "service_alias": "Azure Applied AI Services"}
+{"provider": "GCP", "service_name": "Networking", "service_alias": "Networking"}
+{"provider": "Azure", "service_name": "Dynamics 365 for Customer Insights", "service_alias": "Dynamics 365 for Customer Insights"}
+{"provider": "Azure", "service_name": "Microsoft Dragon Copilot", "service_alias": "Microsoft Dragon Copilot"}
+{"provider": "GCP", "service_name": "NetApp Volumes", "service_alias": "NetApp Volumes"}
+{"provider": "GCP", "service_name": "Financial Services", "service_alias": "Financial Services"}
+{"provider": "GCP", "service_name": "Anthos Policy Controller", "service_alias": "Anthos Policy Controller"}
+{"provider": "GCP", "service_name": "Apache Kafka for BigQuery", "service_alias": "Apache Kafka for BigQuery"}
+{"provider": "GCP", "service_name": "Genomics", "service_alias": "Genomics"}
+{"provider": "GCP", "service_name": "VM Manager", "service_alias": "VM Manager"}
+{"provider": "GCP", "service_name": "Anthos Service Mesh", "service_alias": "Anthos Service Mesh"}
+{"provider": "GCP", "service_name": "Notebooks", "service_alias": "Notebooks"}
+{"provider": "GCP", "service_name": "Remote Build Execution", "service_alias": "Remote Build Execution"}
+{"provider": "GCP", "service_name": "Apigee Developer Portal Kickstart", "service_alias": "Apigee Developer Portal Kickstart"}
+{"provider": "GCP", "service_name": "Datashare", "service_alias": "Datashare"}
+{"provider": "GCP", "service_name": "Cloud Data Labeling Service", "service_alias": "Cloud Data Labeling Service"}
+{"provider": "GCP", "service_name": "Parameter Manager", "service_alias": "Parameter Manager"}
+{"provider": "GCP", "service_name": "Google Maps Mobile SDK", "service_alias": "Google Maps Mobile SDK"}
+{"provider": "GCP", "service_name": "BeyondCorp Enterprise", "service_alias": "BeyondCorp Enterprise"}
+{"provider": "GCP", "service_name": "Route Optimization API", "service_alias": "Route Optimization API"}
+{"provider": "GCP", "service_name": "Navigation API", "service_alias": "Navigation API"}
+{"provider": "GCP", "service_name": "Retail API", "service_alias": "Retail API"}
+{"provider": "GCP", "service_name": "product Studio APIs", "service_alias": "product Studio APIs"}
+{"provider": "GCP", "service_name": "Google Maps Platform Air Quality Service", "service_alias": "Google Maps Platform Air Quality Service"}
+{"provider": "GCP", "service_name": "Custom Search", "service_alias": "Custom Search"}
+{"provider": "GCP", "service_name": "Aerial View API", "service_alias": "Aerial View API"}
+{"provider": "GCP", "service_name": "Maps Embed API", "service_alias": "Maps Embed API"}
+{"provider": "GCP", "service_name": "Places Aggregate API", "service_alias": "Places Aggregate API"}
+{"provider": "GCP", "service_name": "Google Maps Platform Pollen Service", "service_alias": "Google Maps Platform Pollen Service"}
+{"provider": "GCP", "service_name": "Enterprise Agreement", "service_alias": "Enterprise Agreement"}
+{"provider": "GCP", "service_name": "Payment Gateway", "service_alias": "Payment Gateway"}
+{"provider": "GCP", "service_name": "reCAPTCHA Enterprise", "service_alias": "reCAPTCHA Enterprise"}

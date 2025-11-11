@@ -16,9 +16,12 @@ __pycache__/
 .idea/
 *.swp
 *.swo
+.claude
 
 # Logs
 
 # OS
 .DS_Store
 Thumbs.db
+
+local-notes/

@@ -12,3 +12,11 @@ python-dotenv>=1.0.0
 # Legacy dependencies (for backwards compatibility with old scripts)
 # Uncomment if you need to run score_services_claude_3_5.py
 # portkey-ai>=1.0.0
+
+# Data analysis and visualization
+pandas
+numpy
+requests
+matplotlib
+seaborn
+scipy

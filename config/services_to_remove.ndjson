@@ -1,0 +1,34 @@
+{"provider": "AWS", "service_name": "IngestionService", "service_alias": "AWS Import/Export", "reason": "Physical data transfer service - requires shipping physical devices, not cloud-native"}
+{"provider": "AWS", "service_name": "Registrar", "service_alias": "Amazon Registrar", "reason": "Domain registration service - administrative function not related to cloud compute/storage/networking"}
+{"provider": "AWS", "service_name": "ContactCenterTelecommKR", "service_alias": "Contact Center Telecommunications Korea", "reason": "Regional telecom service - infrastructure/connectivity service, not a cloud computing service"}
+{"provider": "AWS", "service_name": "ContactCenterTelecommZA", "service_alias": "Contact Center Telecommunications South Africa", "reason": "Regional telecom service - infrastructure/connectivity service, not a cloud computing service"}
+{"provider": "AWS", "service_name": "AWSDeveloperSupport", "service_alias": "AWS Support (Developer)", "reason": "Support service - operational support offering, not a cloud computing service"}
+{"provider": "Azure", "service_name": "Bandwidth", "service_alias": "Bandwidth", "reason": "Network pricing component - billing mechanism for data transfer, not a standalone service"}
+{"provider": "Azure", "service_name": "Cloud Services", "service_alias": "Cloud Services", "reason": "Legacy/deprecated service - replaced by modern Azure offerings"}
+{"provider": "Azure", "service_name": "Messaging", "service_alias": "Messaging", "reason": "Generic category - too vague to score, likely billing aggregation for multiple services"}
+{"provider": "Azure", "service_name": "Unassigned", "service_alias": "Unassigned", "reason": "Billing placeholder - represents unallocated costs, not an actual service"}
+{"provider": "Azure", "service_name": "Test Base", "service_alias": "Test Base", "reason": "Testing tool - development/testing utility, not a deployable cloud service"}
+{"provider": "Azure", "service_name": "GitHub", "service_alias": "GitHub", "reason": "Third-party service - external platform integrated with Azure, not an Azure-native service"}
+{"provider": "Azure", "service_name": "Voice Core", "service_alias": "Voice Core", "reason": "Telecom infrastructure - carrier-grade voice infrastructure, not cloud computing"}
+{"provider": "Azure", "service_name": "Community Training", "service_alias": "Community Training", "reason": "Training platform - educational tool, not a cloud infrastructure/platform service"}
+{"provider": "GCP", "service_name": "Google Maps Mobile SDK", "service_alias": "Google Maps Mobile SDK", "reason": "SDK/API service - client-side development kit, not cloud infrastructure"}
+{"provider": "GCP", "service_name": "BeyondCorp Enterprise", "service_alias": "BeyondCorp Enterprise", "reason": "Security service - zero-trust access solution, not core cloud computing"}
+{"provider": "GCP", "service_name": "Route Optimization API", "service_alias": "Route Optimization API", "reason": "Maps API service - specialized location service, not cloud infrastructure"}
+{"provider": "GCP", "service_name": "Navigation API", "service_alias": "Navigation API", "reason": "Maps API service - specialized location service, not cloud infrastructure"}
+{"provider": "GCP", "service_name": "Retail API", "service_alias": "Retail API", "reason": "Industry-specific API - vertical solution, not general cloud computing service"}
+{"provider": "GCP", "service_name": "product Studio APIs", "service_alias": "product Studio APIs", "reason": "Product catalog API - specialized e-commerce service, not cloud infrastructure"}
+{"provider": "GCP", "service_name": "Google Maps Platform Air Quality Service", "service_alias": "Google Maps Platform Air Quality Service", "reason": "Maps data service - environmental data API, not cloud computing"}
+{"provider": "GCP", "service_name": "Aerial View API", "service_alias": "Aerial View API", "reason": "Maps API service - specialized imagery service, not cloud infrastructure"}
+{"provider": "GCP", "service_name": "Maps Embed API", "service_alias": "Maps Embed API", "reason": "Maps API service - web embedding tool, not cloud infrastructure"}
+{"provider": "GCP", "service_name": "Places Aggregate API", "service_alias": "Places Aggregate API", "reason": "Maps API service - location data service, not cloud infrastructure"}
+{"provider": "GCP", "service_name": "Enterprise Agreement", "service_alias": "Enterprise Agreement", "reason": "Billing/contract mechanism - pricing agreement structure, not a service"}
+{"provider": "GCP", "service_name": "Cloud TPU", "service_alias": "Cloud TPU", "reason": "Hardware accelerator - specialized ML hardware, component of compute not standalone service"}
+{"provider": "AWS", "service_name": "ComputeSavingsPlans", "service_alias": "Savings Plans for AWS Compute usage", "reason": "Pricing mechanism - discount program for compute usage, not a service"}
+{"provider": "AWS", "service_name": "SnowballExtraDays", "service_alias": "AWS Snowball Extra Days", "reason": "Billing component - additional charges for physical device rental, not a service"}
+{"provider": "GCP", "service_name": "Assured Workloads", "service_alias": "Assured Workloads", "reason": "Compliance wrapper - regulatory overlay on existing services, not standalone cloud service"}
+{"provider": "AWS", "service_name": "AWSMDC", "service_alias": "AWS Modular Data Center", "reason": "Physical infrastructure - on-premise hardware solution for government/defense, not cloud"}
+{"provider": "AWS", "service_name": "AWSDataTransfer", "service_alias": "AWS Data Transfer", "reason": "Network pricing component - billing mechanism for data movement, not a standalone service"}
+{"provider": "Azure", "service_name": "Routing", "service_alias": "Routing", "reason": "Network pricing component - affects egress costs but not a standalone service"}
+{"provider": "GCP", "service_name": "Confidential Computing", "service_alias": "Confidential Computing", "reason": "Security feature - capability of compute instances, not a standalone service"}
+{"provider": "Azure", "service_name": "Azure Operator Nexus", "service_alias": "Azure Operator Nexus", "reason": "Telecom platform - carrier-grade infrastructure for telcos, not general cloud computing"}
+{"provider": "AWS", "service_name": "AWSEnterpriseOnRamp", "service_alias": "AWS Enterprise On Ramp", "reason": "This is a support plan and not a service"}

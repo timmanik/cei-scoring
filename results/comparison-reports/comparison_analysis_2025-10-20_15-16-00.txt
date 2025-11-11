@@ -1,0 +1,2663 @@
+================================================================================
+CLOUD SERVICE SCORING COMPARISON ANALYSIS REPORT
+================================================================================
+Generated on: 2025-10-20 15:16:00
+
+=== ANALYSIS SUMMARY ===
+Total services compared: 623
+Score columns analyzed: llama_3_3_70b_score, claude_sonnet_4_5_score
+Services with high disagreement: 13
+Services with high similarity: 513
+
+=== HIGH DISAGREEMENT SERVICES (deviation > 2.0) ===
+Total: 13 services
+
+1. ComputeSavingsPlans (AWS)
+   Median Score: 6.18
+   Max Deviation: 3.32
+   Scores: llama_3_3_70b_score=2.86, claude_sonnet_4_5_score=9.50
+   Deviations: llama_3_3_70b_score=3.32, claude_sonnet_4_5_score=3.32
+
+2. Azure Cloud HSM (Azure)
+   Median Score: 5.32
+   Max Deviation: 3.04
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=2.29
+   Deviations: llama_3_3_70b_score=3.04, claude_sonnet_4_5_score=3.03
+
+3. Cloud TPU (GCP)
+   Median Score: 5.12
+   Max Deviation: 2.95
+   Scores: llama_3_3_70b_score=8.07, claude_sonnet_4_5_score=2.18
+   Deviations: llama_3_3_70b_score=2.95, claude_sonnet_4_5_score=2.94
+
+4. AWSMDC (AWS)
+   Median Score: 5.43
+   Max Deviation: 2.86
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=2.57
+   Deviations: llama_3_3_70b_score=2.86, claude_sonnet_4_5_score=2.86
+
+5. Confidential Computing (GCP)
+   Median Score: 5.04
+   Max Deviation: 2.83
+   Scores: llama_3_3_70b_score=7.86, claude_sonnet_4_5_score=2.21
+   Deviations: llama_3_3_70b_score=2.83, claude_sonnet_4_5_score=2.83
+
+6. SQL DB Edge (Azure)
+   Median Score: 5.39
+   Max Deviation: 2.82
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=2.57
+   Deviations: llama_3_3_70b_score=2.82, claude_sonnet_4_5_score=2.82
+
+7. Microsoft Azure Payment HSM (Azure)
+   Median Score: 5.79
+   Max Deviation: 2.58
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=3.21
+   Deviations: llama_3_3_70b_score=2.57, claude_sonnet_4_5_score=2.58
+
+8. CloudHSM (AWS)
+   Median Score: 5.57
+   Max Deviation: 2.43
+   Scores: llama_3_3_70b_score=8.00, claude_sonnet_4_5_score=3.14
+   Deviations: llama_3_3_70b_score=2.43, claude_sonnet_4_5_score=2.43
+
+9. Azure SQL Edge (Azure)
+   Median Score: 5.29
+   Max Deviation: 2.29
+   Scores: llama_3_3_70b_score=7.57, claude_sonnet_4_5_score=3.00
+   Deviations: llama_3_3_70b_score=2.29, claude_sonnet_4_5_score=2.29
+
+10. Azure IoT Operations (Azure)
+   Median Score: 6.11
+   Max Deviation: 2.25
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=3.86
+   Deviations: llama_3_3_70b_score=2.25, claude_sonnet_4_5_score=2.25
+
+11. Routing (Azure)
+   Median Score: 6.25
+   Max Deviation: 2.11
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=4.14
+   Deviations: llama_3_3_70b_score=2.11, claude_sonnet_4_5_score=2.11
+
+12. Transfer Appliance (GCP)
+   Median Score: 5.32
+   Max Deviation: 2.11
+   Scores: llama_3_3_70b_score=7.43, claude_sonnet_4_5_score=3.21
+   Deviations: llama_3_3_70b_score=2.11, claude_sonnet_4_5_score=2.11
+
+13. AmazonEKSAnywhere (AWS)
+   Median Score: 3.83
+   Max Deviation: 2.04
+   Scores: llama_3_3_70b_score=5.86, claude_sonnet_4_5_score=1.79
+   Deviations: llama_3_3_70b_score=2.04, claude_sonnet_4_5_score=2.04
+
+=== HIGH SIMILARITY SERVICES (deviation <= 1) ===
+Total: 513 services
+
+1. AWSAppSync (AWS)
+   Median Score: 8.57
+   Max Deviation: 0.00
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.57
+
+2. Actifio GO (GCP)
+   Median Score: 8.36
+   Max Deviation: 0.00
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.36
+
+3. AmazonDynamoDB (AWS)
+   Median Score: 8.64
+   Max Deviation: 0.00
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=8.64
+
+4. AmazonPolly (AWS)
+   Median Score: 9.14
+   Max Deviation: 0.00
+   Scores: llama_3_3_70b_score=9.14, claude_sonnet_4_5_score=9.14
+
+5. Dataplex (GCP)
+   Median Score: 8.36
+   Max Deviation: 0.00
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.36
+
+6. Maps SDK for Unity (GCP)
+   Median Score: 8.36
+   Max Deviation: 0.00
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.36
+
+7. Secret Manager (GCP)
+   Median Score: 9.07
+   Max Deviation: 0.00
+   Scores: llama_3_3_70b_score=9.07, claude_sonnet_4_5_score=9.07
+
+8. Service Bus (Azure)
+   Median Score: 8.21
+   Max Deviation: 0.00
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=8.21
+
+9. Workload Manager (GCP)
+   Median Score: 8.36
+   Max Deviation: 0.00
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.36
+
+10. Virtual Machines (Azure)
+   Median Score: 1.96
+   Max Deviation: 0.01
+   Scores: llama_3_3_70b_score=1.97, claude_sonnet_4_5_score=1.96
+
+11. AmazonLookoutVision (AWS)
+   Median Score: 8.55
+   Max Deviation: 0.02
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.54
+
+12. AmazonPersonalize (AWS)
+   Median Score: 8.59
+   Max Deviation: 0.02
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.60
+
+13. Azure Orbital (Azure)
+   Median Score: 8.30
+   Max Deviation: 0.02
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.32
+
+14. Cloud Tasks (GCP)
+   Median Score: 8.80
+   Max Deviation: 0.02
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.82
+
+15. Data Lake Analytics (Azure)
+   Median Score: 8.55
+   Max Deviation: 0.02
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.54
+
+16. Event Grid (Azure)
+   Median Score: 8.88
+   Max Deviation: 0.02
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=8.90
+
+17. AWSDeepRacer (AWS)
+   Median Score: 8.73
+   Max Deviation: 0.02
+   Scores: llama_3_3_70b_score=8.71, claude_sonnet_4_5_score=8.75
+
+18. AmazonKendra (AWS)
+   Median Score: 8.59
+   Max Deviation: 0.02
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.61
+
+19. Apache Flink for BigQuery (GCP)
+   Median Score: 8.59
+   Max Deviation: 0.02
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.61
+
+20. Microsoft Purview (Azure)
+   Median Score: 8.59
+   Max Deviation: 0.02
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.61
+
+21. Vertex AI Search (GCP)
+   Median Score: 8.59
+   Max Deviation: 0.02
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.61
+
+22. AmazonEFS (AWS)
+   Median Score: 7.84
+   Max Deviation: 0.02
+   Scores: llama_3_3_70b_score=7.86, claude_sonnet_4_5_score=7.82
+
+23. AmazonETS (AWS)
+   Median Score: 8.83
+   Max Deviation: 0.03
+   Scores: llama_3_3_70b_score=8.80, claude_sonnet_4_5_score=8.86
+
+24. AmazonLookoutMetrics (AWS)
+   Median Score: 8.90
+   Max Deviation: 0.03
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=8.93
+
+25. AWSCloudTrail (AWS)
+   Median Score: 8.68
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=8.71
+
+26. AWSCodeCommit (AWS)
+   Median Score: 8.68
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=8.71
+
+27. AWSElementalMediaTailor (AWS)
+   Median Score: 8.46
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.50
+
+28. AWSGlue (AWS)
+   Median Score: 8.39
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.36
+
+29. AmazonCloudFront (AWS)
+   Median Score: 8.46
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.50
+
+30. AmazonFraudDetector (AWS)
+   Median Score: 8.68
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=8.71
+
+31. AmazonSNS (AWS)
+   Median Score: 9.11
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=9.14, claude_sonnet_4_5_score=9.07
+
+32. Azure Container Apps (Azure)
+   Median Score: 8.32
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.29
+
+33. Azure Remote Rendering (Azure)
+   Median Score: 8.46
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.50
+
+34. Cloud DNS (GCP)
+   Median Score: 9.04
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=9.07, claude_sonnet_4_5_score=9.00
+
+35. Cloud Dialogflow API (GCP)
+   Median Score: 8.82
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.86
+
+36. CodeGuru (AWS)
+   Median Score: 9.11
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=9.07, claude_sonnet_4_5_score=9.14
+
+37. GitHub AE (Azure)
+   Median Score: 9.04
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=9.07, claude_sonnet_4_5_score=9.00
+
+38. Google Service Control (GCP)
+   Median Score: 8.39
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.43
+
+39. Power BI (Azure)
+   Median Score: 8.82
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.86
+
+40. Web PubSub (Azure)
+   Median Score: 8.46
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.50
+
+41. AmazonTimestream (AWS)
+   Median Score: 8.75
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.71
+
+42. Recommendations AI (GCP)
+   Median Score: 8.75
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.71, claude_sonnet_4_5_score=8.79
+
+43. AmazonDetective (AWS)
+   Median Score: 8.83
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=8.79
+
+44. AmazonKinesisFirehose (AWS)
+   Median Score: 8.83
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=8.79
+
+45. Data Catalog (GCP)
+   Median Score: 8.83
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=8.79
+
+46. Security Command Center (GCP)
+   Median Score: 8.83
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=8.79
+
+47. Microsoft Azure Internet Analyzer (Azure)
+   Median Score: 8.28
+   Max Deviation: 0.04
+   Scores: llama_3_3_70b_score=8.23, claude_sonnet_4_5_score=8.32
+
+48. Azure Active Directory for External Identities (Azure)
+   Median Score: 8.95
+   Max Deviation: 0.05
+   Scores: llama_3_3_70b_score=8.90, claude_sonnet_4_5_score=9.00
+
+49. App Engine (GCP)
+   Median Score: 8.23
+   Max Deviation: 0.05
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.18
+
+50. Azure Cognitive Search (Azure)
+   Median Score: 8.48
+   Max Deviation: 0.05
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.54
+
+51. Cloud Healthcare (GCP)
+   Median Score: 8.48
+   Max Deviation: 0.05
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.54
+
+52. Content Delivery Network (Azure)
+   Median Score: 8.23
+   Max Deviation: 0.05
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.18
+
+53. Database Migration (GCP)
+   Median Score: 8.23
+   Max Deviation: 0.05
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.18
+
+54. Service Fabric Mesh (Azure)
+   Median Score: 8.38
+   Max Deviation: 0.05
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.32
+
+55. Time Series Insights (Azure)
+   Median Score: 8.73
+   Max Deviation: 0.05
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.68
+
+56. Vertex AI Vision (GCP)
+   Median Score: 8.62
+   Max Deviation: 0.05
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.68
+
+57. Compute Engine (GCP)
+   Median Score: 1.77
+   Max Deviation: 0.06
+   Scores: llama_3_3_70b_score=1.71, claude_sonnet_4_5_score=1.82
+
+58. BigQuery BI Engine (GCP)
+   Median Score: 8.84
+   Max Deviation: 0.06
+   Scores: llama_3_3_70b_score=8.90, claude_sonnet_4_5_score=8.79
+
+59. Intelligent Recommendations (Azure)
+   Median Score: 8.84
+   Max Deviation: 0.06
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.90
+
+60. AmazonA2I (AWS)
+   Median Score: 8.63
+   Max Deviation: 0.06
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.69
+
+61. AmazonPinpoint (AWS)
+   Median Score: 8.93
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=9.00
+
+62. Stackdriver Monitoring (GCP)
+   Median Score: 8.93
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=9.00
+
+63. AWSElementalMediaConvert (AWS)
+   Median Score: 8.64
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.71
+
+64. AmazonAthena (AWS)
+   Median Score: 8.57
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=8.64
+
+65. AmazonECR (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.43
+
+66. AmazonGuardDuty (AWS)
+   Median Score: 9.14
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=9.21, claude_sonnet_4_5_score=9.07
+
+67. AmazonInspectorV2 (AWS)
+   Median Score: 9.07
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=9.14, claude_sonnet_4_5_score=9.00
+
+68. AmazonTextract (AWS)
+   Median Score: 9.07
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=9.14, claude_sonnet_4_5_score=9.00
+
+69. Application Integration (GCP)
+   Median Score: 8.86
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.93
+
+70. AwsCloudShell (AWS)
+   Median Score: 8.50
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.57
+
+71. Azure Defender (Azure)
+   Median Score: 9.07
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=9.14, claude_sonnet_4_5_score=9.00
+
+72. Azure Update Manager (Azure)
+   Median Score: 7.93
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=7.86, claude_sonnet_4_5_score=8.00
+
+73. Binary Authorization (GCP)
+   Median Score: 8.57
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=8.64
+
+74. Cloud Run Functions (GCP)
+   Median Score: 8.57
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=8.64
+
+75. Cloud Text-to-Speech API (GCP)
+   Median Score: 9.07
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=9.14, claude_sonnet_4_5_score=9.00
+
+76. Email (Azure)
+   Median Score: 9.07
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=9.14, claude_sonnet_4_5_score=9.00
+
+77. Functions (Azure)
+   Median Score: 8.50
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.57
+
+78. Microsoft Copilot for Security (Azure)
+   Median Score: 9.44
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=9.37, claude_sonnet_4_5_score=9.51
+
+79. Places UI Kit (GCP)
+   Median Score: 9.14
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=9.21, claude_sonnet_4_5_score=9.07
+
+80. Timeseries Insights API (GCP)
+   Median Score: 8.86
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.93
+
+81. Workflows (GCP)
+   Median Score: 8.86
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.93
+
+82. AWSEvents (AWS)
+   Median Score: 8.71
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=8.79
+
+83. AWSGlueElasticViews (AWS)
+   Median Score: 8.71
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.64
+
+84. AWSLambda (AWS)
+   Median Score: 8.71
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=8.79
+
+85. AmazonIVSChat (AWS)
+   Median Score: 8.71
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.64
+
+86. Application Insights (Azure)
+   Median Score: 8.71
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=8.79
+
+87. Live Stream API (GCP)
+   Median Score: 8.71
+   Max Deviation: 0.07
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.64
+
+88. Azure Lab Services (Azure)
+   Median Score: 7.79
+   Max Deviation: 0.08
+   Scores: llama_3_3_70b_score=7.71, claude_sonnet_4_5_score=7.86
+
+89. AmazonGlacier (AWS)
+   Median Score: 8.15
+   Max Deviation: 0.08
+   Scores: llama_3_3_70b_score=8.23, claude_sonnet_4_5_score=8.07
+
+90. Cloud Logging (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.08
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=8.71
+
+91. Firebase Auth (GCP)
+   Median Score: 9.29
+   Max Deviation: 0.08
+   Scores: llama_3_3_70b_score=9.37, claude_sonnet_4_5_score=9.21
+
+92. Google Maps Platform Solar Service (GCP)
+   Median Score: 9.29
+   Max Deviation: 0.08
+   Scores: llama_3_3_70b_score=9.37, claude_sonnet_4_5_score=9.21
+
+93. Microsoft Security Copilot (Azure)
+   Median Score: 9.29
+   Max Deviation: 0.08
+   Scores: llama_3_3_70b_score=9.37, claude_sonnet_4_5_score=9.21
+
+94. Telecom Subscriber Insights (GCP)
+   Median Score: 9.29
+   Max Deviation: 0.08
+   Scores: llama_3_3_70b_score=9.37, claude_sonnet_4_5_score=9.21
+
+95. auditmanager (AWS)
+   Median Score: 8.72
+   Max Deviation: 0.08
+   Scores: llama_3_3_70b_score=8.80, claude_sonnet_4_5_score=8.64
+
+96. AmazonConnectCases (AWS)
+   Median Score: 8.98
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=8.90, claude_sonnet_4_5_score=9.07
+
+97. AWSDataSync (AWS)
+   Median Score: 7.95
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=7.86, claude_sonnet_4_5_score=8.04
+
+98. AWSFMS (AWS)
+   Median Score: 8.20
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.11
+
+99. AmazonBedrock (AWS)
+   Median Score: 8.66
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.75
+
+100. AmazonLookoutEquipment (AWS)
+   Median Score: 8.59
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=8.68
+
+101. AmazonStates (AWS)
+   Median Score: 8.55
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=8.46
+
+102. BigQuery Engine for Apache Flink (GCP)
+   Median Score: 8.48
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.39
+
+103. Blockchain Accelerator (GCP)
+   Median Score: 7.80
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=7.71, claude_sonnet_4_5_score=7.89
+
+104. Cloud Spanner (GCP)
+   Median Score: 8.48
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.39
+
+105. Cloud Workstations (GCP)
+   Median Score: 8.27
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.18
+
+106. Notification Hubs (Azure)
+   Median Score: 8.52
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.61
+
+107. Trusted Signing (Azure)
+   Median Score: 9.30
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=9.39, claude_sonnet_4_5_score=9.21
+
+108. Virtual Machines Licenses (Azure)
+   Median Score: 1.73
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=1.64, claude_sonnet_4_5_score=1.82
+
+109. AWSELB (AWS)
+   Median Score: 8.05
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=7.96
+
+110. Backup for GKE (GCP)
+   Median Score: 8.05
+   Max Deviation: 0.09
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=7.96
+
+111. AmazonHealthLake (AWS)
+   Median Score: 8.80
+   Max Deviation: 0.10
+   Scores: llama_3_3_70b_score=8.90, claude_sonnet_4_5_score=8.71
+
+112. Traffic Manager (Azure)
+   Median Score: 8.59
+   Max Deviation: 0.10
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=8.69
+
+113. Web Risk (GCP)
+   Median Score: 9.30
+   Max Deviation: 0.10
+   Scores: llama_3_3_70b_score=9.21, claude_sonnet_4_5_score=9.40
+
+114. mobileanalytics (AWS)
+   Median Score: 8.97
+   Max Deviation: 0.10
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=9.07
+
+115. AWSBillingConductor (AWS)
+   Median Score: 9.11
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=9.21, claude_sonnet_4_5_score=9.00
+
+116. AWSSupportEnterprise (AWS)
+   Median Score: 9.54
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=9.43, claude_sonnet_4_5_score=9.64
+
+117. AlexaWebInfoService (AWS)
+   Median Score: 9.11
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=9.21, claude_sonnet_4_5_score=9.00
+
+118. AmazonECS (AWS)
+   Median Score: 5.39
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=5.50, claude_sonnet_4_5_score=5.29
+
+119. AmazonGrafana (AWS)
+   Median Score: 8.46
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.57
+
+120. AmazonMemoryDB (AWS)
+   Median Score: 7.61
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=7.71, claude_sonnet_4_5_score=7.50
+
+121. Azure Data Share (Azure)
+   Median Score: 8.46
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.36
+
+122. Azure Grafana Service (Azure)
+   Median Score: 8.46
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.57
+
+123. BigQuery Storage API (GCP)
+   Median Score: 8.89
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=9.00
+
+124. Data Catalog (Azure)
+   Median Score: 8.61
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=8.71
+
+125. On-Demand Scanning (GCP)
+   Median Score: 9.11
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=9.21, claude_sonnet_4_5_score=9.00
+
+126. Power Automate (Azure)
+   Median Score: 8.89
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=9.00
+
+127. SignalR (Azure)
+   Median Score: 8.46
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.57
+
+128. comprehend (AWS)
+   Median Score: 8.89
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=9.00
+
+129. AWSR53AppRecoveryController (AWS)
+   Median Score: 8.32
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.21
+
+130. AmazonForecast (AWS)
+   Median Score: 8.68
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.79
+
+131. AmazonLocationService (AWS)
+   Median Score: 8.68
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.79
+
+132. Azure Resource Mover (Azure)
+   Median Score: 8.25
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.14
+
+133. CodeBuild (AWS)
+   Median Score: 8.32
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.21
+
+134. Logic Apps (Azure)
+   Median Score: 8.68
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.57
+
+135. awskms (AWS)
+   Median Score: 8.68
+   Max Deviation: 0.11
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.79
+
+136. AmazonCodeWhisperer (AWS)
+   Median Score: 9.25
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=9.37, claude_sonnet_4_5_score=9.14
+
+137. AmazonWorkLink (AWS)
+   Median Score: 9.25
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=9.37, claude_sonnet_4_5_score=9.14
+
+138. BigQuery (GCP)
+   Median Score: 8.75
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=8.64
+
+139. Firebase Test Lab (GCP)
+   Median Score: 8.75
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=8.64
+
+140. AmazonApiGateway (AWS)
+   Median Score: 8.62
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=8.74
+
+141. Azure API for FHIR (Azure)
+   Median Score: 8.55
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.67
+
+142. Identity Platform (GCP)
+   Median Score: 9.02
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=8.90, claude_sonnet_4_5_score=9.14
+
+143. AWSSecurityHub (AWS)
+   Median Score: 8.84
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=8.71, claude_sonnet_4_5_score=8.96
+
+144. Azure Purview (Azure)
+   Median Score: 9.02
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=9.14, claude_sonnet_4_5_score=8.89
+
+145. Backup and DR Service (GCP)
+   Median Score: 8.30
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.18
+
+146. Certificate Manager (GCP)
+   Median Score: 9.20
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=9.07, claude_sonnet_4_5_score=9.32
+
+147. Chronicle (GCP)
+   Median Score: 8.70
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.82
+
+148. Cloud AutoML (GCP)
+   Median Score: 8.70
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.82
+
+149. Fraud Protection (Azure)
+   Median Score: 9.27
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=9.39, claude_sonnet_4_5_score=9.14
+
+150. Immersive Stream for XR (GCP)
+   Median Score: 8.48
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.61
+
+151. Microsoft Copilot Studio (Azure)
+   Median Score: 8.91
+   Max Deviation: 0.12
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=9.04
+
+152. API Gateway (GCP)
+   Median Score: 8.66
+   Max Deviation: 0.13
+   Scores: llama_3_3_70b_score=8.53, claude_sonnet_4_5_score=8.79
+
+153. Firebase Data Connect (GCP)
+   Median Score: 8.66
+   Max Deviation: 0.13
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.53
+
+154. Cloud Speech API (GCP)
+   Median Score: 8.94
+   Max Deviation: 0.13
+   Scores: llama_3_3_70b_score=8.80, claude_sonnet_4_5_score=9.07
+
+155. AWSConfig (AWS)
+   Median Score: 8.50
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.63
+
+156. AmazonRekognition (AWS)
+   Median Score: 9.00
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=9.14
+
+157. AWSCodeArtifact (AWS)
+   Median Score: 8.50
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.64
+
+158. AmazonMacie (AWS)
+   Median Score: 9.07
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=9.21, claude_sonnet_4_5_score=8.93
+
+159. AmazonSumerian (AWS)
+   Median Score: 8.50
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.64
+
+160. AppFlow (AWS)
+   Median Score: 8.50
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.64
+
+161. Azure Cosmos DB (Azure)
+   Median Score: 8.43
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.29
+
+162. Cloud Key Management Service (KMS) (GCP)
+   Median Score: 8.57
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.71
+
+163. Firebase Realtime Database (GCP)
+   Median Score: 8.57
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.71
+
+164. Integration Connectors (GCP)
+   Median Score: 8.50
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.64
+
+165. Log Analytics (Azure)
+   Median Score: 8.57
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.71
+
+166. Spatial Anchors (Azure)
+   Median Score: 8.43
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.57
+
+167. VPN Gateway (Azure)
+   Median Score: 5.57
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=5.43, claude_sonnet_4_5_score=5.71
+
+168. AWSDeviceFarm (AWS)
+   Median Score: 8.71
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.86
+
+169. AWSElementalMediaPackage (AWS)
+   Median Score: 8.21
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.07
+
+170. AmazonLex (AWS)
+   Median Score: 8.79
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=8.93
+
+171. AmazonPrometheus (AWS)
+   Median Score: 8.21
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.07
+
+172. AmazonRoute53 (AWS)
+   Median Score: 8.64
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=8.79
+
+173. Cloud Data Loss Prevention (GCP)
+   Median Score: 8.71
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.86
+
+174. Cloud Document API (GCP)
+   Median Score: 8.86
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.71, claude_sonnet_4_5_score=9.00
+
+175. Cloud Run (GCP)
+   Median Score: 8.64
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=8.79
+
+176. Contact Center AI Insights (GCP)
+   Median Score: 8.71
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.86
+
+177. Microsoft Playwright Testing (Azure)
+   Median Score: 8.71
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.86
+
+178. Transcoder API (GCP)
+   Median Score: 8.71
+   Max Deviation: 0.14
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.86
+
+179. AmazonEC2 (AWS)
+   Median Score: 1.72
+   Max Deviation: 0.15
+   Scores: llama_3_3_70b_score=1.57, claude_sonnet_4_5_score=1.86
+
+180. AmazonVPC (AWS)
+   Median Score: 1.72
+   Max Deviation: 0.15
+   Scores: llama_3_3_70b_score=1.57, claude_sonnet_4_5_score=1.86
+
+181. Virtual Network (Azure)
+   Median Score: 2.35
+   Max Deviation: 0.15
+   Scores: llama_3_3_70b_score=2.21, claude_sonnet_4_5_score=2.50
+
+182. Microsoft Entra Verified ID (Azure)
+   Median Score: 8.75
+   Max Deviation: 0.15
+   Scores: llama_3_3_70b_score=8.90, claude_sonnet_4_5_score=8.61
+
+183. Syntex (Azure)
+   Median Score: 9.05
+   Max Deviation: 0.16
+   Scores: llama_3_3_70b_score=8.90, claude_sonnet_4_5_score=9.21
+
+184. AI Ops (Azure)
+   Median Score: 8.59
+   Max Deviation: 0.16
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.75
+
+185. AWSCleanRooms (AWS)
+   Median Score: 8.52
+   Max Deviation: 0.16
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.68
+
+186. AWSIoTAnalytics (AWS)
+   Median Score: 8.20
+   Max Deviation: 0.16
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.04
+
+187. AWSIoTSiteWise (AWS)
+   Median Score: 8.52
+   Max Deviation: 0.16
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.68
+
+188. AWSNetworkFirewall (AWS)
+   Median Score: 8.20
+   Max Deviation: 0.16
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.04
+
+189. AmazonCloudDirectory (AWS)
+   Median Score: 8.20
+   Max Deviation: 0.16
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.04
+
+190. AmazonMedicalImaging (AWS)
+   Median Score: 8.34
+   Max Deviation: 0.16
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=8.18
+
+191. AmazonOmics (AWS)
+   Median Score: 8.20
+   Max Deviation: 0.16
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.04
+
+192. Azure Blockchain (Azure)
+   Median Score: 7.84
+   Max Deviation: 0.16
+   Scores: llama_3_3_70b_score=8.00, claude_sonnet_4_5_score=7.68
+
+193. Azure Database for MySQL (Azure)
+   Median Score: 7.16
+   Max Deviation: 0.16
+   Scores: llama_3_3_70b_score=7.00, claude_sonnet_4_5_score=7.32
+
+194. Datastream (GCP)
+   Median Score: 8.52
+   Max Deviation: 0.16
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.68
+
+195. Microsoft Entra (Azure)
+   Median Score: 9.23
+   Max Deviation: 0.16
+   Scores: llama_3_3_70b_score=9.39, claude_sonnet_4_5_score=9.07
+
+196. AmazonWorkSpacesThinClient (AWS)
+   Median Score: 8.12
+   Max Deviation: 0.17
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=7.96
+
+197. AmazonSES (AWS)
+   Median Score: 8.59
+   Max Deviation: 0.17
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.76
+
+198. Cloud Trace (GCP)
+   Median Score: 8.80
+   Max Deviation: 0.17
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=8.97
+
+199. AWSEntityResolution (AWS)
+   Median Score: 9.04
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=9.21, claude_sonnet_4_5_score=8.86
+
+200. AWSResilienceHub (AWS)
+   Median Score: 8.54
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.71
+
+201. AWSServiceCatalog (AWS)
+   Median Score: 8.46
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.64
+
+202. AmazonIVS (AWS)
+   Median Score: 8.54
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.71
+
+203. Azure DevOps (Azure)
+   Median Score: 8.54
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.71
+
+204. Azure Monitor (Azure)
+   Median Score: 8.54
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.71
+
+205. Microsoft Graph Services (Azure)
+   Median Score: 9.04
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.87, claude_sonnet_4_5_score=9.22
+
+206. AWSCodePipeline (AWS)
+   Median Score: 8.18
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.00
+
+207. AWSElementalMediaLive (AWS)
+   Median Score: 8.18
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.00
+
+208. AWSGroundStation (AWS)
+   Median Score: 8.39
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.21
+
+209. AmazonCloudWatch (AWS)
+   Median Score: 8.61
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.79
+
+210. AmazonCognitoSync (AWS)
+   Median Score: 8.82
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=9.00
+
+211. AmazonInspector (AWS)
+   Median Score: 8.82
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=9.00
+
+212. AmazonKinesisAnalytics (AWS)
+   Median Score: 8.25
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.07
+
+213. Azure Fluid Relay (Azure)
+   Median Score: 8.75
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.93
+
+214. Azure Front Door Service (Azure)
+   Median Score: 8.18
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.00
+
+215. Azure confidential ledger (Azure)
+   Median Score: 8.68
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=8.86
+
+216. Cloud Build (GCP)
+   Median Score: 8.61
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.43
+
+217. Cloud Firestore (GCP)
+   Median Score: 8.82
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=9.00
+
+218. Cloud Monitoring (GCP)
+   Median Score: 8.61
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.79
+
+219. Cloud Scheduler (GCP)
+   Median Score: 8.82
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=9.00
+
+220. Cloud Talent Solution (GCP)
+   Median Score: 8.82
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=9.00
+
+221. Gemini API (GCP)
+   Median Score: 8.89
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.71, claude_sonnet_4_5_score=9.07
+
+222. PaymentCryptography (AWS)
+   Median Score: 8.61
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.79
+
+223. Prediction (GCP)
+   Median Score: 8.11
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=7.93
+
+224. Video Stitcher API (GCP)
+   Median Score: 8.75
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=8.93
+
+225. AWSSystemsManager (AWS)
+   Median Score: 5.61
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=5.79, claude_sonnet_4_5_score=5.43
+
+226. Azure Database for MariaDB (Azure)
+   Median Score: 6.82
+   Max Deviation: 0.18
+   Scores: llama_3_3_70b_score=7.00, claude_sonnet_4_5_score=6.64
+
+227. AmazonMonitron (AWS)
+   Median Score: 9.18
+   Max Deviation: 0.19
+   Scores: llama_3_3_70b_score=9.37, claude_sonnet_4_5_score=9.00
+
+228. Looker Data Platform SaaS (GCP)
+   Median Score: 9.18
+   Max Deviation: 0.19
+   Scores: llama_3_3_70b_score=9.37, claude_sonnet_4_5_score=9.00
+
+229. IoT Central (Azure)
+   Median Score: 8.55
+   Max Deviation: 0.19
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.74
+
+230. AWSAmplify (AWS)
+   Median Score: 8.48
+   Max Deviation: 0.20
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.68
+
+231. AWSAppRunner (AWS)
+   Median Score: 8.62
+   Max Deviation: 0.20
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.82
+
+232. AWSCertificateManager (AWS)
+   Median Score: 9.27
+   Max Deviation: 0.20
+   Scores: llama_3_3_70b_score=9.07, claude_sonnet_4_5_score=9.46
+
+233. AWSGlobalAccelerator (AWS)
+   Median Score: 8.55
+   Max Deviation: 0.20
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.75
+
+234. Transfer Service (GCP)
+   Median Score: 8.41
+   Max Deviation: 0.20
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=8.61
+
+235. AWSIoTFleetWise (AWS)
+   Median Score: 8.16
+   Max Deviation: 0.20
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.96
+
+236. AmazonML (AWS)
+   Median Score: 8.09
+   Max Deviation: 0.20
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=7.89
+
+237. comprehendmedical (AWS)
+   Median Score: 9.01
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.80, claude_sonnet_4_5_score=9.21
+
+238. Digital Twins (Azure)
+   Median Score: 7.50
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=7.71, claude_sonnet_4_5_score=7.29
+
+239. Firebase Hosting (GCP)
+   Median Score: 9.00
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=9.21
+
+240. Source Repository (GCP)
+   Median Score: 8.50
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.71
+
+241. AWSIAMAccessAnalyzer (AWS)
+   Median Score: 8.93
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.71, claude_sonnet_4_5_score=9.14
+
+242. AWSQueueService (AWS)
+   Median Score: 8.86
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=9.07
+
+243. AmazonCloudSearch (AWS)
+   Median Score: 7.79
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.00, claude_sonnet_4_5_score=7.57
+
+244. AmazonCognito (AWS)
+   Median Score: 8.79
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=9.00
+
+245. AmazonQLDB (AWS)
+   Median Score: 8.57
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.79
+
+246. AmazonQuickSight (AWS)
+   Median Score: 8.79
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=9.00
+
+247. App Center (Azure)
+   Median Score: 8.57
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.79
+
+248. Azure Firewall (Azure)
+   Median Score: 8.07
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=7.86
+
+249. Azure Firewall Manager (Azure)
+   Median Score: 8.57
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.79
+
+250. Azure Maps (Azure)
+   Median Score: 8.79
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=9.00
+
+251. Azure Policy (Azure)
+   Median Score: 8.71
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=8.93
+
+252. Cloud Contact Center AI Platform (GCP)
+   Median Score: 8.64
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.86
+
+253. Cloud Document AI API (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=9.00
+
+254. Cloud NGFW Enterprise (GCP)
+   Median Score: 8.29
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=8.07
+
+255. Cognitive Services (Azure)
+   Median Score: 8.79
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=9.00
+
+256. Earth Engine (GCP)
+   Median Score: 8.64
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.86
+
+257. GKE Enterprise / GDC (GCP)
+   Median Score: 5.58
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=5.79, claude_sonnet_4_5_score=5.36
+
+258. Google Maps Platform - Routes (GCP)
+   Median Score: 8.86
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=9.07
+
+259. Microsoft Fabric (Azure)
+   Median Score: 8.57
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.79
+
+260. Microsoft Planetary Computer Pro (Azure)
+   Median Score: 8.14
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.93
+
+261. Network Traversal (Azure)
+   Median Score: 8.57
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.79
+
+262. Time Zone API (GCP)
+   Median Score: 8.93
+   Max Deviation: 0.21
+   Scores: llama_3_3_70b_score=8.71, claude_sonnet_4_5_score=9.14
+
+263. Google Quickstart Simple pre-configured Debian VM (GCP)
+   Median Score: 1.85
+   Max Deviation: 0.22
+   Scores: llama_3_3_70b_score=1.64, claude_sonnet_4_5_score=2.07
+
+264. Azure DDOS Protection (Azure)
+   Median Score: 8.58
+   Max Deviation: 0.22
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.80
+
+265. Phone Numbers (Azure)
+   Median Score: 9.15
+   Max Deviation: 0.22
+   Scores: llama_3_3_70b_score=9.37, claude_sonnet_4_5_score=8.93
+
+266. AWSBackup (AWS)
+   Median Score: 8.91
+   Max Deviation: 0.23
+   Scores: llama_3_3_70b_score=9.14, claude_sonnet_4_5_score=8.68
+
+267. AmazonChimeVoiceConnector (AWS)
+   Median Score: 8.59
+   Max Deviation: 0.23
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.82
+
+268. Azure Database Migration Service (Azure)
+   Median Score: 7.91
+   Max Deviation: 0.23
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=7.68
+
+269. Blockchain Node Engine (GCP)
+   Median Score: 7.98
+   Max Deviation: 0.23
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=7.75
+
+270. ContactCenterTelecomm (AWS)
+   Median Score: 8.59
+   Max Deviation: 0.23
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.82
+
+271. AmazonSimpleDB (AWS)
+   Median Score: 8.45
+   Max Deviation: 0.23
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=8.68
+
+272. Cloud IDS (GCP)
+   Median Score: 8.05
+   Max Deviation: 0.23
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=7.82
+
+273. Bare Metal Solution (GCP)
+   Median Score: 1.88
+   Max Deviation: 0.24
+   Scores: llama_3_3_70b_score=1.64, claude_sonnet_4_5_score=2.11
+
+274. Data Lake Store (Azure)
+   Median Score: 8.12
+   Max Deviation: 0.24
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.89
+
+275. Energy Data Manager (Azure)
+   Median Score: 8.12
+   Max Deviation: 0.24
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.89
+
+276. Visual Studio Codespaces (Azure)
+   Median Score: 8.12
+   Max Deviation: 0.24
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.89
+
+277. AmazonS3GlacierDeepArchive (AWS)
+   Median Score: 8.47
+   Max Deviation: 0.24
+   Scores: llama_3_3_70b_score=8.23, claude_sonnet_4_5_score=8.71
+
+278. AWSAppFabric (AWS)
+   Median Score: 8.61
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.86
+
+279. AWSCloudFormation (AWS)
+   Median Score: 4.68
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=4.93, claude_sonnet_4_5_score=4.43
+
+280. AWSDataExchange (AWS)
+   Median Score: 8.82
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=9.07
+
+281. AWSIoTEvents (AWS)
+   Median Score: 8.68
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.93
+
+282. AmazonConnectVoiceID (AWS)
+   Median Score: 8.82
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=9.07
+
+283. AmazonECRPublic (AWS)
+   Median Score: 8.54
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.79
+
+284. AmazonElastiCache (AWS)
+   Median Score: 6.68
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=6.93, claude_sonnet_4_5_score=6.43
+
+285. App Configuration (Azure)
+   Median Score: 8.68
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.93
+
+286. Azure DNS (Azure)
+   Median Score: 8.75
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=9.00
+
+287. Azure Device Registry (Azure)
+   Median Score: 8.61
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.86
+
+288. Azure Load Testing (Azure)
+   Median Score: 8.54
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.79
+
+289. Cloud Pub/Sub (GCP)
+   Median Score: 8.68
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.93
+
+290. Cloud Video Intelligence API (GCP)
+   Median Score: 8.82
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=9.07
+
+291. CodeCatalyst (AWS)
+   Median Score: 8.61
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.86
+
+292. CustomerProfiles (AWS)
+   Median Score: 8.82
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=9.07
+
+293. IoTDeviceDefender (AWS)
+   Median Score: 8.75
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=9.00
+
+294. Mixed Reality (Azure)
+   Median Score: 8.54
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.79
+
+295. Scheduler (Azure)
+   Median Score: 8.68
+   Max Deviation: 0.25
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=8.93
+
+296. AmazonS3 (AWS)
+   Median Score: 8.20
+   Max Deviation: 0.27
+   Scores: llama_3_3_70b_score=7.93, claude_sonnet_4_5_score=8.46
+
+297. Azure Route Server (Azure)
+   Median Score: 7.95
+   Max Deviation: 0.27
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=7.68
+
+298. Cloud IoT Core (GCP)
+   Median Score: 8.09
+   Max Deviation: 0.27
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.82
+
+299. IoTDeviceManagement (AWS)
+   Median Score: 8.09
+   Max Deviation: 0.27
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.82
+
+300. Certificate Authority Service (GCP)
+   Median Score: 8.16
+   Max Deviation: 0.27
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=7.89
+
+301. AmazonConnect (AWS)
+   Median Score: 8.71
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=9.00
+
+302. AmazonDocDB (AWS)
+   Median Score: 7.42
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=7.71, claude_sonnet_4_5_score=7.14
+
+303. Apigee (GCP)
+   Median Score: 8.14
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=7.86
+
+304. Cloud Memorystore for Redis (GCP)
+   Median Score: 7.86
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=7.57
+
+305. Cloud Vision API (GCP)
+   Median Score: 8.86
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=9.14
+
+306. Dataverse (Azure)
+   Median Score: 8.64
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.93
+
+307. ExpressRoute (Azure)
+   Median Score: 3.08
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=2.79, claude_sonnet_4_5_score=3.36
+
+308. Firebase (GCP)
+   Median Score: 8.64
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.93
+
+309. IoTTwinMaker (AWS)
+   Median Score: 8.07
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.79
+
+310. Key Vault (Azure)
+   Median Score: 8.71
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=9.00
+
+311. Looker (GCP)
+   Median Score: 8.64
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.93
+
+312. Microsoft Azure Peering Service (Azure)
+   Median Score: 8.07
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.79
+
+313. Microsoft Defender for Cloud (Azure)
+   Median Score: 8.71
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=9.00
+
+314. Network Watcher (Azure)
+   Median Score: 8.57
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.86
+
+315. Power Pages (Azure)
+   Median Score: 8.64
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.93
+
+316. Storage Insights (GCP)
+   Median Score: 8.64
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.93
+
+317. AmazonWAM (AWS)
+   Median Score: 8.00
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=7.71
+
+318. HDInsight (Azure)
+   Median Score: 5.50
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=5.79, claude_sonnet_4_5_score=5.21
+
+319. AmazonDataZone (AWS)
+   Median Score: 9.08
+   Max Deviation: 0.29
+   Scores: llama_3_3_70b_score=9.37, claude_sonnet_4_5_score=8.79
+
+320. AWSIoT1Click (AWS)
+   Median Score: 8.66
+   Max Deviation: 0.30
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=8.96
+
+321. AmazonKinesisVideo (AWS)
+   Median Score: 8.05
+   Max Deviation: 0.30
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.75
+
+322. Stream Analytics (Azure)
+   Median Score: 8.05
+   Max Deviation: 0.30
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.75
+
+323. Azure Stack Hub (Azure)
+   Median Score: 2.12
+   Max Deviation: 0.31
+   Scores: llama_3_3_70b_score=2.43, claude_sonnet_4_5_score=1.82
+
+324. AmazonDAX (AWS)
+   Median Score: 7.39
+   Max Deviation: 0.32
+   Scores: llama_3_3_70b_score=7.71, claude_sonnet_4_5_score=7.07
+
+325. Assured Workloads (GCP)
+   Median Score: 8.61
+   Max Deviation: 0.32
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.93
+
+326. Azure App Service (Azure)
+   Median Score: 7.82
+   Max Deviation: 0.32
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=7.50
+
+327. Azure Database for PostgreSQL (Azure)
+   Median Score: 7.32
+   Max Deviation: 0.32
+   Scores: llama_3_3_70b_score=7.64, claude_sonnet_4_5_score=7.00
+
+328. Container Registry Vulnerability Scanning (GCP)
+   Median Score: 8.82
+   Max Deviation: 0.32
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=9.14
+
+329. MS Bing Services (Azure)
+   Median Score: 8.89
+   Max Deviation: 0.32
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=9.21
+
+330. Power Apps (Azure)
+   Median Score: 8.68
+   Max Deviation: 0.32
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=9.00
+
+331. Stackdriver (GCP)
+   Median Score: 8.61
+   Max Deviation: 0.32
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=8.93
+
+332. Artifact Registry (GCP)
+   Median Score: 8.54
+   Max Deviation: 0.32
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=8.86
+
+333. Transcode API (GCP)
+   Median Score: 8.54
+   Max Deviation: 0.32
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=8.86
+
+334. AWSElementalMediaStore (AWS)
+   Median Score: 8.04
+   Max Deviation: 0.33
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.71
+
+335. Microsoft Entra Domain Services (Azure)
+   Median Score: 8.04
+   Max Deviation: 0.33
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.71
+
+336. Azure Stack HCI (Azure)
+   Median Score: 2.10
+   Max Deviation: 0.34
+   Scores: llama_3_3_70b_score=2.43, claude_sonnet_4_5_score=1.76
+
+337. AmazonMWAA (AWS)
+   Median Score: 7.95
+   Max Deviation: 0.34
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=7.61
+
+338. Backup (Azure)
+   Median Score: 8.80
+   Max Deviation: 0.34
+   Scores: llama_3_3_70b_score=9.14, claude_sonnet_4_5_score=8.46
+
+339. BigQuery Data Transfer Service (GCP)
+   Median Score: 8.45
+   Max Deviation: 0.34
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=8.11
+
+340. Maps API (GCP)
+   Median Score: 8.98
+   Max Deviation: 0.34
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=9.32
+
+341. NAT Gateway (Azure)
+   Median Score: 8.48
+   Max Deviation: 0.34
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=8.82
+
+342. PlayFab (Azure)
+   Median Score: 8.70
+   Max Deviation: 0.34
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=9.04
+
+343. Container Instances (Azure)
+   Median Score: 7.23
+   Max Deviation: 0.34
+   Scores: llama_3_3_70b_score=7.57, claude_sonnet_4_5_score=6.89
+
+344. AmazonBraket (AWS)
+   Median Score: 8.91
+   Max Deviation: 0.35
+   Scores: llama_3_3_70b_score=9.26, claude_sonnet_4_5_score=8.57
+
+345. AmazonVerifiedPermissions (AWS)
+   Median Score: 8.58
+   Max Deviation: 0.35
+   Scores: llama_3_3_70b_score=8.23, claude_sonnet_4_5_score=8.93
+
+346. Cloud Vision OCR On-Prem (GCP)
+   Median Score: 2.35
+   Max Deviation: 0.35
+   Scores: llama_3_3_70b_score=2.00, claude_sonnet_4_5_score=2.71
+
+347. AWSB2Bi (AWS)
+   Median Score: 8.64
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=9.00
+
+348. AmazonDevOpsGuru (AWS)
+   Median Score: 8.71
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=9.07
+
+349. Azure Kubernetes Service (Azure)
+   Median Score: 5.36
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=5.71, claude_sonnet_4_5_score=5.00
+
+350. Azure Synthetics (Azure)
+   Median Score: 8.79
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=9.14
+
+351. Cloud SQL (GCP)
+   Median Score: 6.64
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=7.00, claude_sonnet_4_5_score=6.29
+
+352. ContactLensAmazonConnect (AWS)
+   Median Score: 8.79
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=9.14
+
+353. Dataproc Metastore (GCP)
+   Median Score: 7.86
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=7.50
+
+354. Redis Cache (Azure)
+   Median Score: 7.79
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=7.43
+
+355. Voice (Azure)
+   Median Score: 8.64
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=9.00
+
+356. AWSIoT (AWS)
+   Median Score: 7.93
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=7.57
+
+357. AWSIoTThingsGraph (AWS)
+   Median Score: 8.00
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.64
+
+358. Azure Data Factory (Azure)
+   Median Score: 8.00
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.64
+
+359. IoT Hub (Azure)
+   Median Score: 8.00
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.64
+
+360. Microsoft Dev Box (Azure)
+   Median Score: 8.00
+   Max Deviation: 0.36
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.64
+
+361. AWSMediaConnect (AWS)
+   Median Score: 7.98
+   Max Deviation: 0.38
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.61
+
+362. AWSWisdom (AWS)
+   Median Score: 8.73
+   Max Deviation: 0.38
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=9.11
+
+363. Automation (Azure)
+   Median Score: 7.77
+   Max Deviation: 0.38
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=7.39
+
+364. Cloud Functions (GCP)
+   Median Score: 8.88
+   Max Deviation: 0.38
+   Scores: llama_3_3_70b_score=9.26, claude_sonnet_4_5_score=8.50
+
+365. Sentinel (Azure)
+   Median Score: 8.52
+   Max Deviation: 0.38
+   Scores: llama_3_3_70b_score=8.90, claude_sonnet_4_5_score=8.14
+
+366. Cloud Media Translation API (GCP)
+   Median Score: 8.69
+   Max Deviation: 0.38
+   Scores: llama_3_3_70b_score=8.30, claude_sonnet_4_5_score=9.07
+
+367. Translate (GCP)
+   Median Score: 8.69
+   Max Deviation: 0.38
+   Scores: llama_3_3_70b_score=8.30, claude_sonnet_4_5_score=9.07
+
+368. transcribe (AWS)
+   Median Score: 8.69
+   Max Deviation: 0.38
+   Scores: llama_3_3_70b_score=8.30, claude_sonnet_4_5_score=9.07
+
+369. datapipeline (AWS)
+   Median Score: 5.75
+   Max Deviation: 0.39
+   Scores: llama_3_3_70b_score=6.14, claude_sonnet_4_5_score=5.36
+
+370. Geolocation API (GCP)
+   Median Score: 8.82
+   Max Deviation: 0.39
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=9.21
+
+371. SQL Database (Azure)
+   Median Score: 7.75
+   Max Deviation: 0.39
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=7.36
+
+372. AWSCloudMap (AWS)
+   Median Score: 8.61
+   Max Deviation: 0.39
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=9.00
+
+373. Azure Chaos Studio (Azure)
+   Median Score: 7.96
+   Max Deviation: 0.39
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.57
+
+374. Azure Data Factory v2 (Azure)
+   Median Score: 7.96
+   Max Deviation: 0.39
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.57
+
+375. Google Distributed Cloud Edge (GCP)
+   Median Score: 6.04
+   Max Deviation: 0.40
+   Scores: llama_3_3_70b_score=6.43, claude_sonnet_4_5_score=5.64
+
+376. HPC Cache (Azure)
+   Median Score: 6.11
+   Max Deviation: 0.40
+   Scores: llama_3_3_70b_score=5.71, claude_sonnet_4_5_score=6.50
+
+377. AmazonHoneycode (AWS)
+   Median Score: 9.04
+   Max Deviation: 0.40
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=9.44
+
+378. Duet AI (GCP)
+   Median Score: 9.11
+   Max Deviation: 0.40
+   Scores: llama_3_3_70b_score=8.71, claude_sonnet_4_5_score=9.51
+
+379. AWSSecretsManager (AWS)
+   Median Score: 8.55
+   Max Deviation: 0.41
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=8.96
+
+380. AWSSupplyChain (AWS)
+   Median Score: 8.70
+   Max Deviation: 0.41
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=9.11
+
+381. AmazonManagedBlockchain (AWS)
+   Median Score: 7.73
+   Max Deviation: 0.41
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=7.32
+
+382. AmazonSecurityLake (AWS)
+   Median Score: 8.16
+   Max Deviation: 0.41
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=7.75
+
+383. Azure Spring Cloud (Azure)
+   Median Score: 7.95
+   Max Deviation: 0.41
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.54
+
+384. AmazonChime (AWS)
+   Median Score: 8.72
+   Max Deviation: 0.42
+   Scores: llama_3_3_70b_score=8.30, claude_sonnet_4_5_score=9.14
+
+385. AmazonChimeBusinessCalling (AWS)
+   Median Score: 8.72
+   Max Deviation: 0.42
+   Scores: llama_3_3_70b_score=8.30, claude_sonnet_4_5_score=9.14
+
+386. AmazonChimeFeatures (AWS)
+   Median Score: 8.72
+   Max Deviation: 0.42
+   Scores: llama_3_3_70b_score=8.30, claude_sonnet_4_5_score=9.14
+
+387. AmazonChimeServices (AWS)
+   Median Score: 8.72
+   Max Deviation: 0.42
+   Scores: llama_3_3_70b_score=8.30, claude_sonnet_4_5_score=9.14
+
+388. AmazonWorkDocs (AWS)
+   Median Score: 8.72
+   Max Deviation: 0.42
+   Scores: llama_3_3_70b_score=8.30, claude_sonnet_4_5_score=9.14
+
+389. Audit Manager (GCP)
+   Median Score: 8.72
+   Max Deviation: 0.42
+   Scores: llama_3_3_70b_score=8.30, claude_sonnet_4_5_score=9.14
+
+390. AlloyDB (GCP)
+   Median Score: 7.71
+   Max Deviation: 0.43
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=7.29
+
+391. Cloud Optimization (GCP)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=9.21
+
+392. Spectrum SAS (GCP)
+   Median Score: 8.71
+   Max Deviation: 0.43
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=9.14
+
+393. Visual Studio Subscription (Azure)
+   Median Score: 8.79
+   Max Deviation: 0.43
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=9.21
+
+394. awswaf (AWS)
+   Median Score: 7.86
+   Max Deviation: 0.43
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=7.43
+
+395. nimble (AWS)
+   Median Score: 7.93
+   Max Deviation: 0.43
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.50
+
+396. StorSimple (Azure)
+   Median Score: 5.43
+   Max Deviation: 0.43
+   Scores: llama_3_3_70b_score=5.86, claude_sonnet_4_5_score=5.00
+
+397. Document Warehouse (GCP)
+   Median Score: 8.96
+   Max Deviation: 0.43
+   Scores: llama_3_3_70b_score=9.39, claude_sonnet_4_5_score=8.53
+
+398. Cloud Dataflow (GCP)
+   Median Score: 8.12
+   Max Deviation: 0.45
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=7.68
+
+399. Cloud Domains (GCP)
+   Median Score: 8.69
+   Max Deviation: 0.46
+   Scores: llama_3_3_70b_score=8.23, claude_sonnet_4_5_score=9.14
+
+400. AWSWickr (AWS)
+   Median Score: 8.61
+   Max Deviation: 0.46
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=9.07
+
+401. Address Validation API (GCP)
+   Median Score: 8.61
+   Max Deviation: 0.46
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=9.07
+
+402. AlexaTopSites (AWS)
+   Median Score: 8.61
+   Max Deviation: 0.46
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=9.07
+
+403. AmazonChimeDialInAMCS (AWS)
+   Median Score: 8.68
+   Max Deviation: 0.46
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=9.14
+
+404. AmazonWorkSpaces (AWS)
+   Median Score: 7.89
+   Max Deviation: 0.46
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.43
+
+405. Chrome Enterprise Premium (GCP)
+   Median Score: 8.68
+   Max Deviation: 0.46
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=9.14
+
+406. Media Services (Azure)
+   Median Score: 7.89
+   Max Deviation: 0.46
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.43
+
+407. Places API (New) (GCP)
+   Median Score: 8.61
+   Max Deviation: 0.46
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=9.07
+
+408. Azure Local (Azure)
+   Median Score: 1.97
+   Max Deviation: 0.47
+   Scores: llama_3_3_70b_score=2.43, claude_sonnet_4_5_score=1.50
+
+409. Event Hubs (Azure)
+   Median Score: 8.16
+   Max Deviation: 0.48
+   Scores: llama_3_3_70b_score=8.64, claude_sonnet_4_5_score=7.68
+
+410. Multi-Factor Authentication (Azure)
+   Median Score: 8.72
+   Max Deviation: 0.49
+   Scores: llama_3_3_70b_score=8.23, claude_sonnet_4_5_score=9.21
+
+411. AmazonFinSpace (AWS)
+   Median Score: 8.07
+   Max Deviation: 0.50
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=7.57
+
+412. Application Gateway (Azure)
+   Median Score: 7.21
+   Max Deviation: 0.50
+   Scores: llama_3_3_70b_score=7.71, claude_sonnet_4_5_score=6.71
+
+413. Azure Operator Nexus (Azure)
+   Median Score: 6.21
+   Max Deviation: 0.50
+   Scores: llama_3_3_70b_score=6.71, claude_sonnet_4_5_score=5.71
+
+414. Cloud Composer (GCP)
+   Median Score: 7.86
+   Max Deviation: 0.50
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.36
+
+415. Cloud Storage (GCP)
+   Median Score: 8.36
+   Max Deviation: 0.50
+   Scores: llama_3_3_70b_score=7.86, claude_sonnet_4_5_score=8.86
+
+416. Maps Elevation API (GCP)
+   Median Score: 8.64
+   Max Deviation: 0.50
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=9.14
+
+417. SQL Data Warehouse (Azure)
+   Median Score: 7.79
+   Max Deviation: 0.50
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=7.29
+
+418. Speaker ID (GCP)
+   Median Score: 8.50
+   Max Deviation: 0.50
+   Scores: llama_3_3_70b_score=8.00, claude_sonnet_4_5_score=9.00
+
+419. speech-onprem-private INTERNAL Speech-to-Text On-Prem DevTest (GCP)
+   Median Score: 2.21
+   Max Deviation: 0.50
+   Scores: llama_3_3_70b_score=1.71, claude_sonnet_4_5_score=2.71
+
+420. Load Balancer (Azure)
+   Median Score: 7.64
+   Max Deviation: 0.50
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=7.14
+
+421. AmazonChimeCallMe (AWS)
+   Median Score: 8.82
+   Max Deviation: 0.52
+   Scores: llama_3_3_70b_score=8.30, claude_sonnet_4_5_score=9.33
+
+422. SQL Managed Instance (Azure)
+   Median Score: 7.55
+   Max Deviation: 0.52
+   Scores: llama_3_3_70b_score=8.07, claude_sonnet_4_5_score=7.04
+
+423. AmazonNeptune (AWS)
+   Median Score: 7.77
+   Max Deviation: 0.52
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=7.25
+
+424. AWSGreengrass (AWS)
+   Median Score: 5.17
+   Max Deviation: 0.54
+   Scores: llama_3_3_70b_score=5.71, claude_sonnet_4_5_score=4.64
+
+425. AWSShield (AWS)
+   Median Score: 8.54
+   Max Deviation: 0.54
+   Scores: llama_3_3_70b_score=8.00, claude_sonnet_4_5_score=9.07
+
+426. AWSSupportBusiness (AWS)
+   Median Score: 8.96
+   Max Deviation: 0.54
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=9.50
+
+427. Azure Bastion (Azure)
+   Median Score: 8.39
+   Max Deviation: 0.54
+   Scores: llama_3_3_70b_score=7.86, claude_sonnet_4_5_score=8.93
+
+428. Maps Static API (GCP)
+   Median Score: 8.61
+   Max Deviation: 0.54
+   Scores: llama_3_3_70b_score=8.07, claude_sonnet_4_5_score=9.14
+
+429. translate (AWS)
+   Median Score: 8.54
+   Max Deviation: 0.54
+   Scores: llama_3_3_70b_score=8.00, claude_sonnet_4_5_score=9.07
+
+430. Secure Source Manager (GCP)
+   Median Score: 7.81
+   Max Deviation: 0.55
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.26
+
+431. AmazonChimeDialin (AWS)
+   Median Score: 8.85
+   Max Deviation: 0.55
+   Scores: llama_3_3_70b_score=8.30, claude_sonnet_4_5_score=9.40
+
+432. Azure Site Recovery (Azure)
+   Median Score: 7.80
+   Max Deviation: 0.56
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.24
+
+433. Programmable Search Element (GCP)
+   Median Score: 9.13
+   Max Deviation: 0.56
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=9.69
+
+434. A4B (AWS)
+   Median Score: 8.50
+   Max Deviation: 0.57
+   Scores: llama_3_3_70b_score=9.07, claude_sonnet_4_5_score=7.93
+
+435. AWSCodeDeploy (AWS)
+   Median Score: 6.43
+   Max Deviation: 0.57
+   Scores: llama_3_3_70b_score=5.86, claude_sonnet_4_5_score=7.00
+
+436. AWSEnterpriseOnRamp (AWS)
+   Median Score: 8.86
+   Max Deviation: 0.57
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=9.43
+
+437. AWSRoboMaker (AWS)
+   Median Score: 7.14
+   Max Deviation: 0.57
+   Scores: llama_3_3_70b_score=7.71, claude_sonnet_4_5_score=6.57
+
+438. AmazonRDS (AWS)
+   Median Score: 6.43
+   Max Deviation: 0.57
+   Scores: llama_3_3_70b_score=7.00, claude_sonnet_4_5_score=5.86
+
+439. AmazonWorkMail (AWS)
+   Median Score: 8.57
+   Max Deviation: 0.57
+   Scores: llama_3_3_70b_score=8.00, claude_sonnet_4_5_score=9.14
+
+440. Cloud Data Fusion (GCP)
+   Median Score: 8.00
+   Max Deviation: 0.57
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=7.43
+
+441. Cloud Natural Language (GCP)
+   Median Score: 8.57
+   Max Deviation: 0.57
+   Scores: llama_3_3_70b_score=8.00, claude_sonnet_4_5_score=9.14
+
+442. repostspace (AWS)
+   Median Score: 8.57
+   Max Deviation: 0.57
+   Scores: llama_3_3_70b_score=8.00, claude_sonnet_4_5_score=9.14
+
+443. AWSBudgets (AWS)
+   Median Score: 8.71
+   Max Deviation: 0.57
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=9.29
+
+444. AWSFIS (AWS)
+   Median Score: 8.55
+   Max Deviation: 0.59
+   Scores: llama_3_3_70b_score=9.14, claude_sonnet_4_5_score=7.96
+
+445. AWSLakeFormation (AWS)
+   Median Score: 7.96
+   Max Deviation: 0.61
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=7.36
+
+446. AmazonQ (AWS)
+   Median Score: 9.11
+   Max Deviation: 0.61
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=9.71
+
+447. Azure VM Image Builder (Azure)
+   Median Score: 5.54
+   Max Deviation: 0.61
+   Scores: llama_3_3_70b_score=4.93, claude_sonnet_4_5_score=6.14
+
+448. BigQuery Reservation API (GCP)
+   Median Score: 8.18
+   Max Deviation: 0.61
+   Scores: llama_3_3_70b_score=8.79, claude_sonnet_4_5_score=7.57
+
+449. Google Maps Tile API (GCP)
+   Median Score: 8.68
+   Max Deviation: 0.61
+   Scores: llama_3_3_70b_score=8.07, claude_sonnet_4_5_score=9.29
+
+450. Azure Arc Enabled Databases (Azure)
+   Median Score: 5.32
+   Max Deviation: 0.61
+   Scores: llama_3_3_70b_score=5.93, claude_sonnet_4_5_score=4.71
+
+451. Change Tracking and Inventory (Azure)
+   Median Score: 7.75
+   Max Deviation: 0.61
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.14
+
+452. Places API (GCP)
+   Median Score: 8.70
+   Max Deviation: 0.62
+   Scores: llama_3_3_70b_score=8.07, claude_sonnet_4_5_score=9.32
+
+453. Quantum Computing (Azure)
+   Median Score: 8.63
+   Max Deviation: 0.63
+   Scores: llama_3_3_70b_score=9.26, claude_sonnet_4_5_score=8.00
+
+454. Street View Static API (GCP)
+   Median Score: 8.70
+   Max Deviation: 0.63
+   Scores: llama_3_3_70b_score=8.07, claude_sonnet_4_5_score=9.33
+
+455. AWSComputeOptimizer (AWS)
+   Median Score: 8.64
+   Max Deviation: 0.64
+   Scores: llama_3_3_70b_score=8.00, claude_sonnet_4_5_score=9.29
+
+456. AWSDirectConnect (AWS)
+   Median Score: 3.15
+   Max Deviation: 0.65
+   Scores: llama_3_3_70b_score=3.79, claude_sonnet_4_5_score=2.50
+
+457. Speech-to-Text On-Prem (GCP)
+   Median Score: 2.15
+   Max Deviation: 0.65
+   Scores: llama_3_3_70b_score=1.50, claude_sonnet_4_5_score=2.79
+
+458. AWSStorageGateway (AWS)
+   Median Score: 5.79
+   Max Deviation: 0.65
+   Scores: llama_3_3_70b_score=6.43, claude_sonnet_4_5_score=5.14
+
+459. AmazonWorkSpacesWeb (AWS)
+   Median Score: 8.36
+   Max Deviation: 0.65
+   Scores: llama_3_3_70b_score=7.71, claude_sonnet_4_5_score=9.00
+
+460. AmazonMQ (AWS)
+   Median Score: 6.96
+   Max Deviation: 0.67
+   Scores: llama_3_3_70b_score=7.64, claude_sonnet_4_5_score=6.29
+
+461. Kubernetes Engine (GCP)
+   Median Score: 5.04
+   Max Deviation: 0.67
+   Scores: llama_3_3_70b_score=5.71, claude_sonnet_4_5_score=4.36
+
+462. MultiClusterIngress (GCP)
+   Median Score: 7.68
+   Max Deviation: 0.68
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=7.00
+
+463. ElasticMapReduce (AWS)
+   Median Score: 4.82
+   Max Deviation: 0.68
+   Scores: llama_3_3_70b_score=5.50, claude_sonnet_4_5_score=4.14
+
+464. Cloud Filestore (GCP)
+   Median Score: 7.38
+   Max Deviation: 0.69
+   Scores: llama_3_3_70b_score=8.07, claude_sonnet_4_5_score=6.69
+
+465. Zync (GCP)
+   Median Score: 8.63
+   Max Deviation: 0.71
+   Scores: llama_3_3_70b_score=9.34, claude_sonnet_4_5_score=7.93
+
+466. AWSApplicationMigrationSvc (AWS)
+   Median Score: 7.00
+   Max Deviation: 0.71
+   Scores: llama_3_3_70b_score=7.71, claude_sonnet_4_5_score=6.29
+
+467. AmazonChimeCallMeAMCS (AWS)
+   Median Score: 8.71
+   Max Deviation: 0.71
+   Scores: llama_3_3_70b_score=8.00, claude_sonnet_4_5_score=9.43
+
+468. OpsWorks (AWS)
+   Median Score: 4.65
+   Max Deviation: 0.72
+   Scores: llama_3_3_70b_score=5.36, claude_sonnet_4_5_score=3.93
+
+469. Container Registry (Azure)
+   Median Score: 7.42
+   Max Deviation: 0.73
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=6.69
+
+470. Directions API (GCP)
+   Median Score: 8.82
+   Max Deviation: 0.75
+   Scores: llama_3_3_70b_score=8.07, claude_sonnet_4_5_score=9.56
+
+471. AKS on Azure Stack HCI (Azure)
+   Median Score: 4.18
+   Max Deviation: 0.75
+   Scores: llama_3_3_70b_score=4.93, claude_sonnet_4_5_score=3.43
+
+472. Kusto (Azure)
+   Median Score: 7.82
+   Max Deviation: 0.75
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=7.07
+
+473. VMware Engine (GCP)
+   Median Score: 4.68
+   Max Deviation: 0.75
+   Scores: llama_3_3_70b_score=5.43, claude_sonnet_4_5_score=3.93
+
+474. AWSDirectoryService (AWS)
+   Median Score: 7.46
+   Max Deviation: 0.75
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=6.71
+
+475. AWSCloudWAN (AWS)
+   Median Score: 7.59
+   Max Deviation: 0.76
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=6.83
+
+476. Network Security (GCP)
+   Median Score: 6.20
+   Max Deviation: 0.77
+   Scores: llama_3_3_70b_score=5.43, claude_sonnet_4_5_score=6.97
+
+477. AmazonEKS (AWS)
+   Median Score: 4.92
+   Max Deviation: 0.79
+   Scores: llama_3_3_70b_score=5.71, claude_sonnet_4_5_score=4.14
+
+478. Private Mobile Network (Azure)
+   Median Score: 6.79
+   Max Deviation: 0.79
+   Scores: llama_3_3_70b_score=7.57, claude_sonnet_4_5_score=6.00
+
+479. Managed Lustre (GCP)
+   Median Score: 7.56
+   Max Deviation: 0.80
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=6.76
+
+480. AWSM2 (AWS)
+   Median Score: 7.41
+   Max Deviation: 0.80
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=6.61
+
+481. Azure Modeling and Simulation Workbench (Azure)
+   Median Score: 7.55
+   Max Deviation: 0.80
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=6.75
+
+482. AmazonAppStream (AWS)
+   Median Score: 8.25
+   Max Deviation: 0.82
+   Scores: llama_3_3_70b_score=9.07, claude_sonnet_4_5_score=7.43
+
+483. Azure Managed Instance for Apache Cassandra (Azure)
+   Median Score: 7.39
+   Max Deviation: 0.82
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=6.57
+
+484. BizTalk Services (Azure)
+   Median Score: 7.39
+   Max Deviation: 0.82
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=6.57
+
+485. Geocoding API (GCP)
+   Median Score: 8.89
+   Max Deviation: 0.82
+   Scores: llama_3_3_70b_score=8.07, claude_sonnet_4_5_score=9.71
+
+486. Virtual WAN (Azure)
+   Median Score: 7.39
+   Max Deviation: 0.82
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=6.57
+
+487. AWSCostExplorer (AWS)
+   Median Score: 8.96
+   Max Deviation: 0.82
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=9.79
+
+488. AWSXRay (AWS)
+   Median Score: 7.54
+   Max Deviation: 0.83
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=6.71
+
+489. Vertex AI (GCP)
+   Median Score: 7.53
+   Max Deviation: 0.83
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=6.69
+
+490. Distance Matrix API (GCP)
+   Median Score: 8.91
+   Max Deviation: 0.84
+   Scores: llama_3_3_70b_score=8.07, claude_sonnet_4_5_score=9.74
+
+491. Roads API (GCP)
+   Median Score: 8.84
+   Max Deviation: 0.84
+   Scores: llama_3_3_70b_score=8.00, claude_sonnet_4_5_score=9.68
+
+492. AWSTransfer (AWS)
+   Median Score: 8.52
+   Max Deviation: 0.85
+   Scores: llama_3_3_70b_score=9.37, claude_sonnet_4_5_score=7.68
+
+493. Parallelstore (GCP)
+   Median Score: 7.44
+   Max Deviation: 0.85
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=6.59
+
+494. Cloud Bigtable (GCP)
+   Median Score: 7.71
+   Max Deviation: 0.86
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=6.86
+
+495. Data Box (Azure)
+   Median Score: 7.00
+   Max Deviation: 0.86
+   Scores: llama_3_3_70b_score=6.14, claude_sonnet_4_5_score=7.86
+
+496. Windows Virtual Desktop (Azure)
+   Median Score: 5.00
+   Max Deviation: 0.86
+   Scores: llama_3_3_70b_score=5.86, claude_sonnet_4_5_score=4.14
+
+497. Cloud Machine Learning Engine (GCP)
+   Median Score: 7.41
+   Max Deviation: 0.88
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=6.54
+
+498. AWSMigrationHubRefactorSpaces (AWS)
+   Median Score: 7.54
+   Max Deviation: 0.90
+   Scores: llama_3_3_70b_score=8.43, claude_sonnet_4_5_score=6.64
+
+499. Advanced Container Networking Services (Azure)
+   Median Score: 6.12
+   Max Deviation: 0.92
+   Scores: llama_3_3_70b_score=5.21, claude_sonnet_4_5_score=7.04
+
+500. AmazonRedshift (AWS)
+   Median Score: 7.21
+   Max Deviation: 0.93
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=6.29
+
+501. API Management (Azure)
+   Median Score: 7.43
+   Max Deviation: 0.93
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=6.50
+
+502. AmazonKinesis (AWS)
+   Median Score: 7.43
+   Max Deviation: 0.93
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=6.50
+
+503. Telecom Network Automation (GCP)
+   Median Score: 7.43
+   Max Deviation: 0.93
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=6.50
+
+504. Azure Bot Service (Azure)
+   Median Score: 7.64
+   Max Deviation: 0.93
+   Scores: llama_3_3_70b_score=8.57, claude_sonnet_4_5_score=6.71
+
+505. Azure Synapse Analytics (Azure)
+   Median Score: 7.57
+   Max Deviation: 0.93
+   Scores: llama_3_3_70b_score=8.50, claude_sonnet_4_5_score=6.64
+
+506. Power BI Embedded (Azure)
+   Median Score: 7.25
+   Max Deviation: 0.96
+   Scores: llama_3_3_70b_score=8.21, claude_sonnet_4_5_score=6.29
+
+507. SnowballExtraDays (AWS)
+   Median Score: 7.75
+   Max Deviation: 0.96
+   Scores: llama_3_3_70b_score=8.71, claude_sonnet_4_5_score=6.79
+
+508. AmazonFSx (AWS)
+   Median Score: 7.32
+   Max Deviation: 0.96
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=6.36
+
+509. Hybrid Data Services (Azure)
+   Median Score: 5.67
+   Max Deviation: 0.96
+   Scores: llama_3_3_70b_score=6.64, claude_sonnet_4_5_score=4.71
+
+510. Azure Analysis Services (Azure)
+   Median Score: 7.18
+   Max Deviation: 0.97
+   Scores: llama_3_3_70b_score=8.14, claude_sonnet_4_5_score=6.21
+
+511. Azure NetApp Files (Azure)
+   Median Score: 7.29
+   Max Deviation: 1.00
+   Scores: llama_3_3_70b_score=8.29, claude_sonnet_4_5_score=6.29
+
+512. Managed Service for Apache Kafka (GCP)
+   Median Score: 7.36
+   Max Deviation: 1.00
+   Scores: llama_3_3_70b_score=8.36, claude_sonnet_4_5_score=6.36
+
+513. SQL Server Stretch Database (Azure)
+   Median Score: 5.43
+   Max Deviation: 1.00
+   Scores: llama_3_3_70b_score=6.43, claude_sonnet_4_5_score=4.43
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -26,6 +26,23 @@ def compare_model_scores_unified(dataframes: List[pd.DataFrame],
         Dictionary with flagged services and analysis results
     """
     
+    # Input validation
+    if not dataframes:
+        return {"error": "No dataframes provided for comparison"}
+    
+    if len(dataframes) < 2:
+        return {"error": "At least 2 dataframes required for comparison"}
+    
+    # Check for required columns in each dataframe
+    required_cols = ['service_name', 'provider']
+    for i, df in enumerate(dataframes):
+        if df.empty:
+            return {"error": f"Dataframe {i} is empty"}
+        
+        missing_cols = [col for col in required_cols if col not in df.columns]
+        if missing_cols:
+            return {"error": f"Dataframe {i} missing required columns: {missing_cols}"}
+    
     # Combine all dataframes and identify score columns
     all_score_columns = []
     combined_data = []
@@ -35,7 +52,7 @@ def compare_model_scores_unified(dataframes: List[pd.DataFrame],
         score_cols = [col for col in df.columns if 'score' in col.lower()]
         all_score_columns.extend(score_cols)
         
-        # Add dataframe identifier
+        # Add dataframe identifier and create a copy to avoid modifying original
         df_copy = df.copy()
         df_copy['dataframe_id'] = i
         combined_data.append(df_copy)
@@ -54,25 +71,59 @@ def compare_model_scores_unified(dataframes: List[pd.DataFrame],
             print(f"Warning: Some specified columns not found: {missing_columns}")
         unique_score_columns = available_columns
     
-    if len(unique_score_columns) < 2:
-        return {"error": "Need at least 2 score columns across all dataframes for comparison"}
+    if len(unique_score_columns) < 1:
+        return {"error": "No score columns found in any dataframe"}
+    
+    # For cross-model comparison, we need at least 2 dataframes even if they have the same score column names
+    if len(dataframes) < 2:
+        return {"error": "Need at least 2 dataframes for comparison"}
+        
+    # Special case: if all dataframes have the same score column name, 
+    # we'll rename them to distinguish between models
+    if len(unique_score_columns) == 1 and len(dataframes) >= 2:
+        print(f"Single score column '{unique_score_columns[0]}' found across {len(dataframes)} dataframes")
+        # This is OK - we'll handle it in the merging logic
     
     # Merge dataframes on service_name and provider
-    merged_df = pd.DataFrame()
-    for df in combined_data:
-        if merged_df.empty:
-            merged_df = df[['service_name', 'provider', 'service_alias'] + 
-                          [col for col in unique_score_columns if col in df.columns]]
-        else:
-            merge_cols = ['service_name', 'provider']
+    try:
+        # Use a more robust merging strategy
+        merge_cols = ['service_name', 'provider']
+        
+        # Start with first dataframe
+        score_cols_df0 = [col for col in unique_score_columns if col in combined_data[0].columns]
+        base_df = combined_data[0][merge_cols + ['service_alias'] + score_cols_df0].copy()
+        
+        # Rename score columns to include model identifier
+        rename_dict_0 = {}
+        for col in score_cols_df0:
+            rename_dict_0[col] = f"{col}_model_0"
+        if rename_dict_0:
+            base_df = base_df.rename(columns=rename_dict_0)
+        
+        # Add score columns from other dataframes one by one
+        for i, df in enumerate(combined_data[1:], 1):
             score_cols_in_df = [col for col in unique_score_columns if col in df.columns]
-            df_subset = df[merge_cols + ['service_alias'] + score_cols_in_df]
-            merged_df = merged_df.merge(df_subset, on=merge_cols, how='outer', suffixes=('', '_dup'))
+            if not score_cols_in_df:
+                continue  # Skip if no score columns
+                
+            # Select only the columns we need for this merge
+            merge_df = df[merge_cols + score_cols_in_df].copy()
             
-            # Handle duplicate service_alias columns
-            if 'service_alias_dup' in merged_df.columns:
-                merged_df['service_alias'] = merged_df['service_alias'].fillna(merged_df['service_alias_dup'])
-                merged_df.drop('service_alias_dup', axis=1, inplace=True)
+            # Rename score columns to include model identifier
+            rename_dict = {}
+            for col in score_cols_in_df:
+                rename_dict[col] = f"{col}_model_{i}"
+            
+            if rename_dict:
+                merge_df = merge_df.rename(columns=rename_dict)
+            
+            # Perform the merge
+            base_df = base_df.merge(merge_df, on=merge_cols, how='outer')
+        
+        merged_df = base_df
+        
+    except Exception as e:
+        return {"error": f"Failed to merge dataframes: {str(e)}"}
     
     # Calculate median score and deviations for each service
     results = {
@@ -87,6 +138,9 @@ def compare_model_scores_unified(dataframes: List[pd.DataFrame],
     disagreement_services = []
     similarity_services = []
     
+    # Get all score columns in the merged dataframe (including renamed ones)
+    merged_score_cols = [col for col in merged_df.columns if any(score_col in col for score_col in unique_score_columns)]
+    
     for _, row in merged_df.iterrows():
         service_name = row['service_name']
         provider = row['provider']
@@ -96,9 +150,15 @@ def compare_model_scores_unified(dataframes: List[pd.DataFrame],
         scores = []
         score_details = {}
         
-        for col in unique_score_columns:
-            if col in row and pd.notna(row[col]):
+        for col in merged_score_cols:
+            if pd.notna(row[col]):
                 scores.append(row[col])
+                # Use original column name for display
+                orig_col_name = col
+                for orig_col in unique_score_columns:
+                    if orig_col in col:
+                        orig_col_name = orig_col
+                        break
                 score_details[col] = row[col]
         
         if len(scores) < 2:
